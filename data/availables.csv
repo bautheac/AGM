@@ -1,0 +1,1443 @@
+company,id,year,year end date,event,event date,liability,instrument,type,subtype,section,traded,price,spread
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,AU,10/02/1914,equity,common,,,american railroad stocks and shares,FALSE,FALSE,FALSE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,AU,10/02/1914,equity,preferred,,,american railroad stocks and shares,TRUE,TRUE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,AU,10/02/1914,equity,deferred,,,american railroad stocks and shares,TRUE,TRUE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,AU,10/02/1914,debt,bond,,,american ralroad bonds - sterling,TRUE,FALSE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,AU,10/02/1914,debt,bond,,,american ralroad bonds - sterling,TRUE,TRUE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,AU,10/02/1914,debt,bond,,,american ralroad bonds - sterling,TRUE,TRUE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,LD,14/02/1914,equity,common,,,american railroad stocks and shares,FALSE,FALSE,FALSE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,LD,14/02/1914,equity,preferred,,,american railroad stocks and shares,TRUE,FALSE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,LD,14/02/1914,equity,deferred,,,american railroad stocks and shares,TRUE,TRUE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,LD,14/02/1914,debt,bond,,,american ralroad bonds - sterling,TRUE,FALSE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,LD,14/02/1914,debt,bond,,,american ralroad bonds - sterling,TRUE,FALSE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,LD,14/02/1914,debt,bond,,,american ralroad bonds - sterling,TRUE,FALSE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,FC,21/02/1914,equity,common,,,american railroad stocks and shares,FALSE,FALSE,FALSE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,FC,21/02/1914,equity,preferred,,,american railroad stocks and shares,TRUE,TRUE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,FC,21/02/1914,equity,deferred,,,american railroad stocks and shares,TRUE,TRUE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,FC,21/02/1914,debt,bond,,,american ralroad bonds - sterling,TRUE,FALSE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,FC,21/02/1914,debt,bond,,,american ralroad bonds - sterling,TRUE,TRUE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,FC,21/02/1914,debt,bond,,,american ralroad bonds - sterling,TRUE,TRUE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,GM,25/02/1914,equity,common,,,american railroad stocks and shares,FALSE,FALSE,FALSE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,GM,25/02/1914,equity,preferred,,,american railroad stocks and shares,TRUE,FALSE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,GM,25/02/1914,equity,deferred,,,american railroad stocks and shares,TRUE,FALSE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,GM,25/02/1914,debt,bond,,,american ralroad bonds - sterling,TRUE,FALSE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,GM,25/02/1914,debt,bond,,,american ralroad bonds - sterling,TRUE,FALSE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,GM,25/02/1914,debt,bond,,,american ralroad bonds - sterling,TRUE,TRUE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,LC,14/03/1914,equity,common,,,american railroad stocks and shares,FALSE,FALSE,FALSE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,LC,14/03/1914,equity,preferred,,,american railroad stocks and shares,TRUE,FALSE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,LC,14/03/1914,equity,deferred,,,american railroad stocks and shares,TRUE,FALSE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,LC,14/03/1914,debt,bond,,,american ralroad bonds - sterling,TRUE,FALSE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,LC,14/03/1914,debt,bond,,,american ralroad bonds - sterling,TRUE,FALSE,TRUE
+"Alabama, NO, T & Pacific Junction Railway",RL001,1913,31/12/1913,LC,14/03/1914,debt,bond,,,american ralroad bonds - sterling,TRUE,FALSE,TRUE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,LD,27/01/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,LD,27/01/1914,equity,debenture,perpetual,,railways - debenture stocks,TRUE,FALSE,TRUE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,LD,27/01/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,LD,27/01/1914,equity,preferred,second,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,AU,27/01/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,AU,27/01/1914,equity,debenture,perpetual,,railways - debenture stocks,TRUE,FALSE,TRUE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,AU,27/01/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,AU,27/01/1914,equity,preferred,second,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,FC,05/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,FC,05/02/1914,equity,debenture,perpetual,,railways - debenture stocks,TRUE,FALSE,TRUE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,FC,05/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,FC,05/02/1914,equity,preferred,second,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,GM,12/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,GM,12/02/1914,equity,debenture,perpetual,,railways - debenture stocks,TRUE,FALSE,TRUE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,GM,12/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,GM,12/02/1914,equity,preferred,second,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,LC,14/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,LC,14/02/1914,equity,debenture,perpetual,,railways - debenture stocks,TRUE,FALSE,TRUE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,LC,14/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Alexandra (Newport) Docks & Railway,RL002,1913,31/12/1913,LC,14/02/1914,equity,preferred,second,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,AU,26/05/1914,equity,common,,,foreign railways,FALSE,FALSE,FALSE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,AU,26/05/1914,equity,preferred,,,foreign railways,TRUE,FALSE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,AU,26/05/1914,equity,deferred,,,foreign railways,TRUE,TRUE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,AU,26/05/1914,equity,preferred,cumulative,,foreign railways,TRUE,TRUE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,AU,26/05/1914,equity,debenture,perpetual,,foreign railways,TRUE,FALSE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,AU,26/05/1914,equity,debenture,redeemable,4-1/2%,foreign railways,TRUE,FALSE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,AU,26/05/1914,equity,debenture,redeemable,5%,foreign railways,TRUE,TRUE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,AU,26/05/1914,equity,debenture,redeemable,5% - Bolivia,foreign railways,TRUE,TRUE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,LD,29/05/1914,equity,common,,,foreign railways,FALSE,FALSE,FALSE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,LD,29/05/1914,equity,preferred,,,foreign railways,TRUE,TRUE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,LD,29/05/1914,equity,deferred,,,foreign railways,TRUE,TRUE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,LD,29/05/1914,equity,preferred,cumulative,,foreign railways,TRUE,TRUE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,LD,29/05/1914,equity,debenture,perpetual,,foreign railways,TRUE,FALSE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,LD,29/05/1914,equity,debenture,redeemable,4-1/2%,foreign railways,TRUE,FALSE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,LD,29/05/1914,equity,debenture,redeemable,5%,foreign railways,TRUE,TRUE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,LD,29/05/1914,equity,debenture,redeemable,5% - Bolivia,foreign railways,TRUE,TRUE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,FC,02/06/1914,equity,common,,,foreign railways,FALSE,FALSE,FALSE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,FC,02/06/1914,equity,preferred,,,foreign railways,TRUE,TRUE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,FC,02/06/1914,equity,deferred,,,foreign railways,TRUE,TRUE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,FC,02/06/1914,equity,preferred,cumulative,,foreign railways,TRUE,FALSE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,FC,02/06/1914,equity,debenture,perpetual,,foreign railways,TRUE,FALSE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,FC,02/06/1914,equity,debenture,redeemable,4-1/2%,foreign railways,TRUE,TRUE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,FC,02/06/1914,equity,debenture,redeemable,5%,foreign railways,TRUE,FALSE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,FC,02/06/1914,equity,debenture,redeemable,5% - Bolivia,foreign railways,TRUE,FALSE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,LC,09/06/1914,equity,common,,,foreign railways,FALSE,FALSE,FALSE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,LC,09/06/1914,equity,preferred,,,foreign railways,TRUE,TRUE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,LC,09/06/1914,equity,deferred,,,foreign railways,TRUE,TRUE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,LC,09/06/1914,equity,preferred,cumulative,,foreign railways,TRUE,FALSE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,LC,09/06/1914,equity,debenture,perpetual,,foreign railways,TRUE,FALSE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,LC,09/06/1914,equity,debenture,redeemable,4-1/2%,foreign railways,TRUE,FALSE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,LC,09/06/1914,equity,debenture,redeemable,5%,foreign railways,TRUE,FALSE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,LC,09/06/1914,equity,debenture,redeemable,5% - Bolivia,foreign railways,TRUE,TRUE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,GM,09/06/1914,equity,common,,,foreign railways,FALSE,FALSE,FALSE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,GM,09/06/1914,equity,preferred,,,foreign railways,TRUE,TRUE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,GM,09/06/1914,equity,deferred,,,foreign railways,TRUE,TRUE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,GM,09/06/1914,equity,preferred,cumulative,,foreign railways,TRUE,FALSE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,GM,09/06/1914,equity,debenture,perpetual,,foreign railways,TRUE,FALSE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,GM,09/06/1914,equity,debenture,redeemable,4-1/2%,foreign railways,TRUE,FALSE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,GM,09/06/1914,equity,debenture,redeemable,5%,foreign railways,TRUE,FALSE,TRUE
+Antofagasta & Bolivia Railway,RL003,1913,31/12/1913,GM,09/06/1914,equity,debenture,redeemable,5% - Bolivia,foreign railways,TRUE,TRUE,TRUE
+Argentine Great Western Railway,RL004,1913,30/06/1913,LD,04/11/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Argentine Great Western Railway,RL004,1913,30/06/1913,LD,04/11/1913,equity,preferred,,,foreign railways,TRUE,FALSE,TRUE
+Argentine Great Western Railway,RL004,1913,30/06/1913,LD,04/11/1913,equity,debenture,first,,foreign railways,TRUE,FALSE,TRUE
+Argentine Great Western Railway,RL004,1913,30/06/1913,LD,04/11/1913,equity,debenture,second,,foreign railways,TRUE,FALSE,TRUE
+Argentine Great Western Railway,RL004,1913,30/06/1913,LD,04/11/1913,equity,debenture,,,foreign railways,TRUE,TRUE,TRUE
+Argentine Great Western Railway,RL004,1913,30/06/1913,AU,04/11/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Argentine Great Western Railway,RL004,1913,30/06/1913,AU,04/11/1913,equity,preferred,,,foreign railways,TRUE,FALSE,TRUE
+Argentine Great Western Railway,RL004,1913,30/06/1913,AU,04/11/1913,equity,debenture,first,,foreign railways,TRUE,FALSE,TRUE
+Argentine Great Western Railway,RL004,1913,30/06/1913,AU,04/11/1913,equity,debenture,second,,foreign railways,TRUE,FALSE,TRUE
+Argentine Great Western Railway,RL004,1913,30/06/1913,AU,04/11/1913,equity,debenture,,,foreign railways,TRUE,TRUE,TRUE
+Argentine Great Western Railway,RL004,1913,30/06/1913,GM,12/11/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Argentine Great Western Railway,RL004,1913,30/06/1913,GM,12/11/1913,equity,preferred,,,foreign railways,TRUE,FALSE,TRUE
+Argentine Great Western Railway,RL004,1913,30/06/1913,GM,12/11/1913,equity,debenture,first,,foreign railways,TRUE,TRUE,TRUE
+Argentine Great Western Railway,RL004,1913,30/06/1913,GM,12/11/1913,equity,debenture,second,,foreign railways,TRUE,TRUE,TRUE
+Argentine Great Western Railway,RL004,1913,30/06/1913,GM,12/11/1913,equity,debenture,,,foreign railways,TRUE,TRUE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,AU,26/11/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,AU,26/11/1913,equity,debenture,A,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,AU,26/11/1913,debt,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,AU,26/11/1913,equity,debenture,B,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,AU,26/11/1913,debt,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,AU,26/11/1913,equity,debenture,C,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,AU,26/11/1913,debt,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,LD,10/12/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,LD,10/12/1913,equity,debenture,A,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,LD,10/12/1913,debt,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,LD,10/12/1913,equity,debenture,B,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,LD,10/12/1913,debt,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,LD,10/12/1913,equity,debenture,C,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,LD,10/12/1913,debt,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,FC,11/12/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,FC,11/12/1913,equity,debenture,A,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,FC,11/12/1913,debt,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,FC,11/12/1913,equity,debenture,B,,foreign railways,TRUE,TRUE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,FC,11/12/1913,debt,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,FC,11/12/1913,equity,debenture,C,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,FC,11/12/1913,debt,debenture,,,foreign railways,TRUE,TRUE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,LC,18/12/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,LC,18/12/1913,equity,debenture,A,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,LC,18/12/1913,debt,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,LC,18/12/1913,equity,debenture,B,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,LC,18/12/1913,debt,debenture,,,foreign railways,TRUE,TRUE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,LC,18/12/1913,equity,debenture,C,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,LC,18/12/1913,debt,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,GM,18/12/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,GM,18/12/1913,equity,debenture,A,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,GM,18/12/1913,debt,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,GM,18/12/1913,equity,debenture,B,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,GM,18/12/1913,debt,debenture,,,foreign railways,TRUE,TRUE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,GM,18/12/1913,equity,debenture,C,,foreign railways,TRUE,FALSE,TRUE
+Argentine North Eastern Railway,RL005,1913,30/06/1913,GM,18/12/1913,debt,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Assam Bengal Railway,RL006,1913,30/09/1913,LD,07/06/1913,equity,common,,,indian railways,FALSE,FALSE,FALSE
+Assam Bengal Railway,RL006,1913,30/09/1913,LD,07/06/1913,equity,preferred,,,indian railways,TRUE,FALSE,TRUE
+Assam Bengal Railway,RL006,1913,30/09/1913,AU,18/06/1913,equity,common,,,indian railways,FALSE,FALSE,FALSE
+Assam Bengal Railway,RL006,1913,30/09/1913,AU,18/06/1913,equity,preferred,,,indian railways,TRUE,FALSE,TRUE
+Assam Bengal Railway,RL006,1913,30/09/1913,GM,30/06/1913,equity,common,,,indian railways,FALSE,FALSE,FALSE
+Assam Bengal Railway,RL006,1913,30/09/1913,GM,30/06/1913,equity,preferred,,,indian railways,TRUE,TRUE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,LD,13/01/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,LD,13/01/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,LD,13/01/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,LD,13/01/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,LD,13/01/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,LD,13/01/1914,equity,preferred,consolidated,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,LD,13/01/1914,equity,preferred,third,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,AU,06/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,AU,06/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,AU,06/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,AU,06/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,AU,06/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,AU,06/02/1914,equity,preferred,consolidated,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,AU,06/02/1914,equity,preferred,third,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,FC,06/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,FC,06/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,FC,06/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,FC,06/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,FC,06/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,FC,06/02/1914,equity,preferred,consolidated,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,FC,06/02/1914,equity,preferred,third,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,LC,20/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,LC,20/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,LC,20/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,LC,20/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,LC,20/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,LC,20/02/1914,equity,preferred,consolidated,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,LC,20/02/1914,equity,preferred,third,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,GM,20/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,GM,20/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,GM,20/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,GM,20/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,GM,20/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,GM,20/02/1914,equity,preferred,consolidated,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Barry Railway Company,RL007,1913,31/12/1913,GM,20/02/1914,equity,preferred,third,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Bengal & North Western Railway,RL008,1913,30/03/1913,AU,14/01/1914,equity,common,,,indian railways,TRUE,FALSE,TRUE
+Bengal & North Western Railway,RL008,1913,30/03/1913,AU,14/01/1914,equity,preferred,first,,indian railways,TRUE,FALSE,TRUE
+Bengal & North Western Railway,RL008,1913,30/03/1913,AU,14/01/1914,equity,preferred,second,,indian railways,TRUE,FALSE,TRUE
+Bengal & North Western Railway,RL008,1913,30/03/1913,AU,14/01/1914,equity,debenture,,,indian railways,TRUE,FALSE,TRUE
+Bengal & North Western Railway,RL008,1913,30/03/1913,LD,17/01/1914,equity,common,,,indian railways,TRUE,TRUE,TRUE
+Bengal & North Western Railway,RL008,1913,30/03/1913,LD,17/01/1914,equity,preferred,first,,indian railways,TRUE,FALSE,TRUE
+Bengal & North Western Railway,RL008,1913,30/03/1913,LD,17/01/1914,equity,preferred,second,,indian railways,TRUE,FALSE,TRUE
+Bengal & North Western Railway,RL008,1913,30/03/1913,LD,17/01/1914,equity,debenture,,,indian railways,TRUE,FALSE,TRUE
+Bengal & North Western Railway,RL008,1913,30/03/1913,GM,27/01/1914,equity,common,,,indian railways,TRUE,TRUE,TRUE
+Bengal & North Western Railway,RL008,1913,30/03/1913,GM,27/01/1914,equity,preferred,first,,indian railways,TRUE,FALSE,TRUE
+Bengal & North Western Railway,RL008,1913,30/03/1913,GM,27/01/1914,equity,preferred,second,,indian railways,TRUE,TRUE,TRUE
+Bengal & North Western Railway,RL008,1913,30/03/1913,GM,27/01/1914,equity,debenture,,,indian railways,TRUE,FALSE,TRUE
+Bengal Nagpur Railway,RL009,1913,30/09/1913,AU,15/05/1914,equity,common,,,indian railways,FALSE,FALSE,FALSE
+Bengal Nagpur Railway,RL009,1913,30/09/1913,AU,15/05/1914,equity,surplus of profit,,,indian railways,TRUE,TRUE,TRUE
+Bengal Nagpur Railway,RL009,1913,30/09/1913,AU,15/05/1914,equity,debenture,,,indian railways,TRUE,TRUE,TRUE
+Bengal Nagpur Railway,RL009,1913,30/09/1913,LD,06/06/1914,equity,common,,,indian railways,FALSE,FALSE,FALSE
+Bengal Nagpur Railway,RL009,1913,30/09/1913,LD,06/06/1914,equity,surplus of profit,,,indian railways,TRUE,FALSE,TRUE
+Bengal Nagpur Railway,RL009,1913,30/09/1913,LD,06/06/1914,equity,debenture,,,indian railways,TRUE,TRUE,TRUE
+Bengal Nagpur Railway,RL009,1913,30/09/1913,GM,16/06/1914,equity,common,,,indian railways,FALSE,FALSE,FALSE
+Bengal Nagpur Railway,RL009,1913,30/09/1913,GM,16/06/1914,equity,surplus of profit,,,indian railways,TRUE,FALSE,TRUE
+Bengal Nagpur Railway,RL009,1913,30/09/1913,GM,16/06/1914,equity,debenture,,,indian railways,TRUE,TRUE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,LD,21/05/1914,equity,common,,,indian railways,FALSE,FALSE,FALSE
+Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,LD,21/05/1914,equity,surplus of profit,,,indian railways,TRUE,TRUE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,LD,21/05/1914,equity,debenture,,,indian railways,TRUE,FALSE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,AU,03/06/1914,equity,common,,,indian railways,FALSE,FALSE,FALSE
+Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,AU,03/06/1914,equity,surplus of profit,,,indian railways,TRUE,FALSE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,AU,03/06/1914,equity,debenture,,,indian railways,TRUE,TRUE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,FC,10/06/1914,equity,common,,,indian railways,FALSE,FALSE,FALSE
+Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,FC,10/06/1914,equity,surplus of profit,,,indian railways,TRUE,FALSE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,FC,10/06/1914,equity,debenture,,,indian railways,TRUE,FALSE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,GM,19/06/1914,equity,common,,,indian railways,FALSE,FALSE,FALSE
+Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,GM,19/06/1914,equity,surplus of profit,,,indian railways,TRUE,TRUE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,GM,19/06/1914,equity,debenture,,,indian railways,TRUE,FALSE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,LC,30/06/1914,equity,common,,,indian railways,FALSE,FALSE,FALSE
+Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,LC,30/06/1914,equity,surplus of profit,,,indian railways,TRUE,TRUE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,LC,30/06/1914,equity,debenture,,,indian railways,TRUE,FALSE,TRUE
+Brecon & Merthyr Tydfil Railway,RL011,1913,31/12/1913,LD,17/01/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Brecon & Merthyr Tydfil Railway,RL011,1913,31/12/1913,LD,17/01/1914,equity,debenture,A,,railways - debenture stocks,TRUE,FALSE,TRUE
+Brecon & Merthyr Tydfil Railway,RL011,1913,31/12/1913,LD,17/01/1914,equity,debenture,B,,railways - debenture stocks,TRUE,FALSE,TRUE
+Brecon & Merthyr Tydfil Railway,RL011,1913,31/12/1913,AU,07/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Brecon & Merthyr Tydfil Railway,RL011,1913,31/12/1913,AU,07/02/1914,equity,debenture,A,,railways - debenture stocks,TRUE,FALSE,TRUE
+Brecon & Merthyr Tydfil Railway,RL011,1913,31/12/1913,AU,07/02/1914,equity,debenture,B,,railways - debenture stocks,TRUE,FALSE,TRUE
+Brecon & Merthyr Tydfil Railway,RL011,1913,31/12/1913,FC,10/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Brecon & Merthyr Tydfil Railway,RL011,1913,31/12/1913,FC,10/02/1914,equity,debenture,A,,railways - debenture stocks,TRUE,FALSE,TRUE
+Brecon & Merthyr Tydfil Railway,RL011,1913,31/12/1913,FC,10/02/1914,equity,debenture,B,,railways - debenture stocks,TRUE,FALSE,TRUE
+Brecon & Merthyr Tydfil Railway,RL011,1913,31/12/1913,LC,19/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Brecon & Merthyr Tydfil Railway,RL011,1913,31/12/1913,LC,19/02/1914,equity,debenture,A,,railways - debenture stocks,TRUE,FALSE,TRUE
+Brecon & Merthyr Tydfil Railway,RL011,1913,31/12/1913,LC,19/02/1914,equity,debenture,B,,railways - debenture stocks,TRUE,FALSE,TRUE
+Brecon & Merthyr Tydfil Railway,RL011,1913,31/12/1913,GM,19/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Brecon & Merthyr Tydfil Railway,RL011,1913,31/12/1913,GM,19/02/1914,equity,debenture,A,,railways - debenture stocks,TRUE,FALSE,TRUE
+Brecon & Merthyr Tydfil Railway,RL011,1913,31/12/1913,GM,19/02/1914,equity,debenture,B,,railways - debenture stocks,TRUE,FALSE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,FC,22/10/1913,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,FC,22/10/1913,equity,preferred,first,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,FC,22/10/1913,equity,preferred,second,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,FC,22/10/1913,equity,debenture,first,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,FC,22/10/1913,equity,debenture,second,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,FC,22/10/1913,equity,debenture,constant,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,FC,22/10/1913,equity,debenture,issued 1912,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,FC,22/10/1913,equity,debenture,issued 98%,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,AU,23/10/1913,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,AU,23/10/1913,equity,preferred,first,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,AU,23/10/1913,equity,preferred,second,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,AU,23/10/1913,equity,debenture,first,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,AU,23/10/1913,equity,debenture,second,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,AU,23/10/1913,equity,debenture,constant,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,AU,23/10/1913,equity,debenture,issued 1912,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,AU,23/10/1913,equity,debenture,issued 98%,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,LD,27/10/1913,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,LD,27/10/1913,equity,preferred,first,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,LD,27/10/1913,equity,preferred,second,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,LD,27/10/1913,equity,debenture,first,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,LD,27/10/1913,equity,debenture,second,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,LD,27/10/1913,equity,debenture,constant,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,LD,27/10/1913,equity,debenture,issued 1912,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,LD,27/10/1913,equity,debenture,issued 98%,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,LC,04/11/1913,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,LC,04/11/1913,equity,preferred,first,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,LC,04/11/1913,equity,preferred,second,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,LC,04/11/1913,equity,debenture,first,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,LC,04/11/1913,equity,debenture,second,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,LC,04/11/1913,equity,debenture,constant,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,LC,04/11/1913,equity,debenture,issued 1912,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,LC,04/11/1913,equity,debenture,issued 98%,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,GM,04/11/1913,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,GM,04/11/1913,equity,preferred,first,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,GM,04/11/1913,equity,preferred,second,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,GM,04/11/1913,equity,debenture,first,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,GM,04/11/1913,equity,debenture,second,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,GM,04/11/1913,equity,debenture,constant,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,GM,04/11/1913,equity,debenture,issued 1912,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres & Pacific Railway,RL012,1913,30/06/1913,GM,04/11/1913,equity,debenture,issued 98%,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Great Southern Railway,RL013,1913,30/06/1913,FC,25/09/1913,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Great Southern Railway,RL013,1913,30/06/1913,FC,25/09/1913,equity,extension,,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres Great Southern Railway,RL013,1913,30/06/1913,FC,25/09/1913,equity,preferred,,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres Great Southern Railway,RL013,1913,30/06/1913,FC,25/09/1913,equity,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres Great Southern Railway,RL013,1913,30/06/1913,AU,03/10/1913,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Great Southern Railway,RL013,1913,30/06/1913,AU,03/10/1913,equity,extension,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Great Southern Railway,RL014,1913,01/07/1913,AU,04/10/1913,equity,preferred,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Great Southern Railway,RL015,1913,02/07/1913,AU,05/10/1913,equity,debenture,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Great Southern Railway,RL013,1913,30/06/1913,LD,07/10/1913,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Great Southern Railway,RL013,1913,30/06/1913,LD,07/10/1913,equity,extension,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Great Southern Railway,RL013,1913,30/06/1913,LD,07/10/1913,equity,preferred,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Great Southern Railway,RL013,1913,30/06/1913,LD,07/10/1913,equity,debenture,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Great Southern Railway,RL013,1913,30/06/1913,LC,09/10/1913,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Great Southern Railway,RL013,1913,30/06/1913,LC,09/10/1913,equity,extension,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Great Southern Railway,RL013,1913,30/06/1913,LC,09/10/1913,equity,preferred,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Great Southern Railway,RL013,1913,30/06/1913,LC,09/10/1913,equity,debenture,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Great Southern Railway,RL013,1913,30/06/1913,GM,22/10/1913,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Great Southern Railway,RL013,1913,30/06/1913,GM,22/10/1913,equity,extension,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Great Southern Railway,RL013,1913,30/06/1913,GM,22/10/1913,equity,preferred,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Great Southern Railway,RL013,1913,30/06/1913,GM,22/10/1913,equity,debenture,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,FC,27/09/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,FC,27/09/1913,equity,extension,maturity 1913,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,FC,27/09/1913,equity,extension,maturity 1915,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,FC,27/09/1913,equity,preferred,non-cumulative,5%,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,FC,27/09/1913,equity,preferred,non-cumulative,4-1/2%,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,FC,27/09/1913,equity,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,AU,30/09/1913,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,AU,30/09/1913,equity,extension,maturity 1913,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,AU,30/09/1913,equity,extension,maturity 1915,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,AU,30/09/1913,equity,preferred,non-cumulative,5%,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,AU,30/09/1913,equity,preferred,non-cumulative,4-1/2%,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,AU,30/09/1913,equity,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,LD,07/10/1913,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,LD,07/10/1913,equity,extension,maturity 1913,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,LD,07/10/1913,equity,extension,maturity 1915,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,LD,07/10/1913,equity,preferred,non-cumulative,5%,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,LD,07/10/1913,equity,preferred,non-cumulative,4-1/2%,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,LD,07/10/1913,equity,debenture,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,LC,11/10/1913,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,LC,11/10/1913,equity,extension,maturity 1913,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,LC,11/10/1913,equity,extension,maturity 1915,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,LC,11/10/1913,equity,preferred,non-cumulative - 5%,,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,LC,11/10/1913,equity,preferred,non-cumulative - 4-1/2%,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,LC,11/10/1913,equity,debenture,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,GM,20/10/1913,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,GM,20/10/1913,equity,extension,maturity 1913,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,GM,20/10/1913,equity,extension,maturity 1915,,foreign railways,TRUE,TRUE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,GM,20/10/1913,equity,preferred,non-cumulative,5%,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,GM,20/10/1913,equity,preferred,non-cumulative,4-1/2%,foreign railways,TRUE,FALSE,TRUE
+Buenos Ayres Western Railway,RL014,1913,30/06/1913,GM,20/10/1913,equity,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LD,20/01/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LD,20/01/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LD,20/01/1914,equity,deferred,converted,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LD,20/01/1914,equity,deferred,ordinary,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LD,20/01/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LD,20/01/1914,equity,guaranteed,annuities,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LD,20/01/1914,equity,guaranteed,consolidated,,railways - guaranteed shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LD,20/01/1914,equity,preferred,consolidated,first,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LD,20/01/1914,equity,preferred,consolidated,second - 4%,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LD,20/01/1914,equity,preferred,consolidated,second - 5%,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LD,20/01/1914,equity,preferred,1884,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LD,20/01/1914,equity,preferred,1887,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LD,20/01/1914,equity,preferred,1902,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LD,20/01/1914,equity,preferred,1904,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LD,20/01/1914,equity,preferred,1906,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,FC,04/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,FC,04/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,FC,04/02/1914,equity,deferred,converted,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,FC,04/02/1914,equity,deferred,ordinary,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,FC,04/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,FC,04/02/1914,equity,guaranteed,annuities,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,FC,04/02/1914,equity,guaranteed,consolidated,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,FC,04/02/1914,equity,preferred,consolidated,first,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,FC,04/02/1914,equity,preferred,consolidated,second - 4%,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,FC,04/02/1914,equity,preferred,consolidated,second - 5%,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,FC,04/02/1914,equity,preferred,1884,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,FC,04/02/1914,equity,preferred,1887,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,FC,04/02/1914,equity,preferred,1902,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,FC,04/02/1914,equity,preferred,1904,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,FC,04/02/1914,equity,preferred,1906,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,AU,12/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,AU,12/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,AU,12/02/1914,equity,deferred,converted,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,AU,12/02/1914,equity,deferred,ordinary,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,AU,12/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,AU,12/02/1914,equity,guaranteed,annuities,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,AU,12/02/1914,equity,guaranteed,consolidated,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,AU,12/02/1914,equity,preferred,consolidated,first,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,AU,12/02/1914,equity,preferred,consolidated,second - 4%,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,AU,12/02/1914,equity,preferred,consolidated,second - 5%,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,AU,12/02/1914,equity,preferred,1884,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,AU,12/02/1914,equity,preferred,1887,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,AU,12/02/1914,equity,preferred,1902,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,AU,12/02/1914,equity,preferred,1904,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,AU,12/02/1914,equity,preferred,1906,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LC,24/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LC,24/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LC,24/02/1914,equity,deferred,converted,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LC,24/02/1914,equity,deferred,ordinary,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LC,24/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LC,24/02/1914,equity,guaranteed,annuities,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LC,24/02/1914,equity,guaranteed,consolidated,,railways - guaranteed shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LC,24/02/1914,equity,preferred,consolidated,first,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LC,24/02/1914,equity,preferred,consolidated,second - 4%,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LC,24/02/1914,equity,preferred,consolidated,second - 5%,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LC,24/02/1914,equity,preferred,1884,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LC,24/02/1914,equity,preferred,1887,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LC,24/02/1914,equity,preferred,1902,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LC,24/02/1914,equity,preferred,1904,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,LC,24/02/1914,equity,preferred,1906,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,GM,24/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,GM,24/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,GM,24/02/1914,equity,deferred,converted,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,GM,24/02/1914,equity,deferred,ordinary,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,GM,24/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,GM,24/02/1914,equity,guaranteed,annuities,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,GM,24/02/1914,equity,guaranteed,consolidated,,railways - guaranteed shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,GM,24/02/1914,equity,preferred,consolidated,first,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,GM,24/02/1914,equity,preferred,consolidated,second - 4%,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,GM,24/02/1914,equity,preferred,consolidated,second - 5%,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,GM,24/02/1914,equity,preferred,1884,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,GM,24/02/1914,equity,preferred,1887,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,GM,24/02/1914,equity,preferred,1902,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,GM,24/02/1914,equity,preferred,1904,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Caledonian Railway,RL016,1913,31/12/1913,GM,24/02/1914,equity,preferred,1906,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LD,27/01/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LD,27/01/1914,equity,consolidated,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LD,27/01/1914,equity,debenture,A,,railways - debenture stocks,TRUE,TRUE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LD,27/01/1914,equity,debenture,B,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LD,27/01/1914,equity,debenture,C,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LD,27/01/1914,equity,debenture,D,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LD,27/01/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LD,27/01/1914,equity,preferred,second,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LD,27/01/1914,equity,preferred,third,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LD,27/01/1914,equity,preferred,fourth,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,AU,13/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,AU,13/02/1914,equity,consolidated,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,AU,13/02/1914,equity,debenture,A,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,AU,13/02/1914,equity,debenture,B,,railways - debenture stocks,TRUE,TRUE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,AU,13/02/1914,equity,debenture,C,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,AU,13/02/1914,equity,debenture,D,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,AU,13/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,AU,13/02/1914,equity,preferred,second,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,AU,13/02/1914,equity,preferred,third,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,AU,13/02/1914,equity,preferred,fourth,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,FC,16/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,FC,16/02/1914,equity,consolidated,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,FC,16/02/1914,equity,debenture,A,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,FC,16/02/1914,equity,debenture,B,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,FC,16/02/1914,equity,debenture,C,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,FC,16/02/1914,equity,debenture,D,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,FC,16/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,FC,16/02/1914,equity,preferred,second,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,FC,16/02/1914,equity,preferred,third,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,FC,16/02/1914,equity,preferred,fourth,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,GM,27/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,GM,27/02/1914,equity,consolidated,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,GM,27/02/1914,equity,debenture,A,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,GM,27/02/1914,equity,debenture,B,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,GM,27/02/1914,equity,debenture,C,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,GM,27/02/1914,equity,debenture,D,,railways - debenture stocks,TRUE,TRUE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,GM,27/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,GM,27/02/1914,equity,preferred,second,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,GM,27/02/1914,equity,preferred,third,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,GM,27/02/1914,equity,preferred,fourth,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LC,28/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LC,28/02/1914,equity,consolidated,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LC,28/02/1914,equity,debenture,A,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LC,28/02/1914,equity,debenture,B,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LC,28/02/1914,equity,debenture,C,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LC,28/02/1914,equity,debenture,D,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LC,28/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LC,28/02/1914,equity,preferred,second,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LC,28/02/1914,equity,preferred,third,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cambrian Railways,RL017,1913,31/12/1913,LC,28/02/1914,equity,preferred,fourth,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,AU,08/08/1913,equity,common,,,railways - british possessions,TRUE,TRUE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,AU,08/08/1913,debt,certificate,,,railways - british possessions,TRUE,FALSE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,AU,08/08/1913,equity,preferred,non-cumulative,,railways - british possessions,TRUE,TRUE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,AU,08/08/1913,debt,bond,,,railways - british possessions,TRUE,FALSE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,AU,08/08/1913,debt,bond,,,railways - british possessions,TRUE,TRUE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,AU,08/08/1913,debt,bond,,,railways - british possessions,TRUE,FALSE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,LD,11/08/1913,equity,common,,,railways - british possessions,FALSE,FALSE,FALSE
+Canadian Pacific Railway,RL019,1913,01/07/1913,LD,11/08/1913,debt,certificate,,,railways - british possessions,TRUE,TRUE,TRUE
+Canadian Pacific Railway,RL020,1913,02/07/1913,LD,11/08/1913,equity,preferred,non-cumulative,,railways - british possessions,TRUE,TRUE,TRUE
+Canadian Pacific Railway,RL021,1913,03/07/1913,LD,11/08/1913,debt,bond,,,railways - british possessions,TRUE,FALSE,TRUE
+Canadian Pacific Railway,RL022,1913,04/07/1913,LD,11/08/1913,debt,bond,,,railways - british possessions,TRUE,TRUE,TRUE
+Canadian Pacific Railway,RL023,1913,05/07/1913,LD,11/08/1913,debt,bond,,,railways - british possessions,TRUE,FALSE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,FC,13/08/1913,equity,common,,,railways - british possessions,FALSE,FALSE,FALSE
+Canadian Pacific Railway,RL018,1913,30/06/1913,FC,13/08/1913,debt,certificate,,,railways - british possessions,TRUE,TRUE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,FC,13/08/1913,equity,preferred,non-cumulative,,railways - british possessions,TRUE,TRUE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,FC,13/08/1913,debt,bond,,,railways - british possessions,TRUE,TRUE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,FC,13/08/1913,debt,bond,,,railways - british possessions,TRUE,TRUE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,FC,13/08/1913,debt,bond,,,railways - british possessions,TRUE,FALSE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,GM,01/10/1913,equity,common,,,railways - british possessions,TRUE,TRUE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,GM,01/10/1913,debt,certificate,,,railways - british possessions,TRUE,TRUE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,GM,01/10/1913,equity,preferred,non-cumulative,,railways - british possessions,TRUE,TRUE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,GM,01/10/1913,debt,bond,,,railways - british possessions,TRUE,FALSE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,GM,01/10/1913,debt,bond,,,railways - british possessions,TRUE,TRUE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,GM,01/10/1913,debt,bond,,,railways - british possessions,TRUE,FALSE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,LC,02/10/1913,equity,common,,,railways - british possessions,FALSE,FALSE,FALSE
+Canadian Pacific Railway,RL018,1913,30/06/1913,LC,02/10/1913,debt,certificate,,,railways - british possessions,TRUE,TRUE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,LC,02/10/1913,equity,preferred,non-cumulative,,railways - british possessions,TRUE,TRUE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,LC,02/10/1913,debt,bond,,,railways - british possessions,TRUE,FALSE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,LC,02/10/1913,debt,bond,,,railways - british possessions,TRUE,TRUE,TRUE
+Canadian Pacific Railway,RL018,1913,30/06/1913,LC,02/10/1913,debt,bond,,,railways - british possessions,TRUE,FALSE,TRUE
+Cardiff Railway,RL019,1913,31/12/1913,LD,17/01/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Cardiff Railway,RL019,1913,31/12/1913,LD,17/01/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Cardiff Railway,RL019,1913,31/12/1913,LD,17/01/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cardiff Railway,RL019,1913,31/12/1913,AU,29/01/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Cardiff Railway,RL019,1913,31/12/1913,AU,29/01/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Cardiff Railway,RL019,1913,31/12/1913,AU,29/01/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cardiff Railway,RL019,1913,31/12/1913,FC,29/01/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Cardiff Railway,RL019,1913,31/12/1913,FC,29/01/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Cardiff Railway,RL019,1913,31/12/1913,FC,29/01/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cardiff Railway,RL019,1913,31/12/1913,LC,12/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Cardiff Railway,RL019,1913,31/12/1913,LC,12/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Cardiff Railway,RL019,1913,31/12/1913,LC,12/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Cardiff Railway,RL019,1913,31/12/1913,GM,12/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Cardiff Railway,RL019,1913,31/12/1913,GM,12/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Cardiff Railway,RL019,1913,31/12/1913,GM,12/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Central Argentine Railway,RL020,1913,30/06/1913,AU,13/10/1913,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Central Argentine Railway,RL020,1913,30/06/1913,AU,13/10/1913,equity,deferred,,,foreign railways,TRUE,FALSE,TRUE
+Central Argentine Railway,RL020,1913,30/06/1913,AU,13/10/1913,equity,preferred,,,foreign railways,TRUE,TRUE,TRUE
+Central Argentine Railway,RL020,1913,30/06/1913,AU,13/10/1913,equity,debenture,4%,,foreign railways,TRUE,TRUE,TRUE
+Central Argentine Railway,RL020,1913,30/06/1913,AU,13/10/1913,equity,debenture,3-1/2%,,foreign railways,TRUE,FALSE,TRUE
+Central Argentine Railway,RL020,1913,30/06/1913,LD,15/10/1913,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Central Argentine Railway,RL020,1913,30/06/1913,LD,15/10/1913,equity,deferred,,,foreign railways,TRUE,FALSE,TRUE
+Central Argentine Railway,RL020,1913,30/06/1913,LD,15/10/1913,equity,preferred,,,foreign railways,TRUE,TRUE,TRUE
+Central Argentine Railway,RL020,1913,30/06/1913,LD,15/10/1913,equity,debenture,4%,,foreign railways,TRUE,TRUE,TRUE
+Central Argentine Railway,RL020,1913,30/06/1913,LD,15/10/1913,equity,debenture,3-1/2%,,foreign railways,TRUE,FALSE,TRUE
+Central Argentine Railway,RL020,1913,30/06/1913,GM,23/10/1913,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Central Argentine Railway,RL020,1913,30/06/1913,GM,23/10/1913,equity,deferred,,,foreign railways,TRUE,FALSE,TRUE
+Central Argentine Railway,RL020,1913,30/06/1913,GM,23/10/1913,equity,preferred,,,foreign railways,TRUE,TRUE,TRUE
+Central Argentine Railway,RL020,1913,30/06/1913,GM,23/10/1913,equity,debenture,4%,,foreign railways,TRUE,TRUE,TRUE
+Central Argentine Railway,RL020,1913,30/06/1913,GM,23/10/1913,equity,debenture,3-1/2%,,foreign railways,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,LD,03/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,LD,03/02/1914,equity,common,guaranteed,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Central London Railway,RL021,1913,31/12/1913,LD,03/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,LD,03/02/1914,equity,preferred,guaranteed,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,LD,03/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,LD,03/02/1914,equity,deferred,guaranteed,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Central London Railway,RL021,1913,31/12/1913,LD,03/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,LD,03/02/1914,equity,preferred,,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,AU,09/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,AU,09/02/1914,equity,common,guaranteed,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Central London Railway,RL021,1913,31/12/1913,AU,09/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,AU,09/02/1914,equity,preferred,guaranteed,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,AU,09/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,AU,09/02/1914,equity,deferred,guaranteed,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,AU,09/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,AU,09/02/1914,equity,preferred,,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,FC,11/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,FC,11/02/1914,equity,common,guaranteed,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,FC,11/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,FC,11/02/1914,equity,preferred,guaranteed,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,FC,11/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,FC,11/02/1914,equity,deferred,guaranteed,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,FC,11/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,FC,11/02/1914,equity,preferred,,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,LC,19/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,LC,19/02/1914,equity,common,guaranteed,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Central London Railway,RL021,1913,31/12/1913,LC,19/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,LC,19/02/1914,equity,preferred,guaranteed,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Central London Railway,RL021,1913,31/12/1913,LC,19/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,LC,19/02/1914,equity,deferred,guaranteed,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Central London Railway,RL021,1913,31/12/1913,LC,19/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,LC,19/02/1914,equity,preferred,,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,GM,19/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,GM,19/02/1914,equity,common,guaranteed,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Central London Railway,RL021,1913,31/12/1913,GM,19/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,GM,19/02/1914,equity,preferred,guaranteed,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Central London Railway,RL021,1913,31/12/1913,GM,19/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,GM,19/02/1914,equity,deferred,guaranteed,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Central London Railway,RL021,1913,31/12/1913,GM,19/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Central London Railway,RL021,1913,31/12/1913,GM,19/02/1914,equity,preferred,,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Central Uruguay Railway & Extensions,RL022,1913,30/06/1913,AU,07/10/1913,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+Central Uruguay Railway & Extensions,RL022,1913,30/06/1913,FC,07/10/1913,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+Central Uruguay Railway & Extensions,RL022,1913,30/06/1913,LD,10/10/1913,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+Central Uruguay Railway & Extensions,RL022,1913,30/06/1913,LC,21/10/1913,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+Central Uruguay Railway & Extensions,RL022,1913,30/06/1913,GM,21/10/1913,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+City & South London Railway,RL023,1913,31/12/1913,LD,02/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,FALSE
+City & South London Railway,RL023,1913,31/12/1913,LD,02/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,LD,02/02/1914,equity,preferred,issued 1891,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,LD,02/02/1914,equity,preferred,issued 1896,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,LD,02/02/1914,equity,preferred,issued 1901,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,LD,02/02/1914,equity,preferred,issued 1903,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,AU,06/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,FALSE
+City & South London Railway,RL023,1913,31/12/1913,AU,06/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,AU,06/02/1914,equity,preferred,issued 1891,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,AU,06/02/1914,equity,preferred,issued 1896,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,AU,06/02/1914,equity,preferred,issued 1901,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,AU,06/02/1914,equity,preferred,issued 1903,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,FC,10/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,FALSE
+City & South London Railway,RL023,1913,31/12/1913,FC,10/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,FC,10/02/1914,equity,preferred,issued 1891,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,FC,10/02/1914,equity,preferred,issued 1896,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,FC,10/02/1914,equity,preferred,issued 1901,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,FC,10/02/1914,equity,preferred,issued 1903,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,LC,18/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,FALSE
+City & South London Railway,RL023,1913,31/12/1913,LC,18/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,LC,18/02/1914,equity,preferred,issued 1891,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,LC,18/02/1914,equity,preferred,issued 1896,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,LC,18/02/1914,equity,preferred,issued 1901,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,LC,18/02/1914,equity,preferred,issued 1903,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,GM,18/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,FALSE
+City & South London Railway,RL023,1913,31/12/1913,GM,18/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,GM,18/02/1914,equity,preferred,issued 1891,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,GM,18/02/1914,equity,preferred,issued 1896,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,GM,18/02/1914,equity,preferred,issued 1901,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+City & South London Railway,RL023,1913,31/12/1913,GM,18/02/1914,equity,preferred,issued 1903,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,AU,21/11/1913,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,AU,21/11/1913,equity,common,script 1917,,foreign railways,TRUE,FALSE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,AU,21/11/1913,equity,preferred,first,,foreign railways,TRUE,TRUE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,AU,21/11/1913,equity,preferred,second,,foreign railways,TRUE,TRUE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,AU,21/11/1913,equity,preferred,second, script 1916,foreign railways,TRUE,FALSE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,AU,21/11/1913,equity,debenture,first,,foreign railways,TRUE,TRUE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,AU,21/11/1913,equity,debenture,second,,foreign railways,TRUE,TRUE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,LD,25/11/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,LD,25/11/1913,equity,common,script 1917,,foreign railways,TRUE,FALSE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,LD,25/11/1913,equity,preferred,first,,foreign railways,TRUE,FALSE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,LD,25/11/1913,equity,preferred,second,,foreign railways,TRUE,TRUE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,LD,25/11/1913,equity,preferred,second, script 1916,foreign railways,TRUE,TRUE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,LD,25/11/1913,equity,debenture,first,,foreign railways,TRUE,TRUE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,LD,25/11/1913,equity,debenture,second,,foreign railways,TRUE,FALSE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,GM,04/12/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,GM,04/12/1913,equity,common,script 1917,,foreign railways,TRUE,FALSE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,GM,04/12/1913,equity,preferred,first,,foreign railways,TRUE,FALSE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,GM,04/12/1913,equity,preferred,second,,foreign railways,TRUE,FALSE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,GM,04/12/1913,equity,preferred,second, script 1916,foreign railways,TRUE,TRUE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,GM,04/12/1913,equity,debenture,first,,foreign railways,TRUE,TRUE,TRUE
+Cordoba Central Railways,RL024,1913,30/06/1913,GM,04/12/1913,equity,debenture,second,,foreign railways,TRUE,TRUE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,FC,17/10/1913,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,FC,17/10/1913,equity,preferred,cumulative,,foreign railways,TRUE,FALSE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,FC,17/10/1913,debt,mortgage,,,foreign railways,TRUE,FALSE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,FC,17/10/1913,equity,debenture,,,foreign railways,TRUE,TRUE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,LD,21/10/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,LD,21/10/1913,equity,preferred,cumulative,,foreign railways,TRUE,FALSE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,LD,21/10/1913,debt,mortgage,,,foreign railways,TRUE,FALSE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,LD,21/10/1913,equity,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,AU,21/10/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,AU,21/10/1913,equity,preferred,cumulative,,foreign railways,TRUE,FALSE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,AU,21/10/1913,debt,mortgage,,,foreign railways,TRUE,FALSE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,AU,21/10/1913,equity,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,LC,30/10/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,LC,30/10/1913,equity,preferred,cumulative,,foreign railways,TRUE,FALSE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,LC,30/10/1913,debt,mortgage,,,foreign railways,TRUE,FALSE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,LC,30/10/1913,equity,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,GM,30/10/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,GM,30/10/1913,equity,preferred,cumulative,,foreign railways,TRUE,FALSE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,GM,30/10/1913,debt,mortgage,,,foreign railways,TRUE,FALSE,TRUE
+Cuban Central Railways,RL025,1913,30/06/1913,GM,30/10/1913,equity,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Dublin & South Eastern Railway,RL026,1913,31/12/1913,LD,10/02/1914,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+Dublin & South Eastern Railway,RL026,1913,31/12/1913,AU,16/02/1914,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+Dublin & South Eastern Railway,RL026,1913,31/12/1913,GM,26/02/1914,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+Egyptian Delta Light Railways,RL027,1913,31/03/1913,LD,23/06/1913,equity,common,,,foreign railways,FALSE,FALSE,FALSE
+Egyptian Delta Light Railways,RL027,1913,31/03/1913,LD,23/06/1913,equity,preferred,cumulative,,foreign railways,TRUE,FALSE,TRUE
+Egyptian Delta Light Railways,RL027,1913,31/03/1913,LD,23/06/1913,equity,warrant,,,foreign railways,TRUE,TRUE,TRUE
+Egyptian Delta Light Railways,RL027,1913,31/03/1913,LD,23/06/1913,equity,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Egyptian Delta Light Railways,RL027,1913,31/03/1913,AU,24/06/1913,equity,common,,,foreign railways,FALSE,FALSE,FALSE
+Egyptian Delta Light Railways,RL027,1913,31/03/1913,AU,24/06/1913,equity,preferred,cumulative,,foreign railways,TRUE,TRUE,TRUE
+Egyptian Delta Light Railways,RL027,1913,31/03/1913,AU,24/06/1913,equity,warrant,,,foreign railways,TRUE,TRUE,TRUE
+Egyptian Delta Light Railways,RL027,1913,31/03/1913,AU,24/06/1913,equity,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Egyptian Delta Light Railways,RL027,1913,31/03/1913,GM,10/07/1913,equity,common,,,foreign railways,FALSE,FALSE,FALSE
+Egyptian Delta Light Railways,RL027,1913,31/03/1913,GM,10/07/1913,equity,preferred,cumulative,,foreign railways,TRUE,FALSE,TRUE
+Egyptian Delta Light Railways,RL027,1913,31/03/1913,GM,10/07/1913,equity,warrant,,,foreign railways,TRUE,FALSE,TRUE
+Egyptian Delta Light Railways,RL027,1913,31/03/1913,GM,10/07/1913,equity,debenture,,,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,GM,12/11/1912,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,GM,12/11/1912,equity,preferred,first,,foreign railways,TRUE,TRUE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,GM,12/11/1912,equity,preferred,first - subset,,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,GM,12/11/1912,equity,preferred,second,,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,GM,12/11/1912,equity,debenture,4%,,foreign railways,TRUE,TRUE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,GM,12/11/1912,equity,debenture,5%,redeemable - subset,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,FC,28/10/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,FC,28/10/1913,equity,preferred,first,,foreign railways,TRUE,TRUE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,FC,28/10/1913,equity,preferred,second,,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,FC,28/10/1913,equity,debenture,4%,,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,FC,28/10/1913,equity,debenture,5%,redeemable - subset,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,FC,28/10/1913,equity,debenture,5%,redeemable - consolidated,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,LD,30/10/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,LD,30/10/1913,equity,preferred,first,,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,LD,30/10/1913,equity,preferred,second,,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,LD,30/10/1913,equity,debenture,4%,,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,LD,30/10/1913,equity,debenture,5%,redeemable - subset,foreign railways,TRUE,TRUE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,LD,30/10/1913,debt,debenture,5%,redeemable - consolidated,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,AU,30/10/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,AU,30/10/1913,equity,preferred,first,,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,AU,30/10/1913,equity,preferred,second,,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,AU,30/10/1913,equity,debenture,4%,,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,AU,30/10/1913,equity,debenture,5%,redeemable - subset,foreign railways,TRUE,TRUE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,AU,30/10/1913,debt,debenture,5%,redeemable - consolidated,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,LC,10/11/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,LC,10/11/1913,equity,preferred,first,,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,LC,10/11/1913,equity,preferred,second,,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,LC,10/11/1913,equity,debenture,4%,,foreign railways,TRUE,TRUE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,LC,10/11/1913,equity,debenture,5%,redeemable - subset,foreign railways,TRUE,FALSE,TRUE
+Entre Rios Railways,RL028,1913,30/06/1913,LC,10/11/1913,debt,debenture,5%,redeemable - consolidated,foreign railways,TRUE,TRUE,TRUE
+Furness Railway,RL029,1913,31/12/1913,LD,30/01/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Furness Railway,RL029,1913,31/12/1913,LD,30/01/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Furness Railway,RL029,1913,31/12/1913,LD,30/01/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,LD,30/01/1914,equity,preferred,issued 1881,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,LD,30/01/1914,equity,preferred,A,issued 1881,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,LD,30/01/1914,equity,preferred,B,issued 1883,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,LD,30/01/1914,equity,preferred,B,issued 1884,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Furness Railway,RL029,1913,31/12/1913,LD,30/01/1914,equity,preferred,B,issued 1889,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,AU,09/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Furness Railway,RL029,1913,31/12/1913,AU,09/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,AU,09/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,AU,09/02/1914,equity,preferred,issued 1881,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,AU,09/02/1914,equity,preferred,A,issued 1881,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,AU,09/02/1914,equity,preferred,B,issued 1883,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,AU,09/02/1914,equity,preferred,B,issued 1884,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,AU,09/02/1914,equity,preferred,B,issued 1889,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,FC,11/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,FC,11/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,FC,11/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,FC,11/02/1914,equity,preferred,issued 1881,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,FC,11/02/1914,equity,preferred,A,issued 1881,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,FC,11/02/1914,equity,preferred,B,issued 1883,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,FC,11/02/1914,equity,preferred,B,issued 1884,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,FC,11/02/1914,equity,preferred,B,issued 1889,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,LC,19/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,LC,19/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,LC,19/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,LC,19/02/1914,equity,preferred,issued 1881,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,LC,19/02/1914,equity,preferred,A,issued 1881,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,LC,19/02/1914,equity,preferred,B,issued 1883,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Furness Railway,RL029,1913,31/12/1913,LC,19/02/1914,equity,preferred,B,issued 1884,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,LC,19/02/1914,equity,preferred,B,issued 1889,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,GM,19/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,GM,19/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,GM,19/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,GM,19/02/1914,equity,preferred,issued 1881,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,GM,19/02/1914,equity,preferred,A,issued 1881,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,GM,19/02/1914,equity,preferred,B,issued 1883,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Furness Railway,RL029,1913,31/12/1913,GM,19/02/1914,equity,preferred,B,issued 1884,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Furness Railway,RL029,1913,31/12/1913,GM,19/02/1914,equity,preferred,B,issued 1889,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LD,22/01/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LD,22/01/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LD,22/01/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LD,22/01/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LD,22/01/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LD,22/01/1914,equity,guaranteed,rent-charge,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LD,22/01/1914,equity,preferred,4%,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LD,22/01/1914,equity,preferred,4%,second,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LD,22/01/1914,equity,preferred,4%,issued 1888,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LD,22/01/1914,equity,preferred,4%,issued 1891,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LD,22/01/1914,equity,preferred,3%,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,FC,04/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,FC,04/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,FC,04/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,FC,04/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,FC,04/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,FC,04/02/1914,equity,guaranteed,rent-charge,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,FC,04/02/1914,equity,preferred,4%,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,FC,04/02/1914,equity,preferred,4%,second,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,FC,04/02/1914,equity,preferred,4%,issued 1888,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,FC,04/02/1914,equity,preferred,4%,issued 1891,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,FC,04/02/1914,equity,preferred,3%,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,AU,10/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,AU,10/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,AU,10/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,AU,10/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,AU,10/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,AU,10/02/1914,equity,guaranteed,rent-charge,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,AU,10/02/1914,equity,preferred,4%,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,AU,10/02/1914,equity,preferred,4%,second,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,AU,10/02/1914,equity,preferred,4%,issued 1888,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,AU,10/02/1914,equity,preferred,4%,issued 1891,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,AU,10/02/1914,equity,preferred,3%,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LC,24/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LC,24/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LC,24/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LC,24/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LC,24/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LC,24/02/1914,equity,guaranteed,rent-charge,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LC,24/02/1914,equity,preferred,4%,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LC,24/02/1914,equity,preferred,4%,second,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LC,24/02/1914,equity,preferred,4%,issued 1888,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LC,24/02/1914,equity,preferred,4%,issued 1891,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,LC,24/02/1914,equity,preferred,3%,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,GM,24/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,GM,24/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,GM,24/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,GM,24/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,GM,24/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,GM,24/02/1914,equity,guaranteed,rent-charge,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,GM,24/02/1914,equity,preferred,4%,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,GM,24/02/1914,equity,preferred,4%,second,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,GM,24/02/1914,equity,preferred,4%,issued 1888,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,GM,24/02/1914,equity,preferred,4%,issued 1891,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow & South Western Railway,RL030,1913,31/12/1913,GM,24/02/1914,equity,preferred,3%,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Glasgow District Subway (cable Rail),RL031,1913,31/12/1913,LD,21/01/1914,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+Glasgow District Subway (cable Rail),RL031,1913,31/12/1913,AU,04/02/1914,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+Glasgow District Subway (cable Rail),RL031,1913,31/12/1913,FC,08/02/1914,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+Glasgow District Subway (cable Rail),RL031,1913,31/12/1913,LC,18/02/1914,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+Glasgow District Subway (cable Rail),RL031,1913,31/12/1913,GM,18/02/1914,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LD,12/09/1913,equity,common,,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LD,12/09/1913,equity,guaranteed,,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LD,12/09/1913,equity,preferred,non-cumulative - first,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LD,12/09/1913,equity,preferred,non-cumulative - second,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LD,12/09/1913,equity,preferred,non-cumulative - third,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LD,12/09/1913,debt,bond,,,railways - british possessions,TRUE,FALSE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LD,12/09/1913,debt,bond,Grand Trunk,,railways - british possessions,TRUE,FALSE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LD,12/09/1913,debt,bond,consolidated,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LD,12/09/1913,debt,bond,Great Western,,railways - british possessions,TRUE,FALSE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LD,12/09/1913,debt,bond,Northern of Canada,,railways - british possessions,TRUE,FALSE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LD,12/09/1913,debt,bond,,,railways - british possessions,TRUE,FALSE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,FC,20/09/1913,equity,common,,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,FC,20/09/1913,equity,guaranteed,,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL033,1913,01/07/1913,FC,20/09/1913,equity,preferred,non-cumulative,first,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL034,1913,02/07/1913,FC,20/09/1913,equity,preferred,non-cumulative,second,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL035,1913,03/07/1913,FC,20/09/1913,equity,preferred,non-cumulative,third,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL036,1913,04/07/1913,FC,20/09/1913,debt,bond,,,railways - british possessions,TRUE,FALSE,TRUE
+Grand Trunk Railway of Canada,RL037,1913,05/07/1913,FC,20/09/1913,debt,bond,Grand Trunk,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL038,1913,06/07/1913,FC,20/09/1913,debt,bond,consolidated,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL039,1913,07/07/1913,FC,20/09/1913,debt,bond,Great Western,,railways - british possessions,TRUE,FALSE,TRUE
+Grand Trunk Railway of Canada,RL040,1913,08/07/1913,FC,20/09/1913,debt,bond,Northern of Canada,,railways - british possessions,TRUE,FALSE,TRUE
+Grand Trunk Railway of Canada,RL041,1913,09/07/1913,FC,20/09/1913,debt,bond,,,railways - british possessions,TRUE,FALSE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,AU,02/10/1913,equity,common,,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,AU,02/10/1913,equity,guaranteed,,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,AU,02/10/1913,equity,preferred,non-cumulative,first,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,AU,02/10/1913,equity,preferred,non-cumulative,second,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,AU,02/10/1913,equity,preferred,non-cumulative,third,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,AU,02/10/1913,debt,bond,,,railways - british possessions,TRUE,FALSE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,AU,02/10/1913,debt,bond,Grand Trunk,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,AU,02/10/1913,debt,bond,consolidated,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,AU,02/10/1913,debt,bond,Great Western,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,AU,02/10/1913,debt,bond,Northern of Canada,,railways - british possessions,TRUE,FALSE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,AU,02/10/1913,debt,bond,,,railways - british possessions,TRUE,FALSE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LC,23/10/1913,equity,common,,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LC,23/10/1913,equity,guaranteed,,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LC,23/10/1913,equity,preferred,non-cumulative,first,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LC,23/10/1913,equity,preferred,non-cumulative,second,railways - british possessions,TRUE,FALSE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LC,23/10/1913,equity,preferred,non-cumulative,third,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LC,23/10/1913,debt,bond,,,railways - british possessions,TRUE,FALSE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LC,23/10/1913,debt,bond,Grand Trunk,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LC,23/10/1913,debt,bond,consolidated,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LC,23/10/1913,debt,bond,Great Western,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LC,23/10/1913,debt,bond,Northern of Canada,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,LC,23/10/1913,debt,bond,,,railways - british possessions,TRUE,FALSE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,GM,23/10/1913,equity,common,,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,GM,23/10/1913,equity,guaranteed,,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,GM,23/10/1913,equity,preferred,non-cumulative,first,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,GM,23/10/1913,equity,preferred,non-cumulative,second,railways - british possessions,TRUE,FALSE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,GM,23/10/1913,equity,preferred,non-cumulative,third,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,GM,23/10/1913,debt,bond,,,railways - british possessions,TRUE,FALSE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,GM,23/10/1913,debt,bond,Grand Trunk,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,GM,23/10/1913,debt,bond,consolidated,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,GM,23/10/1913,debt,bond,Great Western,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,GM,23/10/1913,debt,bond,Northern of Canada,,railways - british possessions,TRUE,TRUE,TRUE
+Grand Trunk Railway of Canada,RL032,1913,30/06/1913,GM,23/10/1913,debt,bond,,,railways - british possessions,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,debenture,5%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,debenture,4-1/2%,,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,debenture,3-1/2%,second,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,guaranteed,preference,first - 4-1/2%,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,guaranteed,preference,first - 3-1/2%,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,guaranteed,preference,first - 6%,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,guaranteed,preference,South-Yorkshire - rent-charge - 5% - irredeemable,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,guaranteed,preference,South-Yorkshire - rent-charge - 4-1/2% - perpetual,railways - guaranteed shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,preferred,5%,perpetual,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,preferred,4%,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,preferred,5%,convertible - issued 1872,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,preferred,5%,convertible - issued 1874,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,preferred,5%,convertible - issued 1876,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,preferred,5%,convertible - issued 1879,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,preferred,5%,convertible - issued 1881,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,preferred,4%,issued 1889,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,preferred,4%,issued 1891,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LD,20/01/1914,equity,preferred,5%,issued 1894,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,debenture,5%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,debenture,4-1/2%,,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,debenture,3-1/2%,second,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,guaranteed,preference,first - 4-1/2%,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,guaranteed,preference,first - 3-1/2%,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,guaranteed,preference,first - 6%,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,guaranteed,preference,South-Yorkshire - rent-charge - 5% - irredeemable,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,guaranteed,preference,South-Yorkshire - rent-charge - 4-1/2% - perpetual,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,preferred,5%,perpetual,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,preferred,4%,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,preferred,5%,convertible - issued 1872,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,preferred,5%,convertible - issued 1874,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,preferred,5%,convertible - issued 1876,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,preferred,5%,convertible - issued 1879,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,preferred,5%,convertible - issued 1881,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,preferred,4%,issued 1889,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,preferred,4%,issued 1891,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,FC,31/01/1914,equity,preferred,5%,issued 1894,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,debenture,5%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,debenture,4-1/2%,,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,debenture,3-1/2%,second,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,guaranteed,preference,first - 4-1/2%,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,guaranteed,preference,first - 3-1/2%,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,guaranteed,preference,first - 6%,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,guaranteed,preference,South-Yorkshire - rent-charge - 5% - irredeemable,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,guaranteed,preference,South-Yorkshire - rent-charge - 4-1/2% - perpetual,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,preferred,5%,perpetual,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,preferred,4%,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,preferred,5%,convertible - issued 1872,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,preferred,5%,convertible - issued 1874,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,preferred,5%,convertible - issued 1876,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,preferred,5%,convertible - issued 1879,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,preferred,5%,convertible - issued 1881,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,preferred,4%,issued 1889,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,preferred,4%,issued 1891,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,AU,11/02/1914,equity,preferred,5%,issued 1894,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,debenture,5%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,debenture,4-1/2%,,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,debenture,3-1/2%,second,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,guaranteed,preference,first - 4-1/2%,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,guaranteed,preference,first - 3-1/2%,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,guaranteed,preference,first - 6%,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,guaranteed,preference,South-Yorkshire - rent-charge - 5% - irredeemable,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,guaranteed,preference,South-Yorkshire - rent-charge - 4-1/2% - perpetual,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,preferred,5%,perpetual,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,preferred,4%,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,preferred,5%,convertible - issued 1872,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,preferred,5%,convertible - issued 1874,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,preferred,5%,convertible - issued 1876,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,preferred,5%,convertible - issued 1879,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,preferred,5%,convertible - issued 1881,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,preferred,4%,issued 1889,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,preferred,4%,issued 1891,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,LC,20/02/1914,equity,preferred,5%,issued 1894,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,debenture,5%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,debenture,4-1/2%,,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,debenture,3-1/2%,second,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,guaranteed,preference,first - 4-1/2%,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,guaranteed,preference,first - 3-1/2%,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,guaranteed,preference,first - 6%,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,guaranteed,preference,South-Yorkshire - rent-charge - 5% - irredeemable,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,guaranteed,preference,South-Yorkshire - rent-charge - 4-1/2% - perpetual,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,preferred,5%,perpetual,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,preferred,4%,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,preferred,5%,convertible - issued 1872,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,preferred,5%,convertible - issued 1874,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,preferred,5%,convertible - issued 1876,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,preferred,5%,convertible - issued 1879,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,preferred,5%,convertible - issued 1881,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,preferred,4%,issued 1889,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,preferred,4%,issued 1891,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Central Railway,RL033,1913,31/12/1913,GM,20/02/1914,equity,preferred,5%,issued 1894,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,LD,13/01/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great North of Scotland Railway,RL035,1913,31/12/1913,LD,13/01/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,LD,13/01/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,LD,13/01/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,LD,13/01/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,LD,13/01/1914,equity,preferred,A,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,LD,13/01/1914,equity,preferred,B,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,AU,27/01/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great North of Scotland Railway,RL035,1913,31/12/1913,AU,27/01/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,AU,27/01/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,AU,27/01/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,AU,27/01/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,AU,27/01/1914,equity,preferred,A,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,AU,27/01/1914,equity,preferred,B,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,FC,27/01/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great North of Scotland Railway,RL035,1913,31/12/1913,FC,27/01/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,FC,27/01/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,FC,27/01/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,FC,27/01/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,FC,27/01/1914,equity,preferred,A,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,FC,27/01/1914,equity,preferred,B,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,LC,17/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great North of Scotland Railway,RL035,1913,31/12/1913,LC,17/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,LC,17/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,LC,17/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,LC,17/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,LC,17/02/1914,equity,preferred,A,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,LC,17/02/1914,equity,preferred,B,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,GM,17/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great North of Scotland Railway,RL035,1913,31/12/1913,GM,17/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,GM,17/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,GM,17/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,GM,17/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,GM,17/02/1914,equity,preferred,A,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great North of Scotland Railway,RL035,1913,31/12/1913,GM,17/02/1914,equity,preferred,B,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Northern & City Railway,RL036,1912,31/12/1912,LD,13/01/1913,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great Northern & City Railway,RL036,1912,31/12/1912,LD,13/01/1913,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great Northern & City Railway,RL036,1912,31/12/1912,AU,15/01/1913,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great Northern & City Railway,RL036,1912,31/12/1912,AU,15/01/1913,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great Northern & City Railway,RL036,1912,31/12/1912,FC,20/01/1913,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great Northern & City Railway,RL036,1912,31/12/1912,FC,20/01/1913,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great Northern & City Railway,RL036,1912,31/12/1912,LC,29/01/1913,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great Northern & City Railway,RL036,1912,31/12/1912,LC,29/01/1913,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great Northern & City Railway,RL036,1912,31/12/1912,GM,29/01/1913,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great Northern & City Railway,RL036,1912,31/12/1912,GM,29/01/1913,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,FC,19/01/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great Northern Railway - UK,RL037,1913,31/12/1913,FC,19/01/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,FC,19/01/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,FC,19/01/1914,equity,consolidated,A,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,FC,19/01/1914,equity,consolidated,B,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,FC,19/01/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,FC,19/01/1914,equity,guaranteed,perpetual,,railways - guaranteed shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,FC,19/01/1914,equity,guaranteed,G.N.,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,FC,19/01/1914,equity,preferred,perpetual,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,FC,19/01/1914,equity,preferred,issued 1896,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,FC,19/01/1914,equity,preferred,issued 1898,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,FC,19/01/1914,equity,preferred,issued 1899,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,FC,19/01/1914,equity,preferred,issued 1901,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LD,27/01/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LD,27/01/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LD,27/01/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LD,27/01/1914,equity,consolidated,A,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LD,27/01/1914,equity,consolidated,B,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LD,27/01/1914,equity,debenture,,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LD,27/01/1914,equity,guaranteed,perpetual,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LD,27/01/1914,equity,guaranteed,G.N.,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LD,27/01/1914,equity,preferred,perpetual,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LD,27/01/1914,equity,preferred,issued 1896,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LD,27/01/1914,equity,preferred,issued 1898,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LD,27/01/1914,equity,preferred,issued 1899,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LD,27/01/1914,equity,preferred,issued 1901,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,AU,03/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great Northern Railway - UK,RL037,1913,31/12/1913,AU,03/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,AU,03/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,AU,03/02/1914,equity,consolidated,A,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,AU,03/02/1914,equity,consolidated,B,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,AU,03/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,AU,03/02/1914,equity,guaranteed,perpetual,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,AU,03/02/1914,equity,guaranteed,G.N.,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,AU,03/02/1914,equity,preferred,perpetual,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,AU,03/02/1914,equity,preferred,issued 1896,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,AU,03/02/1914,equity,preferred,issued 1898,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,AU,03/02/1914,equity,preferred,issued 1899,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,AU,03/02/1914,equity,preferred,issued 1901,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LC,13/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LC,13/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LC,13/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LC,13/02/1914,equity,consolidated,A,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LC,13/02/1914,equity,consolidated,B,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LC,13/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LC,13/02/1914,equity,guaranteed,perpetual,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LC,13/02/1914,equity,guaranteed,G.N.,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LC,13/02/1914,equity,preferred,perpetual,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LC,13/02/1914,equity,preferred,issued 1896,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LC,13/02/1914,equity,preferred,issued 1898,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LC,13/02/1914,equity,preferred,issued 1899,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,LC,13/02/1914,equity,preferred,issued 1901,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,GM,13/02/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
+Great Northern Railway - UK,RL037,1913,31/12/1913,GM,13/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,GM,13/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,GM,13/02/1914,equity,consolidated,A,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,GM,13/02/1914,equity,consolidated,B,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,GM,13/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,GM,13/02/1914,equity,guaranteed,perpetual,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,GM,13/02/1914,equity,guaranteed,G.N.,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,GM,13/02/1914,equity,preferred,perpetual,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,GM,13/02/1914,equity,preferred,issued 1896,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,GM,13/02/1914,equity,preferred,issued 1898,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,GM,13/02/1914,equity,preferred,issued 1899,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Great Northern Railway - UK,RL037,1913,31/12/1913,GM,13/02/1914,equity,preferred,issued 1901,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Northern Railway (Ireland),RL038,1913,31/12/1913,LD,29/01/1914,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+Great Northern Railway (Ireland),RL038,1913,31/12/1913,AU,05/02/1914,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+Great Northern Railway (Ireland),RL038,1913,31/12/1913,GM,18/02/1914,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+Great Southern & Western Railway,RL039,1913,31/12/1913,LD,27/01/1914,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+Great Southern & Western Railway,RL039,1913,31/12/1913,AU,05/02/1914,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+Great Southern & Western Railway,RL039,1913,31/12/1913,GM,18/02/1914,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,AU,16/04/1914,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,AU,16/04/1914,equity,preferred,,,foreign railways,TRUE,FALSE,TRUE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,AU,16/04/1914,equity,debenture,permanent,,foreign railways,TRUE,FALSE,TRUE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,AU,16/04/1914,equity,debenture,redeemable,,foreign railways,TRUE,FALSE,TRUE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,FC,16/04/1914,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,FC,16/04/1914,equity,preferred,,,foreign railways,TRUE,FALSE,TRUE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,FC,16/04/1914,equity,debenture,permanent,,foreign railways,TRUE,FALSE,TRUE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,FC,16/04/1914,equity,debenture,redeemable,,foreign railways,TRUE,FALSE,TRUE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,LD,17/04/1914,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,LD,17/04/1914,equity,preferred,,,foreign railways,TRUE,FALSE,TRUE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,LD,17/04/1914,equity,debenture,permanent,,foreign railways,TRUE,FALSE,TRUE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,LD,17/04/1914,equity,debenture,redeemable,,foreign railways,TRUE,FALSE,TRUE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,GM,28/04/1914,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,GM,28/04/1914,equity,preferred,,,foreign railways,TRUE,FALSE,TRUE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,GM,28/04/1914,equity,debenture,permanent,,foreign railways,TRUE,FALSE,TRUE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,GM,28/04/1914,equity,debenture,redeemable,,foreign railways,TRUE,FALSE,TRUE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,LC,30/04/1914,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,LC,30/04/1914,equity,preferred,,,foreign railways,TRUE,FALSE,TRUE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,LC,30/04/1914,equity,debenture,permanent,,foreign railways,TRUE,FALSE,TRUE
+Great Western of Brazil Railway,RL040,1913,31/12/1913,LC,30/04/1914,equity,debenture,redeemable,,foreign railways,TRUE,TRUE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,LD,09/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,LD,09/02/1914,equity,debenture,4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,LD,09/02/1914,equity,debenture,4-1/4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,LD,09/02/1914,equity,debenture,4-1/2%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,LD,09/02/1914,equity,debenture,5%,,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,LD,09/02/1914,equity,debenture,2-1/2%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,LD,09/02/1914,equity,guaranteed,rent-charge,,railways - guaranteed shares and stocks,TRUE,TRUE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,LD,09/02/1914,equity,guaranteed,consolidated,,railways - guaranteed shares and stocks,TRUE,TRUE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,LD,09/02/1914,equity,preferred,consolidated,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,AU,13/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,AU,13/02/1914,equity,debenture,4%,,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,AU,13/02/1914,equity,debenture,4-1/4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,AU,13/02/1914,equity,debenture,4-1/2%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,AU,13/02/1914,equity,debenture,5%,,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,AU,13/02/1914,equity,debenture,2-1/2%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,AU,13/02/1914,equity,guaranteed,rent-charge,,railways - guaranteed shares and stocks,TRUE,TRUE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,AU,13/02/1914,equity,guaranteed,consolidated,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,AU,13/02/1914,equity,preferred,consolidated,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,GM,26/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,GM,26/02/1914,equity,debenture,4%,,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,GM,26/02/1914,equity,debenture,4-1/4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,GM,26/02/1914,equity,debenture,4-1/2%,,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,GM,26/02/1914,equity,debenture,5%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,GM,26/02/1914,equity,debenture,2-1/2%,,railways - debenture stocks,TRUE,TRUE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,GM,26/02/1914,equity,guaranteed,rent-charge,,railways - guaranteed shares and stocks,TRUE,TRUE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,GM,26/02/1914,equity,guaranteed,consolidated,,railways - guaranteed shares and stocks,TRUE,TRUE,TRUE
+Great Western Railway,RL041,1913,31/12/1913,GM,26/02/1914,equity,preferred,consolidated,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,LD,28/01/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,LD,28/01/1914,equity,debenture,4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,LD,28/01/1914,equity,debenture,4-1/4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,LD,28/01/1914,equity,preferred,A,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,LD,28/01/1914,equity,preferred,B,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,LD,28/01/1914,equity,preferred,4%,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,LD,28/01/1914,equity,preferred,3-1/2%,issued 1897,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,LD,28/01/1914,equity,preferred,3-1/2%,issued 1898,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,AU,28/01/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,AU,28/01/1914,equity,debenture,4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,AU,28/01/1914,equity,debenture,4-1/4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,AU,28/01/1914,equity,preferred,A,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,AU,28/01/1914,equity,preferred,B,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,AU,28/01/1914,equity,preferred,4%,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,AU,28/01/1914,equity,preferred,3-1/2%,issued 1897,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,AU,28/01/1914,equity,preferred,3-1/2%,issued 1898,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,FC,02/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Highland Railway,RL042,1913,31/12/1913,FC,02/02/1914,equity,debenture,4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,FC,02/02/1914,equity,debenture,4-1/4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,FC,02/02/1914,equity,preferred,A,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,FC,02/02/1914,equity,preferred,B,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,FC,02/02/1914,equity,preferred,4%,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,FC,02/02/1914,equity,preferred,3-1/2%,issued 1897,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,FC,02/02/1914,equity,preferred,3-1/2%,issued 1898,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,LC,25/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,LC,25/02/1914,equity,debenture,4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,LC,25/02/1914,equity,debenture,4-1/4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,LC,25/02/1914,equity,preferred,A,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,LC,25/02/1914,equity,preferred,B,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,LC,25/02/1914,equity,preferred,4%,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,LC,25/02/1914,equity,preferred,3-1/2%,issued 1897,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,LC,25/02/1914,equity,preferred,3-1/2%,issued 1898,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,GM,25/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,GM,25/02/1914,equity,debenture,4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,GM,25/02/1914,equity,debenture,4-1/4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,GM,25/02/1914,equity,preferred,A,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,GM,25/02/1914,equity,preferred,B,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,GM,25/02/1914,equity,preferred,4%,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,GM,25/02/1914,equity,preferred,3-1/2%,issued 1897,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Highland Railway,RL042,1913,31/12/1913,GM,25/02/1914,equity,preferred,3-1/2%,issued 1898,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,LD,15/01/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,LD,15/01/1914,equity,debenture,first,,railways - debenture stocks,TRUE,FALSE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,LD,15/01/1914,equity,debenture,second,,railways - debenture stocks,TRUE,FALSE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,LD,15/01/1914,equity,preferred,issued 1899,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,LD,15/01/1914,equity,preferred,issued 1907,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,FC,26/01/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,FC,26/01/1914,equity,debenture,first,,railways - debenture stocks,TRUE,TRUE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,FC,26/01/1914,equity,debenture,second,,railways - debenture stocks,TRUE,TRUE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,FC,26/01/1914,equity,preferred,issued 1899,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,FC,26/01/1914,equity,preferred,issued 1907,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,AU,03/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,AU,03/02/1914,equity,debenture,first,,railways - debenture stocks,TRUE,FALSE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,AU,03/02/1914,equity,debenture,second,,railways - debenture stocks,TRUE,TRUE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,AU,03/02/1914,equity,preferred,issued 1899,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,AU,03/02/1914,equity,preferred,issued 1907,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,LC,17/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,LC,17/02/1914,equity,debenture,first,,railways - debenture stocks,TRUE,FALSE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,LC,17/02/1914,equity,debenture,second,,railways - debenture stocks,TRUE,FALSE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,LC,17/02/1914,equity,preferred,issued 1899,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,LC,17/02/1914,equity,preferred,issued 1907,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,GM,17/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,GM,17/02/1914,equity,debenture,first,,railways - debenture stocks,TRUE,FALSE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,GM,17/02/1914,equity,debenture,second,,railways - debenture stocks,TRUE,FALSE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,GM,17/02/1914,equity,preferred,issued 1899,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Hull & Barnsley Railway,RL043,1913,31/12/1913,GM,17/02/1914,equity,preferred,issued 1907,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Interoceanic Railway of Mexico,RL044,1913,30/06/1913,AU,02/12/1913,equity,common,,,foreign railways,FALSE,FALSE,FALSE
+Interoceanic Railway of Mexico,RL044,1913,30/06/1913,AU,02/12/1913,equity,preferred,first,,foreign railways,TRUE,TRUE,TRUE
+Interoceanic Railway of Mexico,RL044,1913,30/06/1913,AU,02/12/1913,equity,preferred,second,,foreign railways,TRUE,FALSE,TRUE
+Interoceanic Railway of Mexico,RL044,1913,30/06/1913,AU,02/12/1913,equity,debenture,first,,foreign railways,TRUE,FALSE,TRUE
+Interoceanic Railway of Mexico,RL044,1913,30/06/1913,AU,02/12/1913,equity,debenture,second,,foreign railways,TRUE,FALSE,TRUE
+Interoceanic Railway of Mexico,RL044,1913,30/06/1913,AU,02/12/1913,equity,debenture,B,,foreign railways,TRUE,FALSE,TRUE
+Interoceanic Railway of Mexico,RL044,1913,30/06/1913,LD,05/12/1913,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Interoceanic Railway of Mexico,RL044,1913,30/06/1913,LD,05/12/1913,equity,preferred,first,,foreign railways,TRUE,FALSE,TRUE
+Interoceanic Railway of Mexico,RL044,1913,30/06/1913,LD,05/12/1913,equity,preferred,second,,foreign railways,TRUE,FALSE,TRUE
+Interoceanic Railway of Mexico,RL044,1913,30/06/1913,LD,05/12/1913,equity,debenture,first,,foreign railways,TRUE,FALSE,TRUE
+Interoceanic Railway of Mexico,RL044,1913,30/06/1913,LD,05/12/1913,equity,debenture,second,,foreign railways,TRUE,FALSE,TRUE
+Interoceanic Railway of Mexico,RL044,1913,30/06/1913,LD,05/12/1913,equity,debenture,B,,foreign railways,TRUE,FALSE,TRUE
+Interoceanic Railway of Mexico,RL044,1913,30/06/1913,GM,15/12/1913,equity,common,,,foreign railways,FALSE,FALSE,FALSE
+Interoceanic Railway of Mexico,RL044,1913,30/06/1913,GM,15/12/1913,equity,preferred,first,,foreign railways,TRUE,TRUE,TRUE
+Interoceanic Railway of Mexico,RL044,1913,30/06/1913,GM,15/12/1913,equity,preferred,second,,foreign railways,TRUE,FALSE,TRUE
+Interoceanic Railway of Mexico,RL044,1913,30/06/1913,GM,15/12/1913,equity,debenture,first,,foreign railways,TRUE,FALSE,TRUE
+Interoceanic Railway of Mexico,RL044,1913,30/06/1913,GM,15/12/1913,equity,debenture,second,,foreign railways,TRUE,FALSE,TRUE
+Interoceanic Railway of Mexico,RL044,1913,30/06/1913,GM,15/12/1913,equity,debenture,B,,foreign railways,TRUE,FALSE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,LD,13/01/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,LD,13/01/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,LD,13/01/1914,equity,guaranteed,consolidated,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,LD,13/01/1914,equity,guaranteed,preference,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,LD,13/01/1914,equity,guaranteed,consolidated,guaranteed,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,LD,13/01/1914,equity,preferred,consolidated,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,LD,13/01/1914,equity,preferred,issued 1903,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,LD,13/01/1914,equity,preferred,issued 1908,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,AU,02/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,AU,02/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,AU,02/02/1914,equity,guaranteed,consolidated,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,AU,02/02/1914,equity,guaranteed,preference,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,AU,02/02/1914,equity,guaranteed,consolidated,guaranteed,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,AU,02/02/1914,equity,preferred,consolidated,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,AU,02/02/1914,equity,preferred,issued 1903,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,AU,02/02/1914,equity,preferred,issued 1908,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,GM,18/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,GM,18/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,GM,18/02/1914,equity,guaranteed,consolidated,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,GM,18/02/1914,equity,guaranteed,preference,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,GM,18/02/1914,equity,guaranteed,consolidated,guaranteed,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,GM,18/02/1914,equity,preferred,consolidated,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,GM,18/02/1914,equity,preferred,issued 1903,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Lancashire & Yorkshire Railway,RL045,1913,31/12/1913,GM,18/02/1914,equity,preferred,issued 1908,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,LD,01/05/1914,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,LD,01/05/1914,equity,preferred,,,foreign railways,TRUE,TRUE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,LD,01/05/1914,equity,debenture,redeemable,,foreign railways,TRUE,TRUE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,LD,01/05/1914,equity,debenture,terminable,,foreign railways,TRUE,FALSE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,AU,01/05/1914,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,AU,01/05/1914,equity,preferred,,,foreign railways,TRUE,TRUE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,AU,01/05/1914,equity,debenture,redeemable,,foreign railways,TRUE,TRUE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,AU,01/05/1914,equity,debenture,terminable,,foreign railways,TRUE,FALSE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,FC,07/05/1914,equity,common,,,foreign railways,TRUE,FALSE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,FC,07/05/1914,equity,preferred,,,foreign railways,TRUE,FALSE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,FC,07/05/1914,equity,debenture,redeemable,,foreign railways,TRUE,TRUE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,FC,07/05/1914,equity,debenture,terminable,,foreign railways,TRUE,TRUE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,GM,11/05/1914,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,GM,11/05/1914,equity,preferred,,,foreign railways,TRUE,TRUE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,GM,11/05/1914,equity,debenture,redeemable,,foreign railways,TRUE,TRUE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,GM,11/05/1914,equity,debenture,terminable,,foreign railways,TRUE,FALSE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,LC,21/05/1914,equity,common,,,foreign railways,TRUE,TRUE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,LC,21/05/1914,equity,preferred,,,foreign railways,TRUE,TRUE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,LC,21/05/1914,equity,debenture,redeemable,,foreign railways,TRUE,FALSE,TRUE
+Leopoldina Railway,RL046,1913,31/12/1913,LC,21/05/1914,equity,debenture,terminable,,foreign railways,TRUE,TRUE,TRUE
+London & North Western Railway,RL047,1913,31/12/1913,AU,13/02/1913,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+London & North Western Railway,RL047,1913,31/12/1913,AU,13/02/1913,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+London & North Western Railway,RL047,1913,31/12/1913,AU,13/02/1913,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,TRUE,TRUE
+London & North Western Railway,RL047,1913,31/12/1913,AU,13/02/1913,equity,preferred,,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London & North Western Railway,RL047,1913,31/12/1913,AU,13/02/1913,equity,preferred,issued 1902,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London & North Western Railway,RL047,1913,31/12/1913,LD,07/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+London & North Western Railway,RL047,1913,31/12/1913,LD,07/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+London & North Western Railway,RL047,1913,31/12/1913,LD,07/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+London & North Western Railway,RL047,1913,31/12/1913,LD,07/02/1914,equity,preferred,,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London & North Western Railway,RL047,1913,31/12/1913,LD,07/02/1914,equity,preferred,issued 1902,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+London & North Western Railway,RL047,1913,31/12/1913,GM,27/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+London & North Western Railway,RL047,1913,31/12/1913,GM,27/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+London & North Western Railway,RL047,1913,31/12/1913,GM,27/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+London & North Western Railway,RL047,1913,31/12/1913,GM,27/02/1914,equity,preferred,,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London & North Western Railway,RL047,1913,31/12/1913,GM,27/02/1914,equity,preferred,issued 1902,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,LD,30/01/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,LD,30/01/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,LD,30/01/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,LD,30/01/1914,equity,debenture,A,,railways - debenture stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,LD,30/01/1914,equity,debenture,consolidated,,railways - debenture stocks,TRUE,TRUE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,LD,30/01/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,LD,30/01/1914,equity,preferred,4%,issued 1881,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,LD,30/01/1914,equity,preferred,4%,issued 1884,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,LD,30/01/1914,equity,preferred,3-1/2%,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,FC,07/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,FC,07/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,FC,07/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,FC,07/02/1914,equity,debenture,A,,railways - debenture stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,FC,07/02/1914,equity,debenture,consolidated,,railways - debenture stocks,TRUE,TRUE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,FC,07/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,FC,07/02/1914,equity,preferred,4%,issued 1881,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,FC,07/02/1914,equity,preferred,4%,issued 1884,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,FC,07/02/1914,equity,preferred,3-1/2%,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,AU,18/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,AU,18/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,AU,18/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,AU,18/02/1914,equity,debenture,A,,railways - debenture stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,AU,18/02/1914,equity,debenture,consolidated,,railways - debenture stocks,TRUE,TRUE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,AU,18/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,AU,18/02/1914,equity,preferred,4%,issued 1881,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,AU,18/02/1914,equity,preferred,4%,issued 1884,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,AU,18/02/1914,equity,preferred,3-1/2%,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,LC,27/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,LC,27/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,LC,27/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,LC,27/02/1914,equity,debenture,A,,railways - debenture stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,LC,27/02/1914,equity,debenture,consolidated,,railways - debenture stocks,TRUE,TRUE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,LC,27/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,LC,27/02/1914,equity,preferred,4%,issued 1881,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,LC,27/02/1914,equity,preferred,4%,issued 1884,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,LC,27/02/1914,equity,preferred,3-1/2%,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,GM,27/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,GM,27/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,GM,27/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,GM,27/02/1914,equity,debenture,A,,railways - debenture stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,GM,27/02/1914,equity,debenture,consolidated,,railways - debenture stocks,TRUE,TRUE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,GM,27/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,GM,27/02/1914,equity,preferred,4%,issued 1881,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,GM,27/02/1914,equity,preferred,4%,issued 1884,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+London & South Western Railway,RL048,1913,31/12/1913,GM,27/02/1914,equity,preferred,3-1/2%,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,LD,27/01/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,LD,27/01/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,LD,27/01/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,LD,27/01/1914,equity,certificate,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,LD,27/01/1914,equity,debenture,4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,LD,27/01/1914,equity,debenture,4-1/2%,,railways - debenture stocks,TRUE,TRUE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,LD,27/01/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,LD,27/01/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,LD,27/01/1914,equity,preferred,second,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,FC,04/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,FC,04/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,FC,04/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,FC,04/02/1914,equity,certificate,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,FC,04/02/1914,equity,debenture,4%,,railways - debenture stocks,TRUE,TRUE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,FC,04/02/1914,equity,debenture,4-1/2%,,railways - debenture stocks,TRUE,TRUE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,FC,04/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,TRUE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,FC,04/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,FC,04/02/1914,equity,preferred,second,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,AU,13/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,AU,13/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,AU,13/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,AU,13/02/1914,equity,certificate,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,AU,13/02/1914,equity,debenture,4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,AU,13/02/1914,equity,debenture,4-1/2%,,railways - debenture stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,AU,13/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,TRUE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,AU,13/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,AU,13/02/1914,equity,preferred,second,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,LC,25/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,LC,25/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,LC,25/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,LC,25/02/1914,equity,certificate,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,LC,25/02/1914,equity,debenture,4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,LC,25/02/1914,equity,debenture,4-1/2%,,railways - debenture stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,LC,25/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,LC,25/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,LC,25/02/1914,equity,preferred,second,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,GM,25/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,GM,25/02/1914,equity,preferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,GM,25/02/1914,equity,deferred,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,GM,25/02/1914,equity,certificate,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,GM,25/02/1914,equity,debenture,4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,GM,25/02/1914,equity,debenture,4-1/2%,,railways - debenture stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,GM,25/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,GM,25/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London Brighton & South Coast Railway,RL049,1913,31/12/1913,GM,25/02/1914,equity,preferred,second,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,LD,10/01/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,LD,10/01/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,LD,10/01/1914,equity,debenture,B,,railways - debenture stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,LD,10/01/1914,equity,debenture,4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,LD,10/01/1914,equity,debenture,4%,issued 1889,railways - debenture stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,LD,10/01/1914,equity,debenture,3%,,railways - debenture stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,LD,10/01/1914,equity,debenture,3%,issued 1890,railways - debenture stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,LD,10/01/1914,equity,debenture,3%,issued 1899,railways - debenture stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,LD,10/01/1914,equity,debenture,3-1/2%,,railways - debenture stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,LD,10/01/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,LD,10/01/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,LD,10/01/1914,equity,preferred,second,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,AU,29/01/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,AU,29/01/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,AU,29/01/1914,equity,debenture,B,,railways - debenture stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,AU,29/01/1914,equity,debenture,4%,,railways - debenture stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,AU,29/01/1914,equity,debenture,4%,issued 1889,railways - debenture stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,AU,29/01/1914,equity,debenture,3%,,railways - debenture stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,AU,29/01/1914,equity,debenture,3%,issued 1890,railways - debenture stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,AU,29/01/1914,equity,debenture,3%,issued 1899,railways - debenture stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,AU,29/01/1914,equity,debenture,3-1/2%,,railways - debenture stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,AU,29/01/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,AU,29/01/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,AU,29/01/1914,equity,preferred,second,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,GM,04/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,GM,04/02/1914,equity,debenture,,,railways - debenture stocks,TRUE,TRUE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,GM,04/02/1914,equity,debenture,B,,railways - debenture stocks,TRUE,TRUE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,GM,04/02/1914,equity,debenture,4%,,railways - debenture stocks,TRUE,TRUE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,GM,04/02/1914,equity,debenture,4%,issued 1889,railways - debenture stocks,TRUE,TRUE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,GM,04/02/1914,equity,debenture,3%,,railways - debenture stocks,TRUE,TRUE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,GM,04/02/1914,equity,debenture,3%,issued 1890,railways - debenture stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,GM,04/02/1914,equity,debenture,3%,issued 1899,railways - debenture stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,GM,04/02/1914,equity,debenture,3-1/2%,,railways - debenture stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,GM,04/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,GM,04/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+London Chatham & Dover Railway,RL050,1913,31/12/1913,GM,04/02/1914,equity,preferred,second,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+London Tilbury & Southend Railway,RL051,1913,NA,NA,NA,equity,common,,,no record found for company,FALSE,FALSE,FALSE
+Madras & Southern Mahratta Railway,RL052,1913,30/09/1913,AU,13/05/1914,equity,common,,,indian railways,FALSE,FALSE,FALSE
+Madras & Southern Mahratta Railway,RL052,1913,30/09/1913,AU,13/05/1914,equity,guaranteed,3-1/2%,#NAME?,indian railways,TRUE,FALSE,TRUE
+Madras & Southern Mahratta Railway,RL052,1913,30/09/1913,AU,13/05/1914,equity,debenture,4%,irredeemable until 1938,indian railways,TRUE,FALSE,TRUE
+Madras & Southern Mahratta Railway,RL052,1913,30/09/1913,AU,13/05/1914,equity,debenture,4%,1938,indian railways,TRUE,FALSE,TRUE
+Madras & Southern Mahratta Railway,RL052,1913,30/09/1913,LD,29/05/1914,equity,common,,,indian railways,FALSE,FALSE,FALSE
+Madras & Southern Mahratta Railway,RL052,1913,30/09/1913,LD,29/05/1914,equity,guaranteed,3-1/2%,#NAME?,indian railways,TRUE,TRUE,TRUE
+Madras & Southern Mahratta Railway,RL052,1913,30/09/1913,LD,29/05/1914,equity,debenture,4%,irredeemable until 1938,indian railways,TRUE,FALSE,TRUE
+Madras & Southern Mahratta Railway,RL052,1913,30/09/1913,LD,29/05/1914,equity,debenture,4%,1938,indian railways,TRUE,FALSE,TRUE
+Madras & Southern Mahratta Railway,RL052,1913,30/09/1913,FC,01/06/1914,equity,common,,,indian railways,FALSE,FALSE,FALSE
+Madras & Southern Mahratta Railway,RL052,1913,30/09/1913,LC,15/06/1914,equity,common,,,indian railways,FALSE,FALSE,FALSE
+Madras & Southern Mahratta Railway,RL052,1913,30/09/1913,LC,15/06/1914,equity,guaranteed,3-1/2%,#NAME?,indian railways,TRUE,TRUE,TRUE
+Madras & Southern Mahratta Railway,RL052,1913,30/09/1913,LC,15/06/1914,equity,debenture,4%,irredeemable until 1938,indian railways,TRUE,FALSE,TRUE
+Madras & Southern Mahratta Railway,RL052,1913,30/09/1913,LC,15/06/1914,equity,debenture,4%,1938,indian railways,TRUE,FALSE,TRUE
+Madras & Southern Mahratta Railway,RL052,1913,30/09/1913,GM,17/06/1914,equity,common,,,indian railways,FALSE,FALSE,FALSE
+Madras & Southern Mahratta Railway,RL052,1913,30/09/1913,GM,17/06/1914,equity,guaranteed,3-1/2%,#NAME?,indian railways,TRUE,TRUE,TRUE
+Madras & Southern Mahratta Railway,RL052,1913,30/09/1913,GM,17/06/1914,equity,debenture,4%,irredeemable until 1938,indian railways,TRUE,FALSE,TRUE
+Madras & Southern Mahratta Railway,RL052,1913,30/09/1913,GM,17/06/1914,equity,debenture,4%,1938,indian railways,TRUE,TRUE,TRUE
+Mersey Railway,RL054,1913,31/12/1913,AU,03/01/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Mersey Railway,RL054,1913,31/12/1913,AU,03/01/1914,equity,debenture,perpetual,,railways - debenture stocks,TRUE,FALSE,TRUE
+Mersey Railway,RL054,1913,31/12/1913,AU,03/01/1914,equity,preferred,perpetual,3%,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Mersey Railway,RL054,1913,31/12/1913,LD,24/01/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Mersey Railway,RL054,1913,31/12/1913,LD,24/01/1914,equity,debenture,perpetual,,railways - debenture stocks,TRUE,FALSE,TRUE
+Mersey Railway,RL054,1913,31/12/1913,LD,24/01/1914,equity,preferred,perpetual,3%,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Mersey Railway,RL054,1913,31/12/1913,FC,03/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Mersey Railway,RL054,1913,31/12/1913,FC,03/02/1914,equity,debenture,perpetual,,railways - debenture stocks,TRUE,FALSE,TRUE
+Mersey Railway,RL054,1913,31/12/1913,FC,03/02/1914,equity,preferred,perpetual,3%,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Mersey Railway,RL054,1913,31/12/1913,LC,15/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Mersey Railway,RL054,1913,31/12/1913,LC,15/02/1914,equity,debenture,perpetual,,railways - debenture stocks,TRUE,FALSE,TRUE
+Mersey Railway,RL054,1913,31/12/1913,LC,15/02/1914,equity,preferred,perpetual,3%,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Mersey Railway,RL054,1913,31/12/1913,GM,10/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Mersey Railway,RL054,1913,31/12/1913,GM,10/02/1914,equity,debenture,perpetual,,railways - debenture stocks,TRUE,FALSE,TRUE
+Mersey Railway,RL054,1913,31/12/1913,GM,10/02/1914,equity,preferred,perpetual,3%,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,AU,10/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,AU,10/02/1914,equity,debenture,perpetual,6%,railways - debenture stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,AU,10/02/1914,equity,debenture,perpetual,4%,railways - debenture stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,AU,10/02/1914,equity,debenture,perpetual,4% - issue 1883-5,railways - debenture stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,AU,10/02/1914,equity,debenture,redeemable,4% - prior lien,railways - debenture stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,AU,10/02/1914,equity,guaranteed,rent-charge,3% - consolidated,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,AU,10/02/1914,equity,guaranteed,rent-charge,4% - Midland,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,AU,10/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,AU,10/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,AU,10/02/1914,equity,preferred,assented,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LD,03/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,TRUE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LD,03/02/1914,equity,debenture,perpetual,6%,railways - debenture stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LD,03/02/1914,equity,debenture,perpetual,4%,railways - debenture stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LD,03/02/1914,equity,debenture,perpetual,4% - issue 1883-5,railways - debenture stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LD,03/02/1914,equity,debenture,redeemable,4% - prior lien,railways - debenture stocks,TRUE,TRUE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LD,03/02/1914,equity,guaranteed,rent-charge,3% - consolidated,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LD,03/02/1914,equity,guaranteed,rent-charge,4% - Midland,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LD,03/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LD,03/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LD,03/02/1914,equity,preferred,assented,,railways - preferrence shares and stocks,TRUE,TRUE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,FC,11/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,FC,11/02/1914,equity,debenture,perpetual,6%,railways - debenture stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,FC,11/02/1914,equity,debenture,perpetual,4%,railways - debenture stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,FC,11/02/1914,equity,debenture,perpetual,4% - issue 1883-5,railways - debenture stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,FC,11/02/1914,equity,debenture,redeemable,4% - prior lien,railways - debenture stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,FC,11/02/1914,equity,guaranteed,rent-charge,3% - consolidated,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,FC,11/02/1914,equity,guaranteed,rent-charge,4% - Midland,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,FC,11/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,TRUE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,FC,11/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,FC,11/02/1914,equity,preferred,assented,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LC,19/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LC,19/02/1914,equity,debenture,perpetual,6%,railways - debenture stocks,TRUE,TRUE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LC,19/02/1914,equity,debenture,perpetual,4%,railways - debenture stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LC,19/02/1914,equity,debenture,perpetual,4% - issue 1883-5,railways - debenture stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LC,19/02/1914,equity,debenture,redeemable,4% - prior lien,railways - debenture stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LC,19/02/1914,equity,guaranteed,rent-charge,3% - consolidated,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LC,19/02/1914,equity,guaranteed,rent-charge,4% - Midland,railways - guaranteed shares and stocks,TRUE,TRUE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LC,19/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,TRUE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LC,19/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,LC,19/02/1914,equity,preferred,assented,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,GM,19/02/1914,equity,common,,,railways - ordinary shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,GM,19/02/1914,equity,debenture,perpetual,6%,railways - debenture stocks,TRUE,TRUE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,GM,19/02/1914,equity,debenture,perpetual,4%,railways - debenture stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,GM,19/02/1914,equity,debenture,perpetual,4% - issue 1883-5,railways - debenture stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,GM,19/02/1914,equity,debenture,redeemable,4% - prior lien,railways - debenture stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,GM,19/02/1914,equity,guaranteed,rent-charge,3% - consolidated,railways - guaranteed shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,GM,19/02/1914,equity,guaranteed,rent-charge,4% - Midland,railways - guaranteed shares and stocks,TRUE,TRUE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,GM,19/02/1914,equity,guaranteed,,,railways - guaranteed shares and stocks,TRUE,TRUE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,GM,19/02/1914,equity,preferred,first,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
+Metropolitan District Railway,RL055,1913,31/12/1913,GM,19/02/1914,equity,preferred,assented,,railways - preferrence shares and stocks,TRUE,FALSE,TRUE
