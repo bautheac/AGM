@@ -1,32 +1,52 @@
 ---
 title: "Data availability"
+execute:
+  echo: false
+  message: false
 format:
   html:
     page-layout: full
+    toc: true
+    toc-title: Contents
+    toc-depth: 3
+    theme: 
+      - Minty
+      - styles.css
 editor: visual
 ---
 
-# 1913 - first 50 firms
-
 ```{r}
-#| label: load
-#| echo: false
-#| message: false
+#| label: globals
 library(magrittr)
 
-here::here(
-  "Dropbox/pro/Strathclyde/Fintech research assistant/AGM"
-) %>% setwd()
+print_table <- function(table){
+  box_width <- 'textwidth'
+  box_heigth <- '100vh'
+  align <- 'l'
+  bootstrap_options <- c( 'hover', 'condensed' , 'bordered')
+  header_css <- 'text-align: center !important; vertical-align: middle !important;'
 
+  kableExtra::kbl(table, align = align) %>%
+    kableExtra::kable_styling(bootstrap_options = bootstrap_options) %>% 
+    kableExtra::row_spec(0 ,  bold = F, extra_css = header_css) %>%
+    kableExtra::scroll_box(width = box_width, height = box_heigth)
+}
+```
+
+# 1913 - first 50 firms
+
+## Instruments
+
+```{r}
+#| label: load-availables
+path_availables <- here::here("data", "availables.csv")
 col_types <- c(rep("c", 2L), "i", "?", "c", "?", rep("c", 5L), rep("l", 3L))
-data <- readr::read_csv("data/availables.csv", col_types = col_types)
+data_availables <- readr::read_csv(path_availables, col_types = col_types)
 ```
 
 ```{r}
-#| label: tranform
-#| echo: false
-#| message: false
-availables <- dplyr::filter(data, !is.na(event)) %>% 
+#| label: tranform-availables
+availables <- dplyr::filter(data_availables, !is.na(event)) %>% 
   tidyr::pivot_longer(cols = c("traded", "price", "spread"), "field", "value") %>%
   dplyr::mutate(
     event = factor(event, levels = c("AU", "LD", "FC", "LC", "GM")),
@@ -37,9 +57,7 @@ availables <- dplyr::filter(data, !is.na(event)) %>%
 ```
 
 ```{r}
-#| echo: false
-#| message: false
-
+#| label: instruments
 availables <- dplyr::group_by(
   availables, company, year, event, liability, instrument, field
   ) %>%
@@ -56,56 +74,127 @@ For the year 1913 and the first 50 firms with events in 1913, this table display
 E.g. Amongst the first 50 firms showing a closing year date for the 1913 year as well as a date for at least one event for that year including audit (AU), signing of the letter (LD), first day of closed books (FC), last day of closed books (LC) and general meeting (GM), 30 had common stock trading on their corresponding audit day, 15 showed data for price and 29 for spread.
 
 ```{r}
-#| echo: false
-
+#| label: show-instruments
 availables <-tidyr::pivot_wider(availables, names_from = field, values_from = n)
 
-
-kableExtra::kbl(availables, align = "l") %>% 
-  kableExtra::kable_styling() %>% 
-  kableExtra::scroll_box(width = "textwidth", height = "50vh")
+print_table(availables)
 ```
 
-For the year 1913 and the first 50 firms with events for that year, the following table displays the firms that show price data on each of their event days:
+</br></br></br>
+
+## Common stock
+
 
 ```{r}
-#| echo: false
-
-all <- dplyr::filter(data, liability == "equity", instrument == "common", is.na(type)) %>%
-  dplyr::select(
-    company, id, year, `year end date`, event, `event date`, `price`
-    ) %>%  dplyr::group_by(company, id, year, `year end date`) %>%
-  dplyr::summarise(all = all(price), .groups = "drop") %>% 
-  dplyr::filter(all) %>% dplyr::select(-all)
-
-kableExtra::kbl(all, align = "l") %>% kableExtra::kable_styling()
-```
-
-For the year 1913 and the first 50 firms with events for that year, the following table table displays the number of events for each firm along with the number of these that have price data:
-
-```{r}
-#| echo: false
-
-counts <- dplyr::filter(
-  data, liability == "equity", instrument == "common", is.na(type), 
+#| label: events
+events <- dplyr::filter(
+  data_availables, liability == "equity", instrument == "common", is.na(type), 
   !is.na(`year end date`)
   ) %>%
-  dplyr::select(
+  dplyr::select( 
     company, id, year, `year end date`, event, `event date`, `price`
     ) %>% 
   dplyr::group_by(company, id, year, `year end date`) %>%
   dplyr::summarise(
-    `number of events` = dplyr::n(),
-    `number of events with price data` = sum(price), 
-    .groups = "drop"
+    `events` = dplyr::n(), `events with price` = sum(price), .groups = "drop"
     ) %>% 
-  dplyr::arrange(
-    dplyr::desc(`number of events`), dplyr::desc(`number of events with price data`), 
-    )
-
-kableExtra::kbl(counts, align = "l") %>% 
-  kableExtra::kable_styling() %>%
-  kableExtra::scroll_box(width = "textwidth", height = "50vh")
+  dplyr::arrange(dplyr::desc(`events`), dplyr::desc(`events with price`))
 ```
 
-## Limited availability
+```{r}
+#| label: show-events
+#| eval: FALSE
+print_table(events)
+```
+
+
+```{r}
+#| label: load-quotes
+path_quotes <- here::here("data", "sedol.csv")
+col_types <- c("c", "D", rep("c", 7L))
+data_quotes <- readr::read_csv(path_quotes, col_types = col_types)
+```
+
+```{r}
+#| label: quotes-globals
+n_back <- 125L
+n_forward <- 135L
+events_firm <- c("LD", "AU", "FC", "LD", "GM")
+events_instrument <- c("XD")
+```
+
+
+```{r}
+#| label: quotes-window
+window <- dplyr::group_by(data_quotes, id) %>% 
+  dplyr::group_modify(
+    ~ {
+      dplyr::filter(.x, `data available` == TRUE) %>% 
+        {
+          event_days <- 
+            stringr::str_which(.$event, paste(events_firm, collapse = "|"))
+          first <- event_days[1L]
+          first <- ifelse(first <= n_back, first, n_back)
+          last <- event_days[NCOL(event_days)]
+          last <- ifelse(last + n_forward <= nrow(.), n_forward, nrow(.) - last)
+          tibble::tibble(`first back` = first, `last forward` = last)
+        }
+    }
+  )
+
+```
+
+
+```{r}
+#| label: quotes-proportion
+proportion <- dplyr::group_by(data_quotes, id) %>% 
+  dplyr::group_modify(
+    ~ {
+      dplyr::filter(.x, `data available` == TRUE) %>% 
+        {
+          event_days <- stringr::str_which(
+            .$event, paste(events_firm, collapse = "|")
+          )
+          
+          first <- event_days[1L]
+          first <- ifelse(first >= n_back, first - n_back, 1L)
+          last <- event_days[NCOL(event_days)]
+          last <- ifelse(last + n_forward <= nrow(.), last + n_forward, nrow(.))
+          
+          tryCatch(
+            {
+              dplyr::slice(., first:last) %>%
+                dplyr::summarise(
+                  proportion = (grepl("^\\|?\\s?\\d", price) %>% sum())/nrow(.)
+                  ) %>%
+                dplyr::mutate(proportion = scales::percent(proportion))
+            },
+            error=function(cond) {
+              tibble::tibble(proportion = NA)
+            }
+          )
+        }
+    }
+  )
+
+```
+
+
+Time window of interest:  
+
+* 125 days prior to the first event date (usually "Date of signing the letter": LD).  
+* 135 days following the last event date (usually "AGM Date": GM; or "Last day of closed books": LC).  
+
+Currently the "day" unit used for delineating the time windows correspond to a **trading day for which data is available**; i.e. trading day for which sedol records exist and a photograph of the corresponding record page is available.  
+  
+</br>
+
+For the year 1913 and the first 50 firms with events for that year, the following table displays the number of events for each firm (`events`) along with the number of these for which at least one common stock price quote is available on event day (`events with price`). The table further displays information on the data availability over the time window of interest (described above). This includes the distance in days from the first event day, looking back, to the first day showing at least one common stock price quote within the time window (`first back`); i.e. 125 if data is available on the starting day of the time window, lower otherwise. It similarly includes the distance in days, looking forward, from the last event day to the last day showing at least one common stock price quote within the time window (`last forward`); i.e. 135 if data is available on the final day of the time window, lower otherwise. It finally includes the proportion of the time window for which data is available (`proportion`); i.e. the proportion of days amongst all days ("time window days" as defied above) within the time window for which at least one common stock price quote is available:  
+
+```{r}
+#| label: show-quotes
+common <- dplyr::left_join(events, window, by = "id") %>% 
+  dplyr::left_join(proportion, by = "id")
+
+print_table(common)
+```

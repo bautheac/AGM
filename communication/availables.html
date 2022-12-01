@@ -43,8 +43,20 @@ ul.task-list li input[type="checkbox"] {
 <body>
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-full">
-
-<main class="content column-page" id="quarto-document-content">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#first-50-firms" id="toc-first-50-firms" class="nav-link active" data-scroll-target="#first-50-firms">1913 - first 50 firms</a>
+  <ul class="collapse">
+  <li><a href="#instruments" id="toc-instruments" class="nav-link" data-scroll-target="#instruments">Instruments</a></li>
+  <li><a href="#common-stock" id="toc-common-stock" class="nav-link" data-scroll-target="#common-stock">Common stock</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -62,8 +74,13 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<div class="cell">
+
+</div>
 <section id="first-50-firms" class="level1">
 <h1>1913 - first 50 firms</h1>
+<section id="instruments" class="level2">
+<h2 class="anchored" data-anchor-id="instruments">Instruments</h2>
 <div class="cell">
 
 </div>
@@ -78,16 +95,16 @@ ul.task-list li input[type="checkbox"] {
 <div class="cell">
 <div class="cell-output-display">
 
-<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:50vh; overflow-x: scroll; width:textwidth; "><table class="table" style="margin-left: auto; margin-right: auto;">
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:100vh; overflow-x: scroll; width:textwidth; "><table class="table table-hover table-condensed table-bordered" style="margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> year </th>
-   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> event </th>
-   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> liability </th>
-   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> instrument </th>
-   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> traded </th>
-   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> price </th>
-   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> spread </th>
+   <th style="text-align:left;text-align: center !important; vertical-align: middle !important;position: sticky; top:0; background-color: #FFFFFF;"> year </th>
+   <th style="text-align:left;text-align: center !important; vertical-align: middle !important;position: sticky; top:0; background-color: #FFFFFF;"> event </th>
+   <th style="text-align:left;text-align: center !important; vertical-align: middle !important;position: sticky; top:0; background-color: #FFFFFF;"> liability </th>
+   <th style="text-align:left;text-align: center !important; vertical-align: middle !important;position: sticky; top:0; background-color: #FFFFFF;"> instrument </th>
+   <th style="text-align:left;text-align: center !important; vertical-align: middle !important;position: sticky; top:0; background-color: #FFFFFF;"> traded </th>
+   <th style="text-align:left;text-align: center !important; vertical-align: middle !important;position: sticky; top:0; background-color: #FFFFFF;"> price </th>
+   <th style="text-align:left;text-align: center !important; vertical-align: middle !important;position: sticky; top:0; background-color: #FFFFFF;"> spread </th>
   </tr>
  </thead>
 <tbody>
@@ -708,80 +725,52 @@ ul.task-list li input[type="checkbox"] {
 
 </div>
 </div>
-<p>For the year 1913 and the first 50 firms with events for that year, the following table displays the firms that show price data on each of their event days:</p>
+<p><br><br><br></p>
+</section>
+<section id="common-stock" class="level2">
+<h2 class="anchored" data-anchor-id="common-stock">Common stock</h2>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<p>Time window of interest:</p>
+<ul>
+<li>125 days prior to the first event date (usually “Date of signing the letter”: LD).<br>
+</li>
+<li>135 days following the last event date (usually “AGM Date”: GM; or “Last day of closed books”: LC).</li>
+</ul>
+<p>Currently the “day” unit used for delineating the time windows correspond to a <strong>trading day for which data is available</strong>; i.e.&nbsp;trading day for which sedol records exist and a photograph of the corresponding record page is available.</p>
+<p><br></p>
+<p>For the year 1913 and the first 50 firms with events for that year, the following table displays the number of events for each firm (<code>events</code>) along with the number of these for which at least one common stock price quote is available on event day (<code>events with price</code>). The table further displays information on the data availability over the time window of interest (described above). This includes the distance in days from the first event day, looking back, to the first day showing at least one common stock price quote within the time window (<code>first back</code>); i.e.&nbsp;125 if data is available on the starting day of the time window, lower otherwise. It similarly includes the distance in days, looking forward, from the last event day to the last day showing at least one common stock price quote within the time window (<code>last forward</code>); i.e.&nbsp;135 if data is available on the final day of the time window, lower otherwise. It finally includes the proportion of the time window for which data is available (<code>proportion</code>); i.e.&nbsp;the proportion of days amongst all days (“time window days” as defied above) within the time window for which at least one common stock price quote is available:</p>
 <div class="cell">
 <div class="cell-output-display">
 
-<table class="table" style="margin-left: auto; margin-right: auto;">
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:100vh; overflow-x: scroll; width:textwidth; "><table class="table table-hover table-condensed table-bordered" style="margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;"> company </th>
-   <th style="text-align:left;"> id </th>
-   <th style="text-align:left;"> year </th>
-   <th style="text-align:left;"> year end date </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> Buenos Ayres &amp; Pacific Railway </td>
-   <td style="text-align:left;"> RL012 </td>
-   <td style="text-align:left;"> 1913 </td>
-   <td style="text-align:left;"> 30/06/1913 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Buenos Ayres Great Southern Railway </td>
-   <td style="text-align:left;"> RL013 </td>
-   <td style="text-align:left;"> 1913 </td>
-   <td style="text-align:left;"> 30/06/1913 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Central Argentine Railway </td>
-   <td style="text-align:left;"> RL020 </td>
-   <td style="text-align:left;"> 1913 </td>
-   <td style="text-align:left;"> 30/06/1913 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Grand Trunk Railway of Canada </td>
-   <td style="text-align:left;"> RL032 </td>
-   <td style="text-align:left;"> 1913 </td>
-   <td style="text-align:left;"> 30/06/1913 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Great Western Railway </td>
-   <td style="text-align:left;"> RL041 </td>
-   <td style="text-align:left;"> 1913 </td>
-   <td style="text-align:left;"> 31/12/1913 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Hull &amp; Barnsley Railway </td>
-   <td style="text-align:left;"> RL043 </td>
-   <td style="text-align:left;"> 1913 </td>
-   <td style="text-align:left;"> 31/12/1913 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> London &amp; North Western Railway </td>
-   <td style="text-align:left;"> RL047 </td>
-   <td style="text-align:left;"> 1913 </td>
-   <td style="text-align:left;"> 31/12/1913 </td>
-  </tr>
-</tbody>
-</table>
-
-</div>
-</div>
-<p>For the year 1913 and the first 50 firms with events for that year, the following table table displays the number of events for each firm along with the number of these that have price data:</p>
-<div class="cell">
-<div class="cell-output-display">
-
-<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:50vh; overflow-x: scroll; width:textwidth; "><table class="table" style="margin-left: auto; margin-right: auto;">
- <thead>
-  <tr>
-   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> company </th>
-   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> id </th>
-   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> year </th>
-   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> year end date </th>
-   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> number of events </th>
-   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> number of events with price data </th>
+   <th style="text-align:left;text-align: center !important; vertical-align: middle !important;position: sticky; top:0; background-color: #FFFFFF;"> company </th>
+   <th style="text-align:left;text-align: center !important; vertical-align: middle !important;position: sticky; top:0; background-color: #FFFFFF;"> id </th>
+   <th style="text-align:left;text-align: center !important; vertical-align: middle !important;position: sticky; top:0; background-color: #FFFFFF;"> year </th>
+   <th style="text-align:left;text-align: center !important; vertical-align: middle !important;position: sticky; top:0; background-color: #FFFFFF;"> year end date </th>
+   <th style="text-align:left;text-align: center !important; vertical-align: middle !important;position: sticky; top:0; background-color: #FFFFFF;"> events </th>
+   <th style="text-align:left;text-align: center !important; vertical-align: middle !important;position: sticky; top:0; background-color: #FFFFFF;"> events with price </th>
+   <th style="text-align:left;text-align: center !important; vertical-align: middle !important;position: sticky; top:0; background-color: #FFFFFF;"> first back </th>
+   <th style="text-align:left;text-align: center !important; vertical-align: middle !important;position: sticky; top:0; background-color: #FFFFFF;"> last forward </th>
+   <th style="text-align:left;text-align: center !important; vertical-align: middle !important;position: sticky; top:0; background-color: #FFFFFF;"> proportion </th>
   </tr>
  </thead>
 <tbody>
@@ -792,6 +781,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 30/06/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 5 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 90% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Buenos Ayres Great Southern Railway </td>
@@ -800,6 +792,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 30/06/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 5 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 99% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Grand Trunk Railway of Canada </td>
@@ -808,6 +803,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 30/06/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 5 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 98% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Hull &amp; Barnsley Railway </td>
@@ -816,6 +814,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 5 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 89% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Buenos Ayres Western Railway </td>
@@ -824,6 +825,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 30/06/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 4 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 95% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Leopoldina Railway </td>
@@ -832,6 +836,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 4 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 68 </td>
+   <td style="text-align:left;"> 93% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Canadian Pacific Railway </td>
@@ -840,6 +847,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 30/06/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 91% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Furness Railway </td>
@@ -848,6 +858,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 38% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Great Western of Brazil Railway </td>
@@ -856,6 +869,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 85 </td>
+   <td style="text-align:left;"> 34% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Caledonian Railway </td>
@@ -864,6 +880,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 1 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 49% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Cuban Central Railways </td>
@@ -872,6 +891,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 30/06/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 1 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 44% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Highland Railway </td>
@@ -880,6 +902,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 1 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 15% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> London &amp; South Western Railway </td>
@@ -888,6 +913,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 1 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 60% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> London Brighton &amp; South Coast Railway </td>
@@ -896,6 +924,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 1 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 40% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Metropolitan District Railway </td>
@@ -904,6 +935,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 1 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 72% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Alabama, NO, T &amp; Pacific Junction Railway </td>
@@ -912,6 +946,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Alexandra (Newport) Docks &amp; Railway </td>
@@ -920,6 +957,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Antofagasta &amp; Bolivia Railway </td>
@@ -928,6 +968,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Argentine North Eastern Railway </td>
@@ -936,6 +979,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 30/06/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Barry Railway Company </td>
@@ -944,6 +990,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Bombay Baroda &amp; Central India Railway </td>
@@ -952,6 +1001,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Brecon &amp; Merthyr Tydfil Railway </td>
@@ -960,6 +1012,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Cambrian Railways </td>
@@ -968,6 +1023,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Cardiff Railway </td>
@@ -976,6 +1034,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Central London Railway </td>
@@ -984,6 +1045,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Central Uruguay Railway &amp; Extensions </td>
@@ -992,6 +1056,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 30/06/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> City &amp; South London Railway </td>
@@ -1000,6 +1067,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Entre Rios Railways </td>
@@ -1008,6 +1078,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 30/06/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Glasgow &amp; South Western Railway </td>
@@ -1016,6 +1089,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Glasgow District Subway (cable Rail) </td>
@@ -1024,6 +1100,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Great Central Railway </td>
@@ -1032,6 +1111,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Great North of Scotland Railway </td>
@@ -1040,6 +1122,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Great Northern &amp; City Railway </td>
@@ -1048,6 +1133,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1912 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Great Northern Railway - UK </td>
@@ -1056,6 +1144,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Madras &amp; Southern Mahratta Railway </td>
@@ -1064,6 +1155,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 30/09/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Mersey Railway </td>
@@ -1072,6 +1166,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 5 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Central Argentine Railway </td>
@@ -1080,6 +1177,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 30/06/1913 </td>
    <td style="text-align:left;"> 3 </td>
    <td style="text-align:left;"> 3 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 99% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Great Western Railway </td>
@@ -1088,6 +1188,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 3 </td>
    <td style="text-align:left;"> 3 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 100% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> London &amp; North Western Railway </td>
@@ -1096,6 +1199,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 3 </td>
    <td style="text-align:left;"> 3 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 100% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Bengal &amp; North Western Railway </td>
@@ -1104,6 +1210,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 30/03/1913 </td>
    <td style="text-align:left;"> 3 </td>
    <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 55% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> London Chatham &amp; Dover Railway </td>
@@ -1112,6 +1221,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 3 </td>
    <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 95% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Cordoba Central Railways </td>
@@ -1120,6 +1232,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 30/06/1913 </td>
    <td style="text-align:left;"> 3 </td>
    <td style="text-align:left;"> 1 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 68% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Argentine Great Western Railway </td>
@@ -1128,6 +1243,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 30/06/1913 </td>
    <td style="text-align:left;"> 3 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 41% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Assam Bengal Railway </td>
@@ -1136,6 +1254,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 30/09/1913 </td>
    <td style="text-align:left;"> 3 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 12% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Bengal Nagpur Railway </td>
@@ -1144,6 +1265,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 30/09/1913 </td>
    <td style="text-align:left;"> 3 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> 125 </td>
+   <td style="text-align:left;"> 135 </td>
+   <td style="text-align:left;"> 48% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Dublin &amp; South Eastern Railway </td>
@@ -1152,6 +1276,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 3 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Egyptian Delta Light Railways </td>
@@ -1160,6 +1287,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/03/1913 </td>
    <td style="text-align:left;"> 3 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Great Northern Railway (Ireland) </td>
@@ -1168,6 +1298,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 3 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Great Southern &amp; Western Railway </td>
@@ -1176,6 +1309,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 3 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Interoceanic Railway of Mexico </td>
@@ -1184,6 +1320,9 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 30/06/1913 </td>
    <td style="text-align:left;"> 3 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Lancashire &amp; Yorkshire Railway </td>
@@ -1192,14 +1331,15 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> 31/12/1913 </td>
    <td style="text-align:left;"> 3 </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
 </tbody>
 </table></div>
 
 </div>
 </div>
-<section id="limited-availability" class="level2">
-<h2 class="anchored" data-anchor-id="limited-availability">Limited availability</h2>
 </section>
 </section>
 
