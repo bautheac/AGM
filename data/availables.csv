@@ -201,21 +201,16 @@ Bengal Nagpur Railway,RL009,1913,30/09/1913,LD,06/06/1914,equity,debenture,,,ind
 Bengal Nagpur Railway,RL009,1913,30/09/1913,GM,16/06/1914,equity,common,,,indian railways,FALSE,FALSE,FALSE
 Bengal Nagpur Railway,RL009,1913,30/09/1913,GM,16/06/1914,equity,surplus of profit,,,indian railways,TRUE,FALSE,TRUE
 Bengal Nagpur Railway,RL009,1913,30/09/1913,GM,16/06/1914,equity,debenture,,,indian railways,TRUE,TRUE,TRUE
-Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,LD,21/05/1914,equity,common,,,indian railways,FALSE,FALSE,FALSE
-Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,LD,21/05/1914,equity,surplus of profit,,,indian railways,TRUE,TRUE,TRUE
-Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,LD,21/05/1914,equity,debenture,,,indian railways,TRUE,FALSE,TRUE
-Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,AU,03/06/1914,equity,common,,,indian railways,FALSE,FALSE,FALSE
-Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,AU,03/06/1914,equity,surplus of profit,,,indian railways,TRUE,FALSE,TRUE
-Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,AU,03/06/1914,equity,debenture,,,indian railways,TRUE,TRUE,TRUE
-Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,FC,10/06/1914,equity,common,,,indian railways,FALSE,FALSE,FALSE
-Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,FC,10/06/1914,equity,surplus of profit,,,indian railways,TRUE,FALSE,TRUE
-Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,FC,10/06/1914,equity,debenture,,,indian railways,TRUE,FALSE,TRUE
-Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,GM,19/06/1914,equity,common,,,indian railways,FALSE,FALSE,FALSE
-Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,GM,19/06/1914,equity,surplus of profit,,,indian railways,TRUE,TRUE,TRUE
-Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,GM,19/06/1914,equity,debenture,,,indian railways,TRUE,FALSE,TRUE
-Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,LC,30/06/1914,equity,common,,,indian railways,FALSE,FALSE,FALSE
-Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,LC,30/06/1914,equity,surplus of profit,,,indian railways,TRUE,TRUE,TRUE
-Bombay Baroda & Central India Railway,RL010,1913,31/12/1913,LC,30/06/1914,equity,debenture,,,indian railways,TRUE,FALSE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,30/09/1913,LD,27/11/1913,equity,surplus of profit,,,indian railways,TRUE,FALSE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,30/09/1913,LD,27/11/1913,equity,debenture,,,indian railways,TRUE,FALSE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,30/09/1913,AU,01/12/1913,equity,surplus of profit,,,indian railways,TRUE,TRUE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,30/09/1913,AU,01/12/1913,equity,debenture,,,indian railways,TRUE,TRUE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,30/09/1913,FC,11/12/1913,equity,surplus of profit,,,indian railways,TRUE,FALSE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,30/09/1913,FC,11/12/1913,equity,debenture,,,indian railways,TRUE,FALSE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,30/09/1913,GM,19/12/1913,equity,surplus of profit,,,indian railways,TRUE,TRUE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,30/09/1913,GM,19/12/1913,equity,debenture,,,indian railways,TRUE,FALSE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,30/09/1913,LC,31/12/1913,equity,surplus of profit,,,indian railways,TRUE,TRUE,TRUE
+Bombay Baroda & Central India Railway,RL010,1913,30/09/1913,LC,31/12/1913,equity,debenture,,,indian railways,TRUE,FALSE,TRUE
 Brecon & Merthyr Tydfil Railway,RL011,1913,31/12/1913,LD,17/01/1914,equity,common,,,railways - ordinary shares and stocks,FALSE,FALSE,FALSE
 Brecon & Merthyr Tydfil Railway,RL011,1913,31/12/1913,LD,17/01/1914,equity,debenture,A,,railways - debenture stocks,TRUE,FALSE,TRUE
 Brecon & Merthyr Tydfil Railway,RL011,1913,31/12/1913,LD,17/01/1914,equity,debenture,B,,railways - debenture stocks,TRUE,FALSE,TRUE
