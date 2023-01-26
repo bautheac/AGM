@@ -63,7 +63,7 @@ extract_firm_data <- function(id){
 
 # Get relevant sheet names (firm IDs)
 names <- readxl::excel_sheets(paste0(path, ".xlsx")) %>%
-  purrr::discard(.p=stringr::str_detect, pattern = "template")
+  purrr::discard(.p=stringr::str_detect, pattern = "about")
 
 
 # Load data from relevant sheet names
