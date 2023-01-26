@@ -20,12 +20,15 @@ editor: visual
 #| label: globals
 library(magrittr)
 
-company_id_path <- here::here("data", "H and peck data_Final - working copy")
+company_id_path <- here::here("data", "firms")
 company_id_map <- readxl::read_xlsx(
     paste0(company_id_path, ".xlsx"), "Dataset",
-    range = readxl::cell_limits(c(2L, 2L), c(NA, 3L)),
-    col_names = c("company", "id"), col_types = rep("text", 2L)
-  ) %>% dplyr::distinct()
+    range = cellranger::cell_cols("B:E")
+    ) %>%
+  dplyr::select(c(1L, 2L, 4L)) %>%
+  set_names(c("company", "id", "industry")) %>%
+  dplyr::distinct()
+
 
 print_table <- function(table){
   box_width <- 'textwidth'
@@ -43,94 +46,22 @@ print_table <- function(table){
 
 # Data availability
 
-## Instruments
-
-```{r}
-#| label: load-availables
-path_availables <- here::here("data", "availables.csv")
-col_types <- c(rep("c", 2L), "i", "?", "c", "?", rep("c", 5L), rep("l", 3L))
-data_availables <- readr::read_csv(path_availables, col_types = col_types)
-```
-
-```{r}
-#| label: tranform-availables
-availables <- dplyr::filter(data_availables, year == 1913L, !is.na(event)) %>% 
-  tidyr::pivot_longer(cols = c("traded", "price", "spread"), "field", "value") %>%
-  dplyr::mutate(
-    event = factor(event, levels = c("AU", "LD", "FC", "LC", "GM")),
-    liability = factor(liability, levels = c("equity", "debt")),
-    field = factor(field, levels = c("traded", "price", "spread"))
-  ) %>%
-  dplyr::arrange(year, event, liability, instrument, field)
-```
-
-```{r}
-#| label: instruments
-availables <- dplyr::group_by(
-  availables, company, year, event, liability, instrument, field
-  ) %>%
-  dplyr::summarise(one = any(value), .groups = "drop") %>%
-  dplyr::filter(year == 1913) %>% 
-  dplyr::ungroup() %>% 
-  dplyr::group_by(year, event, liability, instrument, field) %>%
-  dplyr::summarise(n = sum(one), .groups = "drop")
-
-```
-
-For the year 1913 and the first 50 firms **with events for that year**, this table displays the number of firms showing **at least one** record for each instrument categories and fields.
-
-E.g. Amongst the first 50 firms showing **a closing year date for the 1913 year** as well as a date for **at least one event for that year** including audit (AU), signing of the letter (LD), first day of closed books (FC), last day of closed books (LC) and general meeting (GM), 30 had common stock trading on their corresponding audit day, 15 showed data for price and 29 for spread.
-
-```{r}
-#| label: show-instruments
-availables <-tidyr::pivot_wider(availables, names_from = field, values_from = n)
-
-print_table(availables)
-```
-
-</br></br></br>
-
 ## Common stock
-
-
-```{r}
-#| label: events
-events <- dplyr::filter(
-  data_availables, liability == "equity", instrument == "common", is.na(type), 
-  !is.na(`year end date`)
-  ) %>%
-  dplyr::select( 
-    company, id, year, `year end date`, event, `event date`, `price`
-    ) %>% 
-  dplyr::group_by(company, id, year, `year end date`) %>%
-  dplyr::summarise(
-    `events` = dplyr::n(), `events with price` = sum(price), .groups = "drop"
-    ) %>% 
-  dplyr::arrange(dplyr::desc(`events`), dplyr::desc(`events with price`))
-```
-
-```{r}
-#| label: show-events
-#| eval: FALSE
-print_table(events)
-```
-
-
-```{r}
-#| label: load-quotes
-path_quotes <- here::here("data", "sedol.csv")
-col_types <- c("c", "D", rep("c", 7L))
-data_quotes <- readr::read_csv(path_quotes, col_types = col_types)
-```
 
 ```{r}
 #| label: quotes-globals
+path_quotes <- here::here("data", "sedol.csv")
+col_types <- c("c", "D", rep("c", 7L))
 n_back <- 125L
 n_forward <- 135L
 events_firm <- c("LD", "AU", "FC", "LD", "GM")
-events_instrument <- c("XD")
+events_instrument <- c("XB", "XD", "XR")
 ```
 
+```{r}
+#| label: quotes-load
+data_quotes <- readr::read_csv(path_quotes, col_types = col_types)
+```
 
 ```{r}
 #| label: quotes-functions
@@ -142,7 +73,7 @@ get_theoretical_time_window_bounds <- function(
     events_vector, paste(event_labels, collapse = "|")
     )
   
-  low <- event_indexes[1L]; high <- event_indexes[NCOL(event_indexes)]
+  low <- high <- event_indexes[1L]
   low <- ifelse(low <= n_back, 1L, event_indexes[1L] - n_back)
   high <- ifelse(
     high + n_forward <= NROW(events_vector), 
@@ -173,7 +104,6 @@ get_effective_time_window_bounds <- function(theoretical_bounds, data) {
 }
 ```
 
-
 ```{r}
 #| label: quotes-window
 window <- dplyr::group_by(data_quotes, id) %>% 
@@ -189,7 +119,8 @@ window <- dplyr::group_by(data_quotes, id) %>%
             {
               bound_indexes <- get_effective_time_window_bounds(bound_indexes, .)
               tibble::tibble(
-                `first back` = bound_indexes[1L], `last forward` = bound_indexes[2L]
+                `first back` = 
+                  bound_indexes[1L], `last forward` = bound_indexes[2L]
                 )
             },
             error=function(cond) {
@@ -201,7 +132,6 @@ window <- dplyr::group_by(data_quotes, id) %>%
   ) %>%
   dplyr::ungroup()
 ```
-
 
 ```{r}
 #| label: quotes-proportion
@@ -233,30 +163,27 @@ proportion <- dplyr::group_by(data_quotes, id) %>%
   )
 ```
 
+Time window of interest:
 
-Time window of interest:  
+-   Lower bound: 125 days prior to the "Date of signing the letter" (LD).\
+-   Upper bound: 135 days following the "Date of signing the letter" (LD).
 
-* Lower bound: 125 days prior to the first event date (usually "Date of signing the letter": LD).  
-* Upper bound: 135 days following the last event date (usually "AGM Date": GM; or "Last day of closed books": LC).  
+Currently the "day" unit used for delineating the time windows correspond to a **trading day for which data is available**; i.e. trading day for which sedol records exist and a photograph of the corresponding record page is available.
 
-Currently the "day" unit used for delineating the time windows correspond to a **trading day for which data is available**; i.e. trading day for which sedol records exist and a photograph of the corresponding record page is available.  
-  
 </br>
 
-For the year 1913 and the first 50 firms **with events for that year**, the following table displays the number of events--including audit (AU), signing of the letter (LD), first day of closed books (FC), last day of closed books (LC) and general meeting (GM)--for each firm (`events`) along with the number of these for which **at least one** common stock price quote is available on event day (`events with price`).  
-The table further displays information on the data availability over the time window of interest (described above). This includes the distance in days from the first event day, looking back, to the first day showing **at least one** common stock price quote within the time window (`first back`); i.e. 125 if data is available on the starting day of the time window, lower otherwise. It similarly includes the distance in days, looking forward, from the last event day to the last day showing **at least one** common stock price quote within the time window (`last forward`); i.e. 135 if data is available on the final day of the time window, lower otherwise. It finally includes the proportion of the time window for which data is available (`proportion`); i.e. the proportion of days amongst all days ("time window days" as defied above) within the time window for which **at least one** common stock price quote is available.  
-`NA` in the `first back` and/or `last forward` column(s) indicates that no common stock price quote is available through the whole first leg of the time window (start to first event day) and/or through the whole second leg (last event day to end of time window) respectively.  
+For the year 1913 and firms **with events for that year**, the following table displays information on the data availability over the time window of interest (described above). This includes the distance in days from the first event day, looking back, to the first day showing **at least one** common stock price quote within the time window (`first back`); i.e. 125 if data is available on the starting day of the time window, lower otherwise. It similarly includes the distance in days, looking forward, from the last event day to the last day showing **at least one** common stock price quote within the time window (`last forward`); i.e. 135 if data is available on the final day of the time window, lower otherwise. It finally includes the proportion of the time window for which data is available (`proportion`); i.e. the proportion of days amongst all days ("time window days" as defied above) within the time window for which **at least one** common stock price quote is available.\
+`NA` in the `first back` and/or `last forward` column(s) indicates that no common stock price quote is available through the whole first leg of the time window (start to first event day) and/or through the whole second leg (last event day to end of time window) respectively.
 
 ```{r}
 #| label: show-quotes-availability
-common <- dplyr::left_join(events, window, by = "id") %>% 
-  dplyr::left_join(proportion, by = "id")
+common <- dplyr::left_join(window, company_id_map, by = "id") %>% 
+  dplyr::left_join(proportion, by = "id") %>%
+  dplyr::select(id, company, industry, proportion, dplyr::everything()) %>%
+  dplyr::arrange(industry, id)
 
 print_table(common)
 ```
-
-
-
 
 ```{r}
 #| label: show-quotes
@@ -267,5 +194,3 @@ quotes <- dplyr::left_join(data_quotes, company_id_map, by = "id") %>%
 
 print_table(quotes)
 ```
-
-
