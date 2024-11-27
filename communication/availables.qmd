@@ -1,5 +1,5 @@
 ---
-title: "1913 - first 50 firms"
+title: "AGM - 1913 sample data"
 execute:
   echo: false
   message: false
@@ -27,7 +27,9 @@ company_id_map <- readxl::read_xlsx(
     ) %>%
   dplyr::select(c(1L, 2L, 4L)) %>%
   set_names(c("company", "id", "industry")) %>%
-  dplyr::distinct()
+  dplyr::distinct(company, id, industry) %>%
+  dplyr::filter(complete.cases(.)) %>%
+  dplyr::arrange(id)
 
 
 print_table <- function(table){
