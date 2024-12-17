@@ -1,5 +1,3 @@
-library(magrittr)
-
 data_availability <- readr::read_csv("wide.csv")
 
 availables <- tidyr::pivot_longer(

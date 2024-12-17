@@ -1,15 +1,1 @@
-## Sedol data
-
-### Extract
-
--   Extract
-
-``` bash
-Rscript ./computations/R/extract_sedol.r sedol.xlsm
-```
-
--   Transform
-
-``` bash
-Rscript ./computations/R/scripts/transform_sedol.r sedol-raw
-```
+Exploring the information content of Annual General Meetings for UK firms in early 20th century.  
