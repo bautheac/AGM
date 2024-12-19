@@ -1,0 +1,1724 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.56">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Dashboard</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="dashboard_files/libs/clipboard/clipboard.min.js"></script>
+<script src="dashboard_files/libs/quarto-html/quarto.js"></script>
+<script src="dashboard_files/libs/quarto-html/popper.min.js"></script>
+<script src="dashboard_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="dashboard_files/libs/quarto-html/anchor.min.js"></script>
+<link href="dashboard_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="dashboard_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="dashboard_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="dashboard_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="dashboard_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="dashboard_files/libs/kePrint-0.0.1/kePrint.js"></script>
+
+<link href="dashboard_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
+<script src="dashboard_files/libs/font-awesome-6.5.2/js/script.js"></script>
+
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#descriptive-statistics" id="toc-descriptive-statistics" class="nav-link active" data-scroll-target="#descriptive-statistics">Descriptive statistics</a>
+  <ul>
+  <li><a href="#book-data" id="toc-book-data" class="nav-link" data-scroll-target="#book-data">Book data</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Dashboard</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="descriptive-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="descriptive-statistics">Descriptive statistics</h2>
+<section id="book-data" class="level3">
+<h3 class="anchored" data-anchor-id="book-data">Book data</h3>
+<p>This table shows descriptive statistics for the variables available in the main book data dataset. These are compiled including only firms that match those in the price dataset (<code>AGMdata.dta</code>). Are further excluded firm-year combinations that fail the “amount verification” for total assets and total liabilities as well as missing or “0” records.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-hover caption-top table-sm table-striped small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">variable</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">statistic</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">1909</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">1910</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">1911</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">1912</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">1913</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">1914</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">BVE</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">131</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">284</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">290</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">295</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">238</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">98</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">11 977</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">-98</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">20 292</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">184</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 208</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">15 175</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">166 945 788</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">171 377 552</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">361 781 153</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">409 670 169</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">507 683 888</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">230 440 154</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">4 140 888</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 886 061</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">5 291 103</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">5 554 481</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">5 360 377</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">5 713 728</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 578 616</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 547 101</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 578 468</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 536 908</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 846 862</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 940 124</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">15 132 565</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">14 782 902</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">26 690 272</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">29 978 162</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">33 107 640</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">23 525 598</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">Total Assets</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">132</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">286</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">292</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">296</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">238</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">98</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">24 626</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">32 007</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">40 006</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">34 098</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">37 858</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">38 782</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">339 328 143</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">347 732 167</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">561 887 215</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">628 119 545</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">720 531 465</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">407 803 378</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">8 339 022</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">7 962 881</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">10 129 035</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">10 564 969</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">11 338 085</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">11 993 427</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 282 544</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 323 236</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 397 964</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 453 242</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 808 492</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 958 560</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">34 842 998</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">34 105 865</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">47 947 636</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">51 534 883</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">58 731 359</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">49 492 346</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">Non-Current Assets</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">129</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">280</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">283</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">287</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">235</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">96</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 697</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 313</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 964</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 838</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">701</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 408</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">329 207 621</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">339 358 408</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">455 523 982</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">414 256 759</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">476 378 796</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">372 454 893</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">7 287 232</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">6 815 985</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">8 885 324</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">9 074 735</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">9 320 194</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">10 572 615</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 726 967</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 702 942</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 732 377</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 737 436</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 887 935</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 032 479</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">32 628 698</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">32 013 681</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">43 449 206</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">43 577 986</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">46 771 843</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">45 857 525</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">Current Assets</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">132</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">286</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">292</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">296</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">238</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">98</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 015</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">300</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 311</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">739</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 958</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 153</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">49 665 865</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">50 210 069</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">106 363 233</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">213 862 786</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">244 152 669</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">35 348 485</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 217 408</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 289 889</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 517 574</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 766 155</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 135 373</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 636 580</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">352 522</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">381 960</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">388 768</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">449 034</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">490 831</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">505 870</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">4 524 392</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">4 397 163</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">6 976 901</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">12 494 157</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">15 862 694</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">4 337 503</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">Total Liabilities</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">132</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">286</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">292</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">296</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">238</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">98</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">5 009</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 002</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 023</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 053</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 167</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 418</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">300 328 143</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">308 732 167</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">317 149 426</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">324 861 847</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">335 981 703</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">368 803 378</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">4 229 504</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">4 103 995</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">4 874 173</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">5 029 252</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">5 977 708</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">6 279 700</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">513 026</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">570 828</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">638 964</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">583 040</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">786 121</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">849 021</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">27 897 747</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">27 354 053</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">30 052 328</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">30 875 319</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">35 055 263</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">39 248 289</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">Non-current Liabilities</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">93</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">216</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">220</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">220</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">175</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">74</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">915</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">98</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 698</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 170</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 705</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">23 445</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">81 531 764</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">81 531 764</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">181 510 095</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">192 472 339</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">180 064 744</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">105 681 764</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 131 907</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 956 379</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 823 084</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 937 608</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 319 145</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 912 075</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">563 339</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">566 924</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">647 040</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">600 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">716 200</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">730 395</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">8 833 784</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">8 191 637</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">14 586 620</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">15 220 026</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">16 201 942</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">12 561 198</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">Current Liabilities</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">131</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">283</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">289</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">293</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">235</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">96</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">999</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">681</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">592</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">483</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">537</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 418</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">218 796 379</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">227 200 403</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">235 617 662</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">243 330 083</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">254 449 939</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">263 121 614</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 748 299</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 654 292</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 775 710</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 875 034</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 582 316</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">4 165 803</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">144 069</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">155 688</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">169 853</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">189 570</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">197 790</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">185 065</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">20 620 435</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">20 405 040</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">20 922 167</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">21 460 375</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">24 878 781</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">28 740 133</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">Total Debt</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">82</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">189</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">189</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">191</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">151</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">69</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">987</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">908</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">925</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 186</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">12 500</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">81 531 764</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">81 531 764</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">142 861 462</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">153 823 706</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">163 257 224</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">105 681 764</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 232 802</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 040 869</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 864 043</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 943 834</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 561 354</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 089 477</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">500 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">500 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">545 463</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">500 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">704 866</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">750 000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">9 407 277</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">8 752 812</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">13 485 730</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">14 050 174</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">16 302 214</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">12 996 116</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">Bank Debt</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">17</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">34</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">31</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">31</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">23</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">11 900</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">11 500</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">10 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">4 927</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">14 100</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">21 000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">4 928 050</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">4 928 050</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">4 928 050</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">888 500</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">845 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">207 652</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">422 441</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">439 372</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">454 264</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">144 428</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">168 136</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">77 437</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">62 492</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">89 518</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">80 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">72 400</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">93 037</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">49 985</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 180 852</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 157 732</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 212 918</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">212 523</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">224 460</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">68 545</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">Other Debt</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">75</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">178</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">178</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">180</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">139</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">65</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">89</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">267</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">89</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">36</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 186</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">12 500</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">81 531 764</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">81 531 764</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">142 861 462</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">153 823 706</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">163 257 224</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">105 681 764</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 345 444</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 083 065</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 961 921</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 098 862</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 840 988</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 272 451</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">521 755</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">516 374</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">600 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">537 500</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">746 300</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">820 000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">9 788 865</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">8 979 050</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">13 868 137</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">14 460 540</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">16 966 644</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">13 374 126</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">Cash</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">122</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">261</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">268</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">269</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">217</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">88</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">21</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">20</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">19</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">18</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">9</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">56</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 798 106</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 645 775</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">34 371 550</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">33 628 819</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">30 274 848</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 225 630</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">149 996</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">162 147</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">309 032</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">310 989</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">302 461</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">109 844</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">59 013</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">49 881</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">51 376</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">54 470</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">53 507</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">50 745</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">322 294</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">384 374</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 132 742</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 089 098</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 080 053</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">182 227</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">Intangibles/ Goodwill</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">5</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">13</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">12</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">13</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">12</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">71 500</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">39 189</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">39 189</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">35 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">39 189</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">100 000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 505 218</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">9 444 142</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">9 443 032</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">9 439 084</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">9 431 442</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">9 428 334</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">729 897</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 254 684</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 352 688</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 292 442</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 395 964</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 021 832</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">291 754</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">358 988</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">470 238</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">599 519</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">627 921</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">542 006</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 021 810</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 557 721</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 645 152</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 541 969</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 623 292</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 660 667</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">Net profit</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">130</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">286</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">291</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">296</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">237</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">97</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">-5 011</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">-1 087</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">-7 057</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">-29 269</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">-5 364</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">-465</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">6 873 465</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">9 297 659</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">26 688 759</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">32 773 306</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">82 273 474</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">11 842 128</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">404 657</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">380 688</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">502 315</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">566 132</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">833 632</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">521 818</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">120 733</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">122 532</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">134 239</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">133 528</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">152 536</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">152 439</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">993 268</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">977 974</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 876 536</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 345 750</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">5 443 684</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 686 978</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">EBIT (tax/int)</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">127</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">282</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">287</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">292</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">233</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">98</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">164</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">412</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">512</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">817</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 036</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">757</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">6 873 465</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">9 297 659</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">58 296 370</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">43 298 243</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">93 149 826</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">11 842 128</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">447 873</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">452 556</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">688 025</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">677 513</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">983 248</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">601 724</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">160 656</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">165 464</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">171 539</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">174 802</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">209 273</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">202 324</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">965 596</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">992 747</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 581 142</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 875 277</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">6 189 872</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 695 859</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">Income tax</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">35</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">78</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">75</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">72</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">69</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">36</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">131</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">118</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">7</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">5</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">77 480</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">86 594</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">93 874</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">98 354</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">108 184</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">148 453</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">8 309</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">11 161</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">12 650</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">12 406</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">12 876</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">13 780</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">4 977</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">4 432</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">5 657</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">6 662</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">4 900</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">4 982</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">13 697</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">17 540</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">18 531</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">16 984</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">18 956</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">26 929</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">Dividends paymment for the year</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">77</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">165</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">171</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">175</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">183</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">69</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 162</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 162</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 162</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 162</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 325</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">705</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">396 250</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 511 861</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">14 853 867</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">15 192 234</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">7 206 574</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 826 612</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">59 600</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">81 004</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">171 593</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">172 561</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">168 082</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">121 945</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">38 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">44 553</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">45 937</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">50 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">60 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">59 500</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">64 385</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">142 935</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 139 792</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 152 295</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">568 976</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">249 238</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">Depreciation</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">21</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">42</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">41</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">39</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">39</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">20</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">130</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">200</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">200</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">233</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">616</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 649</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">70 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">150 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">140 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">140 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">140 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">140 000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">21 018</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">26 868</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">29 708</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">31 502</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">30 672</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">43 989</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">15 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">12 203</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">17 558</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">19 137</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">19 564</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">33 851</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">20 574</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">36 471</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">36 324</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">37 508</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">34 319</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">39 011</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">Interest</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">100</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">228</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">234</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">236</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">180</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">72</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">28</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">55</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 385</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">64</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">81</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">698 230</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 111 488</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">31 607 611</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">10 524 937</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">10 876 352</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 257 289</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">88 390</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">100 285</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">237 342</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">148 745</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">197 042</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">110 014</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">34 880</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">37 807</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">38 154</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">41 552</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">45 874</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">43 034</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">132 273</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">159 930</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 065 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">695 347</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">843 067</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">198 760</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">Gross Profit</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">62</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">141</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">144</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">147</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">100</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">29</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 425</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">17 881</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 688</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">23 189</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">-36 357</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">26 995</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">10 666 317</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">11 230 256</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">104 167 808</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">123 319 541</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">139 395 699</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">28 070 001</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 210 482</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 249 946</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 088 639</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 264 286</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 371 852</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 148 273</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">285 933</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">300 805</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">339 596</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">346 654</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">513 074</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">443 785</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 174 273</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 128 105</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">8 869 812</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">10 483 768</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">14 226 110</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">5 305 892</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">Sales</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">42</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">98</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">103</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">107</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">39</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">14</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 363</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 204</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 451</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 151</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">23 623</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">88 064</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 633 468</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 760 773</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 815 121</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 974 829</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">4 034 171</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 867 094</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">712 058</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">654 862</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">719 982</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">691 173</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">752 658</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">675 571</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">198 349</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">195 822</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">243 021</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">248 466</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">257 061</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">404 088</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 037 173</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">914 355</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">963 044</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">933 948</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">997 527</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">674 560</td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: left; font-weight: bold; vertical-align: top !important;">Number of shares outstanding</td>
+<td style="text-align: left; font-weight: bold;">n</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">59</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">126</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">129</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">128</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">121</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">59</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">min</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">40 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">19 890</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">15 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">15 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">15 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">19 890</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">max</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">4 450 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">16 500 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">16 500 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">16 500 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">16 500 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">16 500 000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">mean</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">580 965</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 109 939</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 133 177</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 169 092</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 297 704</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 752 779</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">median</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">245 640</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">297 500</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">300 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">305 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">364 000</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">1 000 000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">sd</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">831 452</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 230 891</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 212 623</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 244 719</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">2 346 330</td>
+<td style="text-align: right; color: rgba(66, 133, 244, 255) !important;">3 065 206</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<button class="btn btn-default" onclick="
+    async function downloadFile(event) {
+      event.preventDefault();
+      try {
+        const response = await fetch('data:text/csv;base64,dmFyaWFibGU7c3RhdGlzdGljOzE5MDk7MTkxMDsxOTExOzE5MTI7MTkxMzsxOTE0CkJWRTtuOzEzMTsyODQ7MjkwOzI5NTsyMzg7OTgKQlZFO21pbjsxMTk3NzstOTg7MjAyOTI7MTg0OzIyMDg7MTUxNzUKQlZFO21heDsxNjY5NDU3ODg7MTcxMzc3NTUyOzM2MTc4MTE1Mzs0MDk2NzAxNjk7NTA3NjgzODg4OzIzMDQ0MDE1NApCVkU7bWVhbjs0MTQwODg4OzM4ODYwNjE7NTI5MTEwMzs1NTU0NDgxOzUzNjAzNzc7NTcxMzcyOApCVkU7bWVkaWFuOzE1Nzg2MTY7MTU0NzEwMTsxNTc4NDY4OzE1MzY5MDg7MTg0Njg2MjsxOTQwMTI0CkJWRTtzZDsxNTEzMjU2NTsxNDc4MjkwMjsyNjY5MDI3MjsyOTk3ODE2MjszMzEwNzY0MDsyMzUyNTU5OApUb3RhbCBBc3NldHM7bjsxMzI7Mjg2OzI5MjsyOTY7MjM4Ozk4ClRvdGFsIEFzc2V0czttaW47MjQ2MjY7MzIwMDc7NDAwMDY7MzQwOTg7Mzc4NTg7Mzg3ODIKVG90YWwgQXNzZXRzO21heDszMzkzMjgxNDM7MzQ3NzMyMTY3OzU2MTg4NzIxNTs2MjgxMTk1NDU7NzIwNTMxNDY1OzQwNzgwMzM3OApUb3RhbCBBc3NldHM7bWVhbjs4MzM5MDIyOzc5NjI4ODE7MTAxMjkwMzU7MTA1NjQ5Njk7MTEzMzgwODU7MTE5OTM0MjcKVG90YWwgQXNzZXRzO21lZGlhbjsyMjgyNTQ0OzIzMjMyMzY7MjM5Nzk2NDsyNDUzMjQyOzI4MDg0OTI7Mjk1ODU2MApUb3RhbCBBc3NldHM7c2Q7MzQ4NDI5OTg7MzQxMDU4NjU7NDc5NDc2MzY7NTE1MzQ4ODM7NTg3MzEzNTk7NDk0OTIzNDYKTm9uLUN1cnJlbnQgQXNzZXRzO247MTI5OzI4MDsyODM7Mjg3OzIzNTs5NgpOb24tQ3VycmVudCBBc3NldHM7bWluOzM2OTc7MTMxMzsxOTY0OzE4Mzg7NzAxOzE0MDgKTm9uLUN1cnJlbnQgQXNzZXRzO21heDszMjkyMDc2MjE7MzM5MzU4NDA4OzQ1NTUyMzk4Mjs0MTQyNTY3NTk7NDc2Mzc4Nzk2OzM3MjQ1NDg5MwpOb24tQ3VycmVudCBBc3NldHM7bWVhbjs3Mjg3MjMyOzY4MTU5ODU7ODg4NTMyNDs5MDc0NzM1OzkzMjAxOTQ7MTA1NzI2MTUKTm9uLUN1cnJlbnQgQXNzZXRzO21lZGlhbjsxNzI2OTY3OzE3MDI5NDI7MTczMjM3NzsxNzM3NDM2OzE4ODc5MzU7MjAzMjQ3OQpOb24tQ3VycmVudCBBc3NldHM7c2Q7MzI2Mjg2OTg7MzIwMTM2ODE7NDM0NDkyMDY7NDM1Nzc5ODY7NDY3NzE4NDM7NDU4NTc1MjUKQ3VycmVudCBBc3NldHM7bjsxMzI7Mjg2OzI5MjsyOTY7MjM4Ozk4CkN1cnJlbnQgQXNzZXRzO21pbjsxMDE1OzMwMDsxMzExOzczOTsxOTU4OzExNTMKQ3VycmVudCBBc3NldHM7bWF4OzQ5NjY1ODY1OzUwMjEwMDY5OzEwNjM2MzIzMzsyMTM4NjI3ODY7MjQ0MTUyNjY5OzM1MzQ4NDg1CkN1cnJlbnQgQXNzZXRzO21lYW47MTIxNzQwODsxMjg5ODg5OzE1MTc1NzQ7MTc2NjE1NTsyMTM1MzczOzE2MzY1ODAKQ3VycmVudCBBc3NldHM7bWVkaWFuOzM1MjUyMjszODE5NjA7Mzg4NzY4OzQ0OTAzNDs0OTA4MzE7NTA1ODcwCkN1cnJlbnQgQXNzZXRzO3NkOzQ1MjQzOTI7NDM5NzE2Mzs2OTc2OTAxOzEyNDk0MTU3OzE1ODYyNjk0OzQzMzc1MDMKVG90YWwgTGlhYmlsaXRpZXM7bjsxMzI7Mjg2OzI5MjsyOTY7MjM4Ozk4ClRvdGFsIExpYWJpbGl0aWVzO21pbjs1MDA5OzEwMDI7MTAyMzsxMDUzOzExNjc7MTQxOApUb3RhbCBMaWFiaWxpdGllczttYXg7MzAwMzI4MTQzOzMwODczMjE2NzszMTcxNDk0MjY7MzI0ODYxODQ3OzMzNTk4MTcwMzszNjg4MDMzNzgKVG90YWwgTGlhYmlsaXRpZXM7bWVhbjs0MjI5NTA0OzQxMDM5OTU7NDg3NDE3Mzs1MDI5MjUyOzU5Nzc3MDg7NjI3OTcwMApUb3RhbCBMaWFiaWxpdGllczttZWRpYW47NTEzMDI2OzU3MDgyODs2Mzg5NjQ7NTgzMDQwOzc4NjEyMTs4NDkwMjEKVG90YWwgTGlhYmlsaXRpZXM7c2Q7Mjc4OTc3NDc7MjczNTQwNTM7MzAwNTIzMjg7MzA4NzUzMTk7MzUwNTUyNjM7MzkyNDgyODkKTm9uLWN1cnJlbnQgTGlhYmlsaXRpZXM7bjs5MzsyMTY7MjIwOzIyMDsxNzU7NzQKTm9uLWN1cnJlbnQgTGlhYmlsaXRpZXM7bWluOzkxNTs5ODsyNjk4OzMxNzA7MzcwNTsyMzQ0NQpOb24tY3VycmVudCBMaWFiaWxpdGllczttYXg7ODE1MzE3NjQ7ODE1MzE3NjQ7MTgxNTEwMDk1OzE5MjQ3MjMzOTsxODAwNjQ3NDQ7MTA1NjgxNzY0Ck5vbi1jdXJyZW50IExpYWJpbGl0aWVzO21lYW47MjEzMTkwNzsxOTU2Mzc5OzI4MjMwODQ7MjkzNzYwODszMzE5MTQ1OzI5MTIwNzUKTm9uLWN1cnJlbnQgTGlhYmlsaXRpZXM7bWVkaWFuOzU2MzMzOTs1NjY5MjQ7NjQ3MDQwOzYwMDAwMDs3MTYyMDA7NzMwMzk1Ck5vbi1jdXJyZW50IExpYWJpbGl0aWVzO3NkOzg4MzM3ODQ7ODE5MTYzNzsxNDU4NjYyMDsxNTIyMDAyNjsxNjIwMTk0MjsxMjU2MTE5OApDdXJyZW50IExpYWJpbGl0aWVzO247MTMxOzI4MzsyODk7MjkzOzIzNTs5NgpDdXJyZW50IExpYWJpbGl0aWVzO21pbjs5OTk7NjgxOzU5Mjs0ODM7NTM3OzE0MTgKQ3VycmVudCBMaWFiaWxpdGllczttYXg7MjE4Nzk2Mzc5OzIyNzIwMDQwMzsyMzU2MTc2NjI7MjQzMzMwMDgzOzI1NDQ0OTkzOTsyNjMxMjE2MTQKQ3VycmVudCBMaWFiaWxpdGllczttZWFuOzI3NDgyOTk7MjY1NDI5MjsyNzc1NzEwOzI4NzUwMzQ7MzU4MjMxNjs0MTY1ODAzCkN1cnJlbnQgTGlhYmlsaXRpZXM7bWVkaWFuOzE0NDA2OTsxNTU2ODg7MTY5ODUzOzE4OTU3MDsxOTc3OTA7MTg1MDY1CkN1cnJlbnQgTGlhYmlsaXRpZXM7c2Q7MjA2MjA0MzU7MjA0MDUwNDA7MjA5MjIxNjc7MjE0NjAzNzU7MjQ4Nzg3ODE7Mjg3NDAxMzMKVG90YWwgRGVidDtuOzgyOzE4OTsxODk7MTkxOzE1MTs2OQpUb3RhbCBEZWJ0O21pbjs5ODc7OTA4OzkyNTsxMDAwOzMxODY7MTI1MDAKVG90YWwgRGVidDttYXg7ODE1MzE3NjQ7ODE1MzE3NjQ7MTQyODYxNDYyOzE1MzgyMzcwNjsxNjMyNTcyMjQ7MTA1NjgxNzY0ClRvdGFsIERlYnQ7bWVhbjsyMjMyODAyOzIwNDA4Njk7Mjg2NDA0MzsyOTQzODM0OzM1NjEzNTQ7MzA4OTQ3NwpUb3RhbCBEZWJ0O21lZGlhbjs1MDAwMDA7NTAwMDAwOzU0NTQ2Mzs1MDAwMDA7NzA0ODY2Ozc1MDAwMApUb3RhbCBEZWJ0O3NkOzk0MDcyNzc7ODc1MjgxMjsxMzQ4NTczMDsxNDA1MDE3NDsxNjMwMjIxNDsxMjk5NjExNgpCYW5rIERlYnQ7bjsxNzszNDszMTszMTsyMzs2CkJhbmsgRGVidDttaW47MTE5MDA7MTE1MDA7MTAwMDA7NDkyNzsxNDEwMDsyMTAwMApCYW5rIERlYnQ7bWF4OzQ5MjgwNTA7NDkyODA1MDs0OTI4MDUwOzg4ODUwMDs4NDUwMDA7MjA3NjUyCkJhbmsgRGVidDttZWFuOzQyMjQ0MTs0MzkzNzI7NDU0MjY0OzE0NDQyODsxNjgxMzY7Nzc0MzcKQmFuayBEZWJ0O21lZGlhbjs2MjQ5Mjs4OTUxODs4MDAwMDs3MjQwMDs5MzAzNzs0OTk4NQpCYW5rIERlYnQ7c2Q7MTE4MDg1MjsxMTU3NzMyOzEyMTI5MTg7MjEyNTIzOzIyNDQ2MDs2ODU0NQpPdGhlciBEZWJ0O247NzU7MTc4OzE3ODsxODA7MTM5OzY1Ck90aGVyIERlYnQ7bWluOzg5OzI2Nzs4OTszNjszMTg2OzEyNTAwCk90aGVyIERlYnQ7bWF4OzgxNTMxNzY0OzgxNTMxNzY0OzE0Mjg2MTQ2MjsxNTM4MjM3MDY7MTYzMjU3MjI0OzEwNTY4MTc2NApPdGhlciBEZWJ0O21lYW47MjM0NTQ0NDsyMDgzMDY1OzI5NjE5MjE7MzA5ODg2MjszODQwOTg4OzMyNzI0NTEKT3RoZXIgRGVidDttZWRpYW47NTIxNzU1OzUxNjM3NDs2MDAwMDA7NTM3NTAwOzc0NjMwMDs4MjAwMDAKT3RoZXIgRGVidDtzZDs5Nzg4ODY1Ozg5NzkwNTA7MTM4NjgxMzc7MTQ0NjA1NDA7MTY5NjY2NDQ7MTMzNzQxMjYKQ2FzaDtuOzEyMjsyNjE7MjY4OzI2OTsyMTc7ODgKQ2FzaDttaW47MjE7MjA7MTk7MTg7OTs1NgpDYXNoO21heDsyNzk4MTA2OzM2NDU3NzU7MzQzNzE1NTA7MzM2Mjg4MTk7MzAyNzQ4NDg7MTIyNTYzMApDYXNoO21lYW47MTQ5OTk2OzE2MjE0NzszMDkwMzI7MzEwOTg5OzMwMjQ2MTsxMDk4NDQKQ2FzaDttZWRpYW47NTkwMTM7NDk4ODE7NTEzNzY7NTQ0NzA7NTM1MDc7NTA3NDUKQ2FzaDtzZDszMjIyOTQ7Mzg0Mzc0OzIxMzI3NDI7MjA4OTA5ODsyMDgwMDUzOzE4MjIyNwpJbnRhbmdpYmxlcy8gR29vZHdpbGw7bjs1OzEzOzEyOzEzOzEyOzYKSW50YW5naWJsZXMvIEdvb2R3aWxsO21pbjs3MTUwMDszOTE4OTszOTE4OTszNTAwMDszOTE4OTsxMDAwMDAKSW50YW5naWJsZXMvIEdvb2R3aWxsO21heDsyNTA1MjE4Ozk0NDQxNDI7OTQ0MzAzMjs5NDM5MDg0Ozk0MzE0NDI7OTQyODMzNApJbnRhbmdpYmxlcy8gR29vZHdpbGw7bWVhbjs3Mjk4OTc7MTI1NDY4NDsxMzUyNjg4OzEyOTI0NDI7MTM5NTk2NDsyMDIxODMyCkludGFuZ2libGVzLyBHb29kd2lsbDttZWRpYW47MjkxNzU0OzM1ODk4ODs0NzAyMzg7NTk5NTE5OzYyNzkyMTs1NDIwMDYKSW50YW5naWJsZXMvIEdvb2R3aWxsO3NkOzEwMjE4MTA7MjU1NzcyMTsyNjQ1MTUyOzI1NDE5Njk7MjYyMzI5MjszNjYwNjY3Ck5ldCBwcm9maXQ7bjsxMzA7Mjg2OzI5MTsyOTY7MjM3Ozk3Ck5ldCBwcm9maXQ7bWluOy01MDExOy0xMDg3Oy03MDU3Oy0yOTI2OTstNTM2NDstNDY1Ck5ldCBwcm9maXQ7bWF4OzY4NzM0NjU7OTI5NzY1OTsyNjY4ODc1OTszMjc3MzMwNjs4MjI3MzQ3NDsxMTg0MjEyOApOZXQgcHJvZml0O21lYW47NDA0NjU3OzM4MDY4ODs1MDIzMTU7NTY2MTMyOzgzMzYzMjs1MjE4MTgKTmV0IHByb2ZpdDttZWRpYW47MTIwNzMzOzEyMjUzMjsxMzQyMzk7MTMzNTI4OzE1MjUzNjsxNTI0MzkKTmV0IHByb2ZpdDtzZDs5OTMyNjg7OTc3OTc0OzE4NzY1MzY7MjM0NTc1MDs1NDQzNjg0OzE2ODY5NzgKRUJJVCAodGF4L2ludCk7bjsxMjc7MjgyOzI4NzsyOTI7MjMzOzk4CkVCSVQgKHRheC9pbnQpO21pbjsxNjQ7NDEyOzUxMjs4MTc7MTAzNjs3NTcKRUJJVCAodGF4L2ludCk7bWF4OzY4NzM0NjU7OTI5NzY1OTs1ODI5NjM3MDs0MzI5ODI0Mzs5MzE0OTgyNjsxMTg0MjEyOApFQklUICh0YXgvaW50KTttZWFuOzQ0Nzg3Mzs0NTI1NTY7Njg4MDI1OzY3NzUxMzs5ODMyNDg7NjAxNzI0CkVCSVQgKHRheC9pbnQpO21lZGlhbjsxNjA2NTY7MTY1NDY0OzE3MTUzOTsxNzQ4MDI7MjA5MjczOzIwMjMyNApFQklUICh0YXgvaW50KTtzZDs5NjU1OTY7OTkyNzQ3OzM1ODExNDI7Mjg3NTI3Nzs2MTg5ODcyOzE2OTU4NTkKSW5jb21lIHRheDtuOzM1Ozc4Ozc1OzcyOzY5OzM2CkluY29tZSB0YXg7bWluOzEzMTsxMTg7Nzs1OzE7NwpJbmNvbWUgdGF4O21heDs3NzQ4MDs4NjU5NDs5Mzg3NDs5ODM1NDsxMDgxODQ7MTQ4NDUzCkluY29tZSB0YXg7bWVhbjs4MzA5OzExMTYxOzEyNjUwOzEyNDA2OzEyODc2OzEzNzgwCkluY29tZSB0YXg7bWVkaWFuOzQ5Nzc7NDQzMjs1NjU3OzY2NjI7NDkwMDs0OTgyCkluY29tZSB0YXg7c2Q7MTM2OTc7MTc1NDA7MTg1MzE7MTY5ODQ7MTg5NTY7MjY5MjkKRGl2aWRlbmRzIHBheW1tZW50IGZvciB0aGUgeWVhcjtuOzc3OzE2NTsxNzE7MTc1OzE4Mzs2OQpEaXZpZGVuZHMgcGF5bW1lbnQgZm9yIHRoZSB5ZWFyO21pbjsxMTYyOzExNjI7MTE2MjsxMTYyOzIzMjU7NzA1CkRpdmlkZW5kcyBwYXltbWVudCBmb3IgdGhlIHllYXI7bWF4OzM5NjI1MDsxNTExODYxOzE0ODUzODY3OzE1MTkyMjM0OzcyMDY1NzQ7MTgyNjYxMgpEaXZpZGVuZHMgcGF5bW1lbnQgZm9yIHRoZSB5ZWFyO21lYW47NTk2MDA7ODEwMDQ7MTcxNTkzOzE3MjU2MTsxNjgwODI7MTIxOTQ1CkRpdmlkZW5kcyBwYXltbWVudCBmb3IgdGhlIHllYXI7bWVkaWFuOzM4MDAwOzQ0NTUzOzQ1OTM3OzUwMDAwOzYwMDAwOzU5NTAwCkRpdmlkZW5kcyBwYXltbWVudCBmb3IgdGhlIHllYXI7c2Q7NjQzODU7MTQyOTM1OzExMzk3OTI7MTE1MjI5NTs1Njg5NzY7MjQ5MjM4CkRlcHJlY2lhdGlvbjtuOzIxOzQyOzQxOzM5OzM5OzIwCkRlcHJlY2lhdGlvbjttaW47MTMwOzIwMDsyMDA7MjMzOzYxNjsxNjQ5CkRlcHJlY2lhdGlvbjttYXg7NzAwMDA7MTUwMDAwOzE0MDAwMDsxNDAwMDA7MTQwMDAwOzE0MDAwMApEZXByZWNpYXRpb247bWVhbjsyMTAxODsyNjg2ODsyOTcwODszMTUwMjszMDY3Mjs0Mzk4OQpEZXByZWNpYXRpb247bWVkaWFuOzE1MDAwOzEyMjAzOzE3NTU4OzE5MTM3OzE5NTY0OzMzODUxCkRlcHJlY2lhdGlvbjtzZDsyMDU3NDszNjQ3MTszNjMyNDszNzUwODszNDMxOTszOTAxMQpJbnRlcmVzdDtuOzEwMDsyMjg7MjM0OzIzNjsxODA7NzIKSW50ZXJlc3Q7bWluOzIwMDA7Mjg7NTU7MTM4NTs2NDs4MQpJbnRlcmVzdDttYXg7Njk4MjMwOzExMTE0ODg7MzE2MDc2MTE7MTA1MjQ5Mzc7MTA4NzYzNTI7MTI1NzI4OQpJbnRlcmVzdDttZWFuOzg4MzkwOzEwMDI4NTsyMzczNDI7MTQ4NzQ1OzE5NzA0MjsxMTAwMTQKSW50ZXJlc3Q7bWVkaWFuOzM0ODgwOzM3ODA3OzM4MTU0OzQxNTUyOzQ1ODc0OzQzMDM0CkludGVyZXN0O3NkOzEzMjI3MzsxNTk5MzA7MjA2NTAwMDs2OTUzNDc7ODQzMDY3OzE5ODc2MApHcm9zcyBQcm9maXQ7bjs2MjsxNDE7MTQ0OzE0NzsxMDA7MjkKR3Jvc3MgUHJvZml0O21pbjsyNDI1OzE3ODgxOzE2ODg7MjMxODk7LTM2MzU3OzI2OTk1Ckdyb3NzIFByb2ZpdDttYXg7MTA2NjYzMTc7MTEyMzAyNTY7MTA0MTY3ODA4OzEyMzMxOTU0MTsxMzkzOTU2OTk7MjgwNzAwMDEKR3Jvc3MgUHJvZml0O21lYW47MTIxMDQ4MjsxMjQ5OTQ2OzIwODg2Mzk7MjI2NDI4NjszMzcxODUyOzIxNDgyNzMKR3Jvc3MgUHJvZml0O21lZGlhbjsyODU5MzM7MzAwODA1OzMzOTU5NjszNDY2NTQ7NTEzMDc0OzQ0Mzc4NQpHcm9zcyBQcm9maXQ7c2Q7MjE3NDI3MzsyMTI4MTA1Ozg4Njk4MTI7MTA0ODM3Njg7MTQyMjYxMTA7NTMwNTg5MgpTYWxlcztuOzQyOzk4OzEwMzsxMDc7Mzk7MTQKU2FsZXM7bWluOzEzNjM7MTIwNDsxNDUxOzExNTE7MjM2MjM7ODgwNjQKU2FsZXM7bWF4OzM2MzM0Njg7Mzc2MDc3MzszODE1MTIxOzM5NzQ4Mjk7NDAzNDE3MTsxODY3MDk0ClNhbGVzO21lYW47NzEyMDU4OzY1NDg2Mjs3MTk5ODI7NjkxMTczOzc1MjY1ODs2NzU1NzEKU2FsZXM7bWVkaWFuOzE5ODM0OTsxOTU4MjI7MjQzMDIxOzI0ODQ2NjsyNTcwNjE7NDA0MDg4ClNhbGVzO3NkOzEwMzcxNzM7OTE0MzU1Ozk2MzA0NDs5MzM5NDg7OTk3NTI3OzY3NDU2MApOdW1iZXIgb2Ygc2hhcmVzIG91dHN0YW5kaW5nO247NTk7MTI2OzEyOTsxMjg7MTIxOzU5Ck51bWJlciBvZiBzaGFyZXMgb3V0c3RhbmRpbmc7bWluOzQwMDAwOzE5ODkwOzE1MDAwOzE1MDAwOzE1MDAwOzE5ODkwCk51bWJlciBvZiBzaGFyZXMgb3V0c3RhbmRpbmc7bWF4OzQ0NTAwMDA7MTY1MDAwMDA7MTY1MDAwMDA7MTY1MDAwMDA7MTY1MDAwMDA7MTY1MDAwMDAKTnVtYmVyIG9mIHNoYXJlcyBvdXRzdGFuZGluZzttZWFuOzU4MDk2NTsxMTA5OTM5OzExMzMxNzc7MTE2OTA5MjsxMjk3NzA0OzE3NTI3NzkKTnVtYmVyIG9mIHNoYXJlcyBvdXRzdGFuZGluZzttZWRpYW47MjQ1NjQwOzI5NzUwMDszMDAwMDA7MzA1MDAwOzM2NDAwMDsxMDAwMDAwCk51bWJlciBvZiBzaGFyZXMgb3V0c3RhbmRpbmc7c2Q7ODMxNDUyOzIyMzA4OTE7MjIxMjYyMzsyMjQ0NzE5OzIzNDYzMzA7MzA2NTIwNgo=');
+        if (!response.ok) throw new Error('Network response failed');
+        const blob = await response.blob();
+        const blobUrl = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = blobUrl;
+        a.download = 'Book data - descriptive statistics.csv';
+        a.style.display = 'none';
+        document.body.appendChild(a);
+        a.dispatchEvent(new MouseEvent('click'));
+        document.body.removeChild(a);
+        setTimeout(() => {
+          window.URL.revokeObjectURL(blobUrl);
+        }, 100);
+        return false;
+      } catch (error) {
+        console.error('Download failed:', error);
+        alert('Download failed. Please try again.');
+      }
+    }
+    downloadFile(event);
+  " has_icon="TRUE"><i class="fa fa-save"></i> Download data as csv</button>
+</div>
+</div>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

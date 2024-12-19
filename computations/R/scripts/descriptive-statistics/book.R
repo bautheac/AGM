@@ -22,6 +22,7 @@ statistics_to_compute <- list(
   min = ~min(.[. != 0L], na.rm = TRUE),
   max = ~max(.[. != 0L], na.rm = TRUE),
   mean = ~mean(.[. != 0L], na.rm = TRUE),
+  median = ~median(.[. != 0L], na.rm = TRUE),
   sd = ~sd(.[. != 0L], na.rm = TRUE)
 )
 
@@ -36,7 +37,7 @@ descriptive_stats_by_year <- filter_out_ids_not_in_price_dataset(book_data) |>
 path_book_descriptive_stats <- here::here("computations", "R", "results", "book_descriptive_stats.rds")
 readr::write_rds(descriptive_stats_by_year, path_book_descriptive_stats)
   
-  
+rm(list = ls())
   
   
   
