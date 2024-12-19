@@ -18,16 +18,16 @@ filters:
 #| include: false
 
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
-data_directory_path <- here::here("data")
+data_directory_path <- here::here("communication", "dashboard", "data")
 
-# url_css <- "https://www.dropbox.com/scl/fi/hca7tog3830ir7ro9fszt/styles.css?rlkey=pma97454kb75qzuj9znv86zrf&dl=1"
-# url_references <- "https://www.dropbox.com/scl/fi/n7t8g3hn32d8e5gf2rcti/references.bib?rlkey=xy251n44q3y0t3omxpqk0dvyf&dl=1"
-# file_css <- "style.css"
-# file_references <- "references.bib"
-# urls <- c(url_css, url_references)
-# files <- c(file_css, file_references)
-# 
-# purrr::walk2(urls, files, ~download.file(.x, .y))
+url_css <- "https://www.dropbox.com/scl/fi/hca7tog3830ir7ro9fszt/styles.css?rlkey=pma97454kb75qzuj9znv86zrf&dl=1"
+url_references <- "https://www.dropbox.com/scl/fi/n7t8g3hn32d8e5gf2rcti/references.bib?rlkey=xy251n44q3y0t3omxpqk0dvyf&dl=1"
+file_css <- "style.css"
+file_references <- "references.bib"
+urls <- c(url_css, url_references)
+files <- c(file_css, file_references)
+
+purrr::walk2(urls, files, ~download.file(.x, .y))
 ```
 
 ## Descriptive statistics
