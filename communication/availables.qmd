@@ -1,0 +1,198 @@
+---
+title: "AGM - 1913 sample data"
+execute:
+  echo: false
+  message: false
+  warning: false
+format:
+  html:
+    page-layout: full
+    toc: true
+    toc-title: Contents
+    toc-depth: 3
+    theme: 
+      - Minty
+      - styles.css
+editor: visual
+---
+
+```{r}
+#| label: globals
+library(magrittr)
+
+company_id_path <- here::here("data", "firms")
+company_id_map <- readxl::read_xlsx(
+    paste0(company_id_path, ".xlsx"), "Dataset",
+    range = cellranger::cell_cols("B:E")
+    ) %>%
+  dplyr::select(c(1L, 2L, 4L)) %>%
+  set_names(c("company", "id", "industry")) %>%
+  dplyr::distinct(company, id, industry) %>%
+  dplyr::filter(complete.cases(.)) %>%
+  dplyr::arrange(id)
+
+
+print_table <- function(table){
+  box_width <- 'textwidth'
+  box_heigth <- '100vh'
+  align <- 'l'
+  bootstrap_options <- c( 'hover', 'condensed' , 'bordered')
+  header_css <- 'text-align: center !important; vertical-align: middle !important;'
+
+  kableExtra::kbl(table, align = align) %>%
+    kableExtra::kable_styling(bootstrap_options = bootstrap_options) %>% 
+    kableExtra::row_spec(0 ,  bold = F, extra_css = header_css) %>%
+    kableExtra::scroll_box(width = box_width, height = box_heigth)
+}
+```
+
+# Data availability
+
+## Common stock
+
+```{r}
+#| label: quotes-globals
+path_quotes <- here::here("data", "sedol.csv")
+col_types <- c("c", "D", rep("c", 7L))
+n_back <- 125L
+n_forward <- 135L
+events_firm <- c("LD", "AU", "FC", "LD", "GM")
+events_instrument <- c("XB", "XD", "XR")
+```
+
+```{r}
+#| label: quotes-load
+data_quotes <- readr::read_csv(path_quotes, col_types = col_types)
+```
+
+```{r}
+#| label: quotes-functions
+
+get_theoretical_time_window_bounds <- function(
+    events_vector, event_labels, n_back, n_forward
+    ) {
+  event_indexes <- stringr::str_which(
+    events_vector, paste(event_labels, collapse = "|")
+    )
+  
+  low <- high <- event_indexes[1L]
+  low <- ifelse(low <= n_back, 1L, event_indexes[1L] - n_back)
+  high <- ifelse(
+    high + n_forward <= NROW(events_vector), 
+    high + n_forward, NROW(events_vector)
+    )
+  
+  c(low, high)
+}
+
+
+get_effective_time_window_bounds <- function(theoretical_bounds, data) {
+  
+  sample <- dplyr::slice(data, theoretical_bounds[1L]:theoretical_bounds[2L])
+  
+  event_days <- stringr::str_which(
+    sample$event, paste(events_firm, collapse = "|")
+  )
+
+  low <- grepl(
+    "^\\|?\\s?\\d", rev(sample$price[1L:(event_days[1L] - 1L)])
+  ) %>% which() %>% max() %>% ifelse(is.infinite(.), NA, .)
+  high <- grepl(
+    "^\\|?\\s?\\d", 
+    sample$price[(event_days[NCOL(event_days)] + 1L):nrow(sample)]
+  ) %>% which() %>% max() %>% ifelse(is.infinite(.), NA, .)
+  
+  c(low, high)
+}
+```
+
+```{r}
+#| label: quotes-window
+window <- dplyr::group_by(data_quotes, id) %>% 
+  dplyr::group_modify(
+    ~ {
+      dplyr::filter(.x, `data available` == TRUE) %>% 
+        {
+          bound_indexes <- get_theoretical_time_window_bounds(
+            .$event, events_firm, n_back, n_forward
+          )
+          
+          tryCatch(
+            {
+              bound_indexes <- get_effective_time_window_bounds(bound_indexes, .)
+              tibble::tibble(
+                `first back` = 
+                  bound_indexes[1L], `last forward` = bound_indexes[2L]
+                )
+            },
+            error=function(cond) {
+              tibble::tibble(`first back` = NA, `last forward` = NA)
+            }
+          )
+        }
+    }
+  ) %>%
+  dplyr::ungroup()
+```
+
+```{r}
+#| label: quotes-proportion
+
+proportion <- dplyr::group_by(data_quotes, id) %>% 
+  dplyr::group_modify(
+    ~ {
+      dplyr::filter(.x, `data available` == TRUE) %>% 
+        {
+          
+          bound_indexes <- get_theoretical_time_window_bounds(
+            .$event, events_firm, n_back, n_forward
+            )
+          
+          tryCatch(
+            {
+              dplyr::slice(., bound_indexes[1L]:bound_indexes[2L]) %>%
+                dplyr::summarise(
+                  proportion = (grepl("^\\|?\\s?\\d", price) %>% sum())/nrow(.)
+                  ) %>%
+                dplyr::mutate(proportion = scales::percent(proportion))
+            },
+            error=function(cond) {
+              tibble::tibble(proportion = NA)
+            }
+          )
+        }
+    }
+  )
+```
+
+Time window of interest:
+
+-   Lower bound: 125 days prior to the "Date of signing the letter" (LD).\
+-   Upper bound: 135 days following the "Date of signing the letter" (LD).
+
+Currently the "day" unit used for delineating the time windows correspond to a **trading day for which data is available**; i.e. trading day for which sedol records exist and a photograph of the corresponding record page is available.
+
+</br>
+
+For the year 1913 and firms **with events for that year**, the following table displays information on the data availability over the time window of interest (described above). This includes the distance in days from the first event day, looking back, to the first day showing **at least one** common stock price quote within the time window (`first back`); i.e. 125 if data is available on the starting day of the time window, lower otherwise. It similarly includes the distance in days, looking forward, from the last event day to the last day showing **at least one** common stock price quote within the time window (`last forward`); i.e. 135 if data is available on the final day of the time window, lower otherwise. It finally includes the proportion of the time window for which data is available (`proportion`); i.e. the proportion of days amongst all days ("time window days" as defied above) within the time window for which **at least one** common stock price quote is available.\
+`NA` in the `first back` and/or `last forward` column(s) indicates that no common stock price quote is available through the whole first leg of the time window (start to first event day) and/or through the whole second leg (last event day to end of time window) respectively.
+
+```{r}
+#| label: show-quotes-availability
+common <- dplyr::left_join(window, company_id_map, by = "id") %>% 
+  dplyr::left_join(proportion, by = "id") %>%
+  dplyr::select(id, company, industry, proportion, dplyr::everything()) %>%
+  dplyr::arrange(industry, id)
+
+print_table(common)
+```
+
+```{r}
+#| label: show-quotes
+#| eval: false
+quotes <- dplyr::left_join(data_quotes, company_id_map, by = "id") %>% 
+  dplyr::relocate(company, .before = id) %>%
+  dplyr::filter(date > "1913-01-01")
+
+print_table(quotes)
+```

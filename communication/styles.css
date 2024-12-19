@@ -1,0 +1,8 @@
+/*-- scss:rules --*/
+p {
+  text-align: justify;
+}
+
+.table-hover > tbody > tr:hover { 
+  background-color: #a8d8ca;
+}

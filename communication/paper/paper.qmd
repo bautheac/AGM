@@ -1,0 +1,92 @@
+---
+title: Annual General Meeting
+subtitle: Research project
+author:
+  - name: Graeme Acheson
+    email: graeme.acheson@strath.ac.uk
+    affiliations: 
+        - id: strathclyde
+          name: University of Strathclyde Business School
+          department: Accounting & Finance
+          address: 199 Cathedral Street
+          city: Glasgow
+          state: Scotland
+          postal-code: G4 0QU
+    attributes:
+        corresponding: true
+  - name: Yannis Tsalavoutas 
+    email: Ioannis.Tsalavoutas@glasgow.ac.uk
+    affiliations:
+        - id: glasgow
+          name: University of Glasgow Adam Smith Business School
+          department: Accounting & Finance
+          address: 2 Discovery Place
+          city: Glasgow
+          state: Scotland
+          postal-code: G11 6EY
+  - name: Gareth Campbell
+    email: gareth.campbell@qub.ac.uk
+    affiliations:
+        - id: belfast
+          name: Queen's University Belfast Business School
+          department: Finance
+          address: 185 Stranmillis Road
+          city: Belfast
+          state: Northern Ireland
+          postal-code: BT9 5EE
+  - name: Olivier Bauthéac
+    email: olivier.bautheac@strath.ac.uk
+    affiliations:
+        - ref: strathclyde
+abstract: |
+  No abstract yet.
+keywords: 
+  - None
+date: last-modified
+bibliography: bibliography.bib
+code_repository: https://github.com/bautheac/AGM
+format:
+  elsevier-pdf:
+    keep-tex: true
+    journal:  
+      name: no journal yet
+      formatting: preprint
+      model: 3p
+      cite-style: authoryear
+  html:
+    grid:
+      body-width: 1000px
+    toc: true
+    toc_depth: 3
+    toc-title: Contents
+    css: style.css
+    code-links:
+      - text: github repository
+        icon: github
+        href: https://github.com/bautheac/AGM
+---
+
+```{r}
+#| label: globals
+#| include: false
+
+pacman::p_load(kableExtra, magrittr, slituR)
+
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+urls <- c(
+  "https://www.dropbox.com/scl/fi/n7t8g3hn32d8e5gf2rcti/references.bib?rlkey=xy251n44q3y0t3omxpqk0dvyf&dl=1",
+  "https://www.dropbox.com/scl/fi/c46nb5xpxwgvjdspla9p5/style.css?rlkey=d666hnaxod2stvkxel33or0cg&dl=1"
+)
+file_names <- c("bibliography.bib", "style.css")
+purrr::walk2(urls, file_names, function(url, file_name) download.file(url, file_name))
+
+```
+
+\newpage
+
+\setlength{\parindent}{0pt}
+
+Draft upcoming
+
+# References {-}

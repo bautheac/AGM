@@ -1,0 +1,1 @@
+Exploring the information content of Annual General Meetings for UK firms in early 20th century.  
