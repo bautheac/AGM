@@ -33,13 +33,13 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Rename paper.html to index.html
-        run: mv ./communication/paper/paper.html ./communication/paper/index.html
+      - name: Rename document to index.html
+        run: mv ./communication/dashboard/dashboard.html ./communication/dashboard/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: './communication/paper/'
+          path: './communication/dashboard/'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
