@@ -40,85 +40,30 @@ This table shows descriptive statistics for the variables available in the main 
 #| label: book-stats-load
 
 book_stats <- readr::read_rds(file.path(data_directory_path, "book_descriptive_stats.rds"))
-variables_levels <- c(
-  "BVE", "Total Assets", "Non-Current Assets", "Current Assets", "Total Liabilities", 
-  "Non-current Liabilities", "Current Liabilities", "Total Debt", "Bank Debt", 
-  "Other Debt", "Cash", "Intangibles/ Goodwill",
-  "Net profit", "EBIT (tax/int)", "Income tax", "Dividends paymment for the year",
-  "Depreciation", "Interest", "Gross Profit", "Sales", "Number of shares outstanding"
-)
-statistics_levels <- c("n", "min", "max", "mean", "median", "sd")
-
-book_stats_wrangled <-
-  dplyr::mutate(book_stats, statistic = factor(statistic, levels = statistics_levels)) |>
-  tidyr::pivot_longer(cols = -c(year, statistic), names_to = "variable", values_to = "value"
-) |> 
-  dplyr::mutate(value = as.integer(round(value)), variable = factor(variable, levels = variables_levels)) |>
-  tidyr::pivot_wider(names_from = year, values_from = value) |>
-  dplyr::relocate(variable, .before = 1L) |> dplyr::arrange(variable, statistic)
-```
-
-```{r}
-#| eval: false
-#| standalone: true
-#| label: book-stats-plot
-
-library(shiny)
-library(dplyr)
-
-df_long <- book_stats_wrangled |>
-  tidyr::pivot_longer(cols = starts_with("19"), names_to = "year", values_to = "value") |>
-  dplyr::mutate(year = as.numeric(year))
-
-ui <- fluidPage(
-  titlePanel("Statistic for Variable Over Time"),
-  plotOutput("line_plot"), # Main plot output
-  hr(),
-  fluidRow( # Dropdown selectors placed below the graph
-    column(6,
-           selectInput("selected_variable", "Select Variable:",
-                       choices = unique(df_long$variable))
-    ),
-    column(6,
-           selectInput("selected_statistic", "Select Statistic:",
-                       choices = unique(df_long$statistic))
-    )
-  )
-)
-
-server <- function(input, output) {
-  output$line_plot <- renderPlot({
-    # Filter data based on user selection
-    filtered_data <- df_long %>%
-      filter(variable == input$selected_variable,
-             statistic == input$selected_statistic)
-    
-    # Generate ggplot graph
-    ggplot(filtered_data, aes(x = year, y = value)) +
-      geom_line(color = "blue", size = 1.2) +
-      geom_point(color = "red", size = 2) +
-      labs(
-        title = paste("Statistic:", input$selected_statistic, "for", input$selected_variable),
-        x = "Year",
-        y = "Value"
-      ) +
-      theme_minimal(base_size = 14) +
-      theme(
-        plot.title = element_text(hjust = 0.5),
-        plot.margin = margin(t = 20, b = 100, r = 20, l = 20)
-      )
-  })
-}
-
-shinyApp(ui = ui, server = server)
+# variables_levels <- c(
+#   "BVE", "Total Assets", "Non-Current Assets", "Current Assets", "Total Liabilities", 
+#   "Non-current Liabilities", "Current Liabilities", "Total Debt", "Bank Debt", 
+#   "Other Debt", "Cash", "Intangibles/ Goodwill",
+#   "Net profit", "EBIT (tax/int)", "Income tax", "Dividends paymment for the year",
+#   "Depreciation", "Interest", "Gross Profit", "Sales", "Number of shares outstanding"
+# )
+# statistics_levels <- c("n", "min", "max", "mean", "median", "sd")
+# 
+# book_stats_wrangled <-
+#   dplyr::mutate(book_stats, statistic = factor(statistic, levels = statistics_levels)) |>
+#   tidyr::pivot_longer(cols = -c(year, statistic), names_to = "variable", values_to = "value"
+# ) |> 
+#   dplyr::mutate(value = as.integer(round(value)), variable = factor(variable, levels = variables_levels)) |>
+#   tidyr::pivot_wider(names_from = year, values_from = value) |>
+#   dplyr::relocate(variable, .before = 1L) |> dplyr::arrange(variable, statistic)
 ```
 
 ```{r}
 #| label: book-stats-table
 
-kableExtra::kable(book_stats_wrangled, format.args = list(big.mark = " ")) |> 
-  kableExtra::column_spec(1L:2L, bold = TRUE) |> kableExtra::column_spec(3L:8L, color = "#4285f4") |>
-  kableExtra::collapse_rows(1L, valign = "top") |>
+kableExtra::kable(book_stats, format.args = list(big.mark = " ")) |> 
+  kableExtra::column_spec(1L:2L, bold = TRUE) |> kableExtra::column_spec(5L:10L, color = "#4285f4") |>
+  kableExtra::collapse_rows(1L:2L, valign = "top") |>
   kableExtra::kable_styling(bootstrap_options = "hover")
 ```
 
@@ -126,7 +71,7 @@ kableExtra::kable(book_stats_wrangled, format.args = list(big.mark = " ")) |>
 #| label: book-stats-download
 
 downloadthis::download_this(
-  book_stats_wrangled,
+  book_stats,
   output_name = "Book data - descriptive statistics",
   output_extension = ".csv",
   button_label = "Download data as csv",

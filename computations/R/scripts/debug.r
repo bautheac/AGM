@@ -51,9 +51,10 @@ bound_indexes <- get_theoretical_time_window_bounds(
 get_effective_time_window_bounds(bound_indexes, sample)
 
 
+debug(data_filter$filter_out_ids_not_in_price_dataset)
+debug(data_wrangler$extract_year_from_date_colum)
 
-
-
+unique(data$`Year end date`)
 
 
 
