@@ -36,7 +36,7 @@ raw_to_clean_names_map <- c(
   "net profit"                                = "Net profit",
   "ebit (tax/interest)"                       = "EBIT (tax/int)",
   "income tax"                                = "Income tax",
-  "dividends paymment for the year"           = "Dividends paymment for the year",
+  "dividends payment for the year"           = "Dividends paymment for the year",
   "depreciation"                              = "Depreciation",
   "interest"                                  = "Interest",
   "gross profit"                              = "Gross Profit",
