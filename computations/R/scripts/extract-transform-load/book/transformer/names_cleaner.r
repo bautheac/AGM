@@ -8,7 +8,7 @@ raw_to_clean_names_map <- c(
   "industry"                                  = "Industry",
   "town of head office"                       = "Town of head office",
   "country basis of operations"               = "Country basis of operations",
-  "date of year end"                          = "Year end date",
+  "date of reporting period end"              = "Year end date",
   "date of signing the letter"                = "Date of signing the letter",
   "date of auditing"                          = "Auditing date",
   "dates of closed books period available"    = "Closure of books",

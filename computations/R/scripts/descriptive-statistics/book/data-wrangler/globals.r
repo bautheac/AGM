@@ -2,7 +2,7 @@ pacman::p_load(modules)
 
 modules::export("variables_to_compute_distance_to_AGM_for")
 variables_to_compute_distance_to_AGM_for <- c(
-  "date of year end",
+  "date of reporting period end",
   "date of signing the letter",
   "date of auditing",
   "first day of closed books",

@@ -15,6 +15,8 @@ path_clean_book_data <- here::here("data", "book_clean.rds")
 
 raw_book_data <- data_extracter$extract_xlsx_data(path_raw_book_data, sheet_book_data)
 clean <- book_data_transformer$transform_book_data(raw_book_data)
+
+
 data_loader$load_rds(clean, path_clean_book_data)
 
 

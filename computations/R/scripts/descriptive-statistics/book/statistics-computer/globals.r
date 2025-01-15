@@ -8,7 +8,7 @@ variables_to_count <- c("dates of closed books period available", "AGM date with
 
 modules::export("variables_to_summarise")
 variables_to_summarise <- c(
-  variables_creator_globals$distance_to_AGM_computed_variables, "length of closed books period", 
+  variables_creator_globals$distance_to_AGM_computed_variables, "length of closed books period (# days)", 
   "book value equity", "total assets", "non-current assets", "current assets", "total liabilities", 
   "non-current liabilities", "current liabilities", "total debt", "bank debt", 
   "other debt", "cash", "intangibles/goodwill",
