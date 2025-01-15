@@ -3,7 +3,7 @@ title: "Dashboard"
 format:
   html:
     grid:
-      body-width: 1000px
+      body-width: 1400px
     theme:
       - Minty
       - style.css
@@ -36,34 +36,24 @@ purrr::walk2(urls, files, ~download.file(.x, .y))
 
 This table shows descriptive statistics for the variables available in the main book data dataset. These are compiled including only firms that match those in the price dataset (`AGMdata.dta`). Are further excluded firm-year combinations that fail the "amount verification" for total assets and total liabilities as well as missing or "0" records. 
 
+
 ```{r}
 #| label: book-stats-load
 
-book_stats <- readr::read_rds(file.path(data_directory_path, "book_descriptive_stats.rds"))
-# variables_levels <- c(
-#   "BVE", "Total Assets", "Non-Current Assets", "Current Assets", "Total Liabilities", 
-#   "Non-current Liabilities", "Current Liabilities", "Total Debt", "Bank Debt", 
-#   "Other Debt", "Cash", "Intangibles/ Goodwill",
-#   "Net profit", "EBIT (tax/int)", "Income tax", "Dividends paymment for the year",
-#   "Depreciation", "Interest", "Gross Profit", "Sales", "Number of shares outstanding"
-# )
-# statistics_levels <- c("n", "min", "max", "mean", "median", "sd")
-# 
-# book_stats_wrangled <-
-#   dplyr::mutate(book_stats, statistic = factor(statistic, levels = statistics_levels)) |>
-#   tidyr::pivot_longer(cols = -c(year, statistic), names_to = "variable", values_to = "value"
-# ) |> 
-#   dplyr::mutate(value = as.integer(round(value)), variable = factor(variable, levels = variables_levels)) |>
-#   tidyr::pivot_wider(names_from = year, values_from = value) |>
-#   dplyr::relocate(variable, .before = 1L) |> dplyr::arrange(variable, statistic)
+descriptive_stats_book_by_reporting_frequency_data_path <- 
+  file.path(data_directory_path, "descriptive-statistics", "book", "statistics-by-reporting-frequency.rds")
+
+book_stats <- readr::read_rds(descriptive_stats_book_by_reporting_frequency_data_path)
 ```
 
 ```{r}
 #| label: book-stats-table
 
-kableExtra::kable(book_stats, format.args = list(big.mark = " ")) |> 
-  kableExtra::column_spec(1L:2L, bold = TRUE) |> kableExtra::column_spec(5L:10L, color = "#4285f4") |>
-  kableExtra::collapse_rows(1L:2L, valign = "top") |>
+kableExtra::kable(
+  book_stats, align = c(rep("l", 4L), rep("r", 6L)), format.args = list(big.mark = " ")
+  ) |> 
+  kableExtra::column_spec(1L:4L, bold = TRUE) |> kableExtra::column_spec(5L:10L, color = "#4285f4") |>
+  kableExtra::collapse_rows(1L:3L, valign = "top") |>
   kableExtra::kable_styling(bootstrap_options = "hover")
 ```
 
