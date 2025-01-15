@@ -1,15 +1,18 @@
 pacman::p_load(modules)
 
+path_variables_creator_globals <- here::here("computations", "R", "scripts", "descriptive-statistics", "book", "data-wrangler", "globals.r")
+variables_creator_globals <- modules::use(path_variables_creator_globals)
+
 modules::export("variables_to_count")
 variables_to_count <- c("dates of closed books period available", "AGM date within closed books period")
 
 modules::export("variables_to_summarise")
 variables_to_summarise <- c(
-  "length of closed books period", "length of period between end of closed books and AGM",
+  variables_creator_globals$distance_to_AGM_computed_variables, "length of closed books period", 
   "book value equity", "total assets", "non-current assets", "current assets", "total liabilities", 
   "non-current liabilities", "current liabilities", "total debt", "bank debt", 
   "other debt", "cash", "intangibles/goodwill",
-  "net profit", "ebit (tax/interest)", "income tax", "dividends paymment for the year",
+  "net profit", "ebit (tax/interest)", "income tax", "dividends payment for the year",
   "depreciation", "interest", "gross profit", "sales", "number of shares outstanding"
 )
 

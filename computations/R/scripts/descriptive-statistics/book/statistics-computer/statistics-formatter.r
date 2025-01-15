@@ -24,7 +24,7 @@ format_summary_statistics <- function(data, variables_to_exclude){
     cols = -variables_to_exclude, names_to = c("variable", "statistic"), names_sep = "_", values_to = "value"
   ) |> 
     dplyr::mutate(
-      value = round(value, 0L), value = ifelse(is.finite(value), value, NA_integer_),
+      value = round(value, 0L), value = ifelse(is.finite(value), value, NA_integer_), value = as.integer(value),
       `reporting frequency` = factor(`reporting frequency`, levels = c("yearly", "semi-annually", "all")),
       variable = factor(variable, levels = c(globals$variables_to_count, globals$variables_to_summarise))
     ) |>

@@ -7,7 +7,7 @@ path_data_loader <-
   here::here("computations", "R", "scripts", "extract-transform-load", "loader.r")
 data_loader <- modules::use(path_data_loader)
 path_data_wrangler <- 
-  here::here("computations", "R", "scripts", "descriptive-statistics", "book", "wrangler.r")
+  here::here("computations", "R", "scripts", "descriptive-statistics", "book", "data-wrangler", "main.r")
 data_wrangler <- modules::use(path_data_wrangler)
 path_statistics_computer <- 
   here::here("computations", "R", "scripts", "descriptive-statistics", "book", "statistics-computer", "main.r")

@@ -23,7 +23,7 @@ compute_stats_for_variables <- function(data, variables, statistics){
 
 compute_stats_by_reporting_period <- 
   function(data, variables_to_count, variables_to_summarise, counting_statistics, summarising_statistics){
-  
+
   all <- dplyr::mutate(data, `reporting frequency` = "all")
   whole <- dplyr::bind_rows(all, data)
   
