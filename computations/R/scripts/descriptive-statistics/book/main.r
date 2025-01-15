@@ -24,7 +24,9 @@ path_book_descriptive_stats_dashboard <-
 book_data <- data_extracter$extract_rds_data(path_book_data_clean) |>
   data_wrangler$prepare_dataset_for_descriptive_stats_analysis()
 
+
 descriptive_stats <- statistics_computer$compute_descriptive_statistics(book_data)
+
 
 purrr::walk(
   list(path_book_descriptive_stats_results, path_book_descriptive_stats_dashboard

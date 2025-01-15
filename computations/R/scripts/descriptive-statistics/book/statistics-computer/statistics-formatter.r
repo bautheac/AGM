@@ -25,7 +25,7 @@ format_summary_statistics <- function(data, variables_to_exclude){
   ) |> 
     dplyr::mutate(
       value = round(value, 0L), value = ifelse(is.finite(value), value, NA_integer_), value = as.integer(value),
-      `reporting frequency` = factor(`reporting frequency`, levels = c("yearly", "semi-annually", "all")),
+      `reporting frequency` = factor(`reporting frequency`, levels = c("annually", "semi-annually", "all")),
       variable = factor(variable, levels = c(globals$variables_to_count, globals$variables_to_summarise))
     ) |>
     tidyr::pivot_wider(names_from = year, values_from = value) |>

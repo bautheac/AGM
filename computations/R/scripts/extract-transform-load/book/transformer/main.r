@@ -12,7 +12,7 @@ transform_reporting_frequency_variable <- function(book_data){
   dplyr::mutate(
     book_data,
     `full year` = dplyr::case_when(
-      `full year` == 1L ~ "yearly", `full year` == 0L ~ "semi-annually", TRUE ~ NA_character_
+      `full year` == 1L ~ "annually", `full year` == 0L ~ "semi-annually", TRUE ~ NA_character_
     )
   ) |> dplyr::rename(`reporting frequency` = `full year`)
 }
