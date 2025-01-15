@@ -16,9 +16,9 @@ statistics_computer <- modules::use(path_statistics_computer)
 
 path_book_data_clean <- here::here("data", "book_clean.rds")
 path_book_descriptive_stats_results <- 
-  here::here("computations", "R", "results", "book_descriptive_stats.rds")
+  here::here("computations", "R", "results", "descriptive-statistics", "book", "statistics-by-reporting-frequency.rds")
 path_book_descriptive_stats_dashboard <- 
-  here::here("communication", "dashboard", "data", "book_descriptive_stats.rds")
+  here::here("communication", "dashboard", "data", "descriptive-statistics", "book", "statistics-by-reporting-frequency.rds")
 
 
 book_data <- data_extracter$extract_rds_data(path_book_data_clean) |>
