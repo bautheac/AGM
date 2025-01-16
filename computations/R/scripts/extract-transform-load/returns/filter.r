@@ -1,13 +1,10 @@
 pacman::p_load(dplyr, modules)
 
-filter_out_no_price_dates <- function(price_data){
-  dplyr::filter(
-    price_data,
-    dplyr::across(dplyr::matches("^data ?available$"), ~ . == "yes") 
-  )
-}
+path_global_filter <- 
+  here::here("computations", "R", "scripts", "extract-transform-load", "globals", "filter", "main.r")
+global_filter <- modules::use(path_global_filter)
 
-modules::export("filter_out_irrelevant_data")
-filter_out_irrelevant_data <- function(price_data) {
-  filter_out_no_price_dates(price_data)
+filter_out_first_row_of_every_group <- function(data, group_vars){
+  dplyr::group_by(data, !!!group_vars) |>
+    global_filter$filter_out_first_row()
 }

@@ -20,3 +20,6 @@ clean_events <- events_data_transformer$transform_events(raw_events)
 
 
 data_loader$load_rds(clean_events, path_clean_events_data)
+
+
+rm(list = ls())
