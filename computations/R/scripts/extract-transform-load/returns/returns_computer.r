@@ -18,18 +18,20 @@ compute_returns_from_high_low_quotes <- function(high, low){
   return(compute_returns(mid))
 }
 
-compute_returns_by_company <- function(data, group_var = "Company", result_var = "return"){
-  
-  results <- dplyr::group_by(data, group_var) |>
+compute_returns_by_group <- function(price_data, group_var, result_var){
+  browser()
+  dplyr::group_by(price_data, dplyr::across(group_var)) |>
     dplyr::mutate(!!result_var := compute_returns_from_high_low_quotes(high, low)) |>
     dplyr::ungroup()
-  
-  return(results)
+}
+
+compute_returns_by_company <- function(price_data){
+
+  compute_returns_by_group(price_data, group_var = "id", result_var = "return")
 }
 
 export("compute_returns")
-compute_returns <- function(data){
+compute_returns <- function(price_data){
   
-  return(compute_returns_by_company(data))
+  return(compute_returns_by_company(price_data))
 }
-

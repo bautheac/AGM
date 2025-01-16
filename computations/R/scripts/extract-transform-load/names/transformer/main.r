@@ -1,7 +1,7 @@
 pacman::p_load(here, modules)
 
 path_names_cleaner <- 
-  here::here("computations", "R", "scripts", "extract-transform-load", "globals", "transformer", "raw_price_data_names_cleaner.r")
+  here::here("computations", "R", "scripts", "extract-transform-load", "prices", "transformer", "names_cleaner.r")
 names_cleaner <- modules::use(path_names_cleaner)
 path_variables_selecter <- 
   here::here("computations", "R", "scripts", "extract-transform-load", "prices", "transformer", "variables_selecter.r")
