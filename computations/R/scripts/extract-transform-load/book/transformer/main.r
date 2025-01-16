@@ -30,7 +30,7 @@ transform_check_variables <- function(book_data){
 export("transform_book_data")
 transform_book_data <- function(book_data){
   
-  names_cleaner$rename_columns(book_data) |>
+  names_cleaner$rename_variables(book_data) |>
     variables_selecter$select_relevant_variables() |>
     dates_cleaner$clean_date_columns() |>
     transform_reporting_frequency_variable() |>

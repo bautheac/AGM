@@ -31,7 +31,7 @@ filter_out_records_with_nas_in_columns <- function(data, columns){
 }
 
 export("keep_distinct_variable_combinations")
-keep_distinct_variable_combinations <- function(data, variables){
+keep_distinct_variable_combinations <- function(data, ...){
   
-  dplyr::distinct(data, !!!dplyr::all_of(variables))
+  dplyr::distinct(data, ...)
 }

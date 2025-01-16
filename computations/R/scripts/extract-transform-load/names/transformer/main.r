@@ -17,6 +17,6 @@ transform_names <- function(raw_names){
   
   names_cleaner$rename_variables(raw_names) |>
     variables_selecter$select_relevant_variables() |>
-    filter$keep_distinct_variable_combinations(c("id", "company name"))
-    dplyr::arrange(id, date)
+    filter$keep_distinct_variable_combinations(id, `company name`) |>
+    dplyr::arrange(id, `company name`)
 }
