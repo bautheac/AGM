@@ -8,7 +8,7 @@ path_variables_selecter <-
   here::here("computations", "R", "scripts", "extract-transform-load", "names", "transformer", "variables_selecter.r")
 variables_selecter <- modules::use(path_variables_selecter)
 path_filter <- 
-  here::here("computations", "R", "scripts", "extract-transform-load", "globals", "filter.r")
+  here::here("computations", "R", "scripts", "extract-transform-load", "globals", "filter", "main.r")
 filter <- modules::use(path_filter)
 
 

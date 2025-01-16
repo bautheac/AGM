@@ -1,13 +1,13 @@
 pacman::p_load(dplyr, here, modules)
 
 path_character_cleaner <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "prices", "transformer", 
-  "variables-cleaner", "price-cleaner", "character_cleaner.r"
+  "computations", "R", "scripts", "extract-transform-load", "globals", "transformer", 
+  "prices", "variables-cleaner", "price-cleaner", "character_cleaner.r"
 )
 character_cleaner <- modules::use(path_character_cleaner)
 path_price_converter <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "prices", "transformer", 
-  "variables-cleaner", "price-cleaner", "price_converter.r"
+  "computations", "R", "scripts", "extract-transform-load", "globals", "transformer", 
+  "prices", "variables-cleaner", "price-cleaner", "price_converter.r"
 )
 price_converter <- modules::use(path_price_converter)
 
