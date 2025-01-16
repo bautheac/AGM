@@ -18,10 +18,10 @@ compute_returns_from_high_low_quotes <- function(high, low){
   return(compute_returns(mid))
 }
 
-compute_returns_by_company <- function(data, group_var = "Company", result_var = "capgains"){
+compute_returns_by_company <- function(data, group_var = "Company", result_var = "return"){
   
-  results <- dplyr::group_by(data, group_var) %>%
-    dplyr::mutate(!!result_var := compute_returns_from_high_low_quotes(high, low)) %>%
+  results <- dplyr::group_by(data, group_var) |>
+    dplyr::mutate(!!result_var := compute_returns_from_high_low_quotes(high, low)) |>
     dplyr::ungroup()
   
   return(results)
@@ -30,6 +30,6 @@ compute_returns_by_company <- function(data, group_var = "Company", result_var =
 export("compute_returns")
 compute_returns <- function(data){
   
-  return(compute_returns_by_company_as(data, "Company", "capgains"))
+  return(compute_returns_by_company(data))
 }
 

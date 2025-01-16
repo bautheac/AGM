@@ -2,8 +2,8 @@ pacman::p_load(dplyr, here, lubridate, modules)
 
 path_names_cleaner <- here::here("computations", "R", "scripts", "extract-transform-load", "book", "transformer", "names_cleaner.r")
 names_cleaner <- modules::use(path_names_cleaner)
-path_names_selecter <- here::here("computations", "R", "scripts", "extract-transform-load", "book", "transformer", "names_selecter.r")
-names_selecter <- modules::use(path_names_selecter)
+path_variables_selecter <- here::here("computations", "R", "scripts", "extract-transform-load", "book", "transformer", "variables_selecter.r")
+variables_selecter <- modules::use(path_variables_selecter)
 path_dates_cleaner <- here::here("computations", "R", "scripts", "extract-transform-load", "book", "transformer", "dates_cleaner.r")
 dates_cleaner <- modules::use(path_dates_cleaner)
 
@@ -31,7 +31,7 @@ export("transform_book_data")
 transform_book_data <- function(book_data){
   
   names_cleaner$rename_columns(book_data) |>
-    names_selecter$select_relevant_columns() |>
+    variables_selecter$select_relevant_variables() |>
     dates_cleaner$clean_date_columns() |>
     transform_reporting_frequency_variable() |>
     transform_check_variables()
