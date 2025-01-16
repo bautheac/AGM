@@ -29,3 +29,9 @@ export("filter_out_records_with_nas_in_columns")
 filter_out_records_with_nas_in_columns <- function(data, columns){
   dplyr::filter(data, !dplyr::if_all(dplyr::all_of(columns), ~ is.na(.) | . == ""))
 }
+
+export("keep_distinct_variable_combinations")
+keep_distinct_variable_combinations <- function(data, variables){
+  
+  dplyr::distinct(data, !!!dplyr::all_of(variables))
+}
