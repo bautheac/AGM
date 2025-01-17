@@ -34,3 +34,60 @@ extract_price_data <- function(){
   
   extract_stata_data(path_raw_price_data)
 }
+
+modules::export("extract_clean_dates_data")
+extract_clean_dates_data <- function(type = c("trading")){
+  
+  dates_file_name <- paste("dates", type, "clean.rds", sep = "_")
+  path_clean_dates_data <- here::here("data", dates_file_name)
+  
+  extract_rds_data(path_clean_dates_data)
+}
+
+modules::export("extract_clean_dates_tradings_data")
+extract_clean_dates_tradings_data <- function(){
+  
+  extract_clean_dates_data("trading")
+}
+
+modules::export("extract_clean_names_data")
+extract_clean_names_data <- function(){
+  
+  path_clean_names_data <- here::here("data", "names_clean.rds")
+  
+  extract_rds_data(path_clean_names_data)
+}
+
+modules::export("extract_clean_events_data")
+extract_clean_events_data <- function(){
+  
+  path_clean_events_data <- here::here("data", "events_clean.rds")
+  
+  extract_rds_data(path_clean_events_data)
+}
+
+modules::export("extract_clean_book_data")
+extract_clean_book_data <- function(){
+  
+  path_clean_book_data <- here::here("data", "events_book.rds")
+  
+  extract_rds_data(path_clean_book_data)
+}
+
+modules::export("extract_clean_prices_data")
+extract_clean_prices_data <- function(){
+  
+  path_clean_prices_data <- here::here("data", "prices_clean.rds")
+  
+  extract_rds_data(path_clean_prices_data)
+}
+
+modules::export("extract_clean_returns_data")
+extract_clean_returns_data <- function(){
+  
+  path_clean_returns_data <- here::here("data", "returns_clean.rds")
+  
+  extract_rds_data(path_clean_returns_data)
+}
+
+
