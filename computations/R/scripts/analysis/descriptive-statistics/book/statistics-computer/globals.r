@@ -1,6 +1,6 @@
 pacman::p_load(modules)
 
-path_variables_creator_globals <- here::here("computations", "R", "scripts", "descriptive-statistics", "book", "data-wrangler", "globals.r")
+path_variables_creator_globals <- here::here("computations", "R", "scripts", "analysis", "descriptive-statistics", "book", "data-wrangler", "globals.r")
 variables_creator_globals <- modules::use(path_variables_creator_globals)
 
 modules::export("variables_to_count")

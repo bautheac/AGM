@@ -1,7 +1,7 @@
 pacman::p_load(modules, tidyr)
 
 path_globals <- here::here(
-  "computations", "R", "scripts", "descriptive-statistics", "book", "statistics-computer", 
+  "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", "statistics-computer", 
   "globals.r"
 )
 globals <- modules::use(path_globals)

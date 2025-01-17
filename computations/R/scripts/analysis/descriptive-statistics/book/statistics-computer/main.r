@@ -1,12 +1,12 @@
 pacman::p_load(dplyr, modules, stats)
 
 path_statistics_formatter <- here::here(
-  "computations", "R", "scripts", "descriptive-statistics", "book", "statistics-computer", 
+  "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", "statistics-computer", 
   "statistics-formatter.r"
   )
 statistics_formatter <- modules::use(path_statistics_formatter)
 path_globals <- here::here(
-  "computations", "R", "scripts", "descriptive-statistics", "book", "statistics-computer", 
+  "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", "statistics-computer", 
   "globals.r"
   )
 globals <- modules::use(path_globals)
