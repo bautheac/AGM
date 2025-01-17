@@ -20,3 +20,6 @@ clean_names <- names_data_transformer$transform_names(raw_names)
 
 
 data_loader$load_rds(clean_names, path_clean_names_data)
+
+
+rm(list = ls())

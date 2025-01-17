@@ -4,13 +4,13 @@ path_data_extracter <-
   here::here("computations", "R", "scripts", "extract-transform-load", "globals", "extracter.r")
 data_extracter <- modules::use(path_data_extracter)
 path_variables_selecter <- 
-  here::here("computations", "R", "scripts", "extract-transform-load", "returns", "variables_selecter.r")
+  here::here("computations", "R", "scripts", "extract-transform-load", "returns", "transformer", "variables_selecter.r")
 variables_selecter <- modules::use(path_variables_selecter)
 path_returns_computer <- 
-  here::here("computations", "R", "scripts", "extract-transform-load", "returns", "returns_computer.r")
+  here::here("computations", "R", "scripts", "extract-transform-load", "returns", "transformer", "returns_computer.r")
 returns_computer <- modules::use(path_returns_computer)
 path_filter <- 
-  here::here("computations", "R", "scripts", "extract-transform-load", "returns", "filter.r")
+  here::here("computations", "R", "scripts", "extract-transform-load", "returns", "transformer", "filter.r")
 filter <- modules::use(path_filter)
 path_data_loader <- 
   here::here("computations", "R", "scripts", "extract-transform-load", "globals", "loader.r")
