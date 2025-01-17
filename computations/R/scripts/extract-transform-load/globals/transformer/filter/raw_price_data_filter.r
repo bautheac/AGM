@@ -1,8 +1,9 @@
 pacman::p_load(dplyr, modules)
 
-path_filter_global <- here::here("computations", "R", "scripts", "extract-transform-load", "globals", "filter", "main.r")
+path_filter_global <- here::here("computations", "R", "scripts", "extract-transform-load", "globals", "transformer", "filter", "main.r")
 filter_global <- modules::use(path_filter_global)
 
+modules::export("filter_out_records_with_corrupt_date")
 filter_out_records_with_corrupt_date <- function(price_data) {
   
   dplyr::filter(price_data, date != "", date != "date")
