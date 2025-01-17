@@ -18,8 +18,4 @@ clean <- book_data_transformer$transform_book_data(raw_book_data)
 data_loader$load_rds(clean, path_clean_book_data)
 
 
-rm(
-  path_data_extracter, data_extracter, path_raw_book_data, sheet_book_data, 
-  raw_book_data, path_book_transformer, book_data_transformer, clean, 
-  path_data_loader, data_loader, path_clean_book_data
-)
+rm(list = ls())
