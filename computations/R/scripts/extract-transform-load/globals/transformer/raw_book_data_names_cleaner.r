@@ -44,7 +44,7 @@ raw_to_clean_names_map <- c(
   "number of shares outstanding"              = "Number of shares outstanding"
 )
 
-modules::export("rename_columns")
-rename_columns <- function(book_data) {
+modules::export("rename_variables")
+rename_variables <- function(book_data) {
   dplyr::rename(book_data, !!!raw_to_clean_names_map)
 }
