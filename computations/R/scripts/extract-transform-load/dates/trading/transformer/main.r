@@ -1,4 +1,4 @@
-pacman::p_load(here, modules)
+pacman::p_load(dplyr, here, lubridate, modules)
 
 
 path_global_price_transformer <- 
@@ -18,5 +18,6 @@ transform_dates <- function(raw_dates){
   global_price_transformer$transform_prices(raw_dates) |>
     variables_cleaner$clean_relevant_variables() |>
     filter$filter_out_irrelevant_data() |>
+    dplyr::mutate(date = lubridate::ymd(date)) |>
     dplyr::arrange(date)
 }
