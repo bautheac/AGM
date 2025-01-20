@@ -1,8 +1,11 @@
-pacman::p_load(dplyr, modules, tibble)
+pacman::p_load(dplyr, modules, tibble, stats)
 
-path_to_globals <- 
-  here::here("computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", "globals.r")
-globals <- modules::use(path_to_globals)
+
+path_globals <- here::here(
+  "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
+  "statistics-computer", "globals.r"
+)
+globals <- modules::use(path_globals)
 
 
 equals_zero <- function(x) { 
@@ -11,9 +14,11 @@ equals_zero <- function(x) {
   return(x == 0) 
 }
 
+
 break_condition_met <- function(break_fun, return){
   do.call(break_fun, list(return))
 }
+
 
 compute_uninterrupted_days <- function(
     returns, break_fun = c("is.na", "equals_zero"), break_n = 5L, start_index, direction = c("before", "after")
@@ -41,37 +46,33 @@ compute_uninterrupted_days <- function(
     days_count <- days_count + 1L
     i <- i + step
   }
+  
   return(days_count)
 }
 
 
-
-compute_event_indices <- function(event_series){
-  which(!is.na(event_series))
-}
+compute_event_indices <- function(event_series){ which(!is.na(event_series)) }
 
 no_event_exists <- function(event_indices){ length(event_indices) == 0L }
 
 make_tibble_empty <- function(var_names){
-  tibble::tibble(!!!setNames(vector("list", length(var_names)), var_names))
+  tibble::tibble(!!!stats::setNames(vector("list", length(var_names)), var_names))
 }
 
-make_tibble_results <- function(content){
-  tibble::tibble(!!!content)
-}
+
+make_tibble_results <- function(content){ tibble::tibble(!!!content) }
+
 
 compute_days_around_event_statistics <- function(returns, event_index){
   
-  lapply(globals$firm_days_statistics, function(spec) {
+  lapply(globals$firm_days_statistics_params, function(params) {
     
-    fun <- match.fun(spec$fun)
-    params <- spec$params
-
-    do.call(fun, c(list(returns = returns, start_index = event_index), params))
+    do.call(compute_uninterrupted_days, c(list(returns = returns, start_index = event_index), params))
   })
 }
 
 
+modules::export("compute_days_around_events_statistics_for_id_year_combination")
 compute_days_around_events_statistics_for_id_year_combination <- function(data){
   
   event_rows <-compute_event_indices(data$event)
@@ -93,17 +94,3 @@ compute_days_around_events_statistics_for_id_year_combination <- function(data){
   
   dplyr::bind_rows(results)
 }
-
-compute_days_around_events <- function(df) {
-  
-  dplyr::group_by(df, id, year) |>
-    dplyr::arrange(date, .by_group = TRUE) |>
-    dplyr::group_modify(~compute_days_around_events_statistics_for_id_year_combination(.x)) |>
-    dplyr::ungroup()
-}
-
-
-test <- dplyr::mutate(dataset, year = lubridate::year(date)) |>
-  dplyr::filter(event %in% c(NA, globals$events_of_interest)) |>
-  compute_days_around_events() |>
-  dplyr::arrange(id, year, date)
