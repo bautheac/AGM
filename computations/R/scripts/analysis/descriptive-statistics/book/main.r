@@ -12,27 +12,21 @@ data_wrangler <- modules::use(path_data_wrangler)
 path_statistics_computer <- 
   here::here("computations", "R", "scripts", "analysis", "descriptive-statistics", "book", "statistics-computer", "main.r")
 statistics_computer <- modules::use(path_statistics_computer)
+path_globals <- here::here("computations", "R", "scripts", "analysis", "descriptive-statistics", "book", "globals.r")
+globals <- modules::use(path_globals)
 
 
-path_book_data_clean <- here::here("data", "book_clean.rds")
-path_book_descriptive_stats_results <- 
-  here::here("computations", "R", "results", "descriptive-statistics", "book", "statistics-by-reporting-frequency.rds")
-path_book_descriptive_stats_dashboard <- 
-  here::here("communication", "dashboard", "data", "descriptive-statistics", "book", "statistics-by-reporting-frequency.rds")
-
-
-book_data <- data_extracter$extract_rds_data(path_book_data_clean) |>
+book_data <- data_extracter$extract_rds_data(globals$path_book_data_clean) |>
   data_wrangler$prepare_dataset_for_descriptive_stats_analysis()
 
 
 descriptive_stats <- statistics_computer$compute_descriptive_statistics(book_data)
 
 
-purrr::walk(
-  list(path_book_descriptive_stats_results, path_book_descriptive_stats_dashboard
-  ), ~ data_loader$load_rds(descriptive_stats, .x)
+data_loader$load_objects(
+  list(descriptive_stats, descriptive_stats), 
+  list(globals$path_book_descriptive_stats_results, globals$path_book_descriptive_stats_dashboard)
 )
 
 
 rm(list = ls())
-

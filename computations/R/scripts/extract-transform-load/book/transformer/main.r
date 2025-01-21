@@ -36,7 +36,3 @@ transform_book_data <- function(book_data){
     transform_reporting_frequency_variable() |>
     transform_check_variables()
 }
-
-
-
-

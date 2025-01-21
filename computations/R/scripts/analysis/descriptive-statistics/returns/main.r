@@ -13,9 +13,6 @@ path_statistics_computer <- here::here(
 statistics_computer <- modules::use(path_statistics_computer)
 
 
-path_return_data_clean <- here::here("data", "returns_clean.rds")
-
-
 returns <- extracter$make_dataset()
 
 
