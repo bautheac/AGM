@@ -3,9 +3,24 @@ pacman::p_load(dplyr, lubridate, modules, stringr)
 correct_unformatted_date_typos <- function(book_data){
   dplyr::mutate(
     book_data, 
+    `date of reporting period end` = ifelse(`date of reporting period end` == "29/02/1911", "28/02/1911", `date of reporting period end`),
+    `date of reporting period end` = ifelse(`date of reporting period end` == "29/02/1913", "28/02/1913", `date of reporting period end`),
+    `date of reporting period end` = ifelse(`date of reporting period end` == "31/06/1910", "30/06/1910", `date of reporting period end`),
+    `date of reporting period end` = ifelse(`date of reporting period end` == "31/09/1909", "30/09/1909", `date of reporting period end`),
+    `date of reporting period end` = ifelse(`date of reporting period end` == "31/09/1910", "30/09/1910", `date of reporting period end`),
+    `date of reporting period end` = ifelse(`date of reporting period end` == "31/09/1911", "30/09/1911", `date of reporting period end`),
+    `date of reporting period end` = ifelse(`date of reporting period end` == "31/09/1912", "30/09/1912", `date of reporting period end`),
+    `date of reporting period end` = ifelse(`date of reporting period end` == "31/09/1913", "30/09/1913", `date of reporting period end`),
+    `date of reporting period end` = ifelse(`date of reporting period end` == "31/09/1914", "30/09/1914", `date of reporting period end`),
+    `date of reporting period end` = ifelse(`date of reporting period end` == "31/09/1915", "30/09/1915", `date of reporting period end`),
+    `date of signing the letter` = ifelse(`date of signing the letter` == "30/02/1914", "28/02/1914", `date of signing the letter`),
     `date of auditing` = ifelse(`date of auditing` == "03/011914", "03/01/1914", `date of auditing`),
+    `date of auditing` = ifelse(`date of auditing` == "1", "", `date of auditing`),
     `date of auditing` = ifelse(`date of auditing` == "40924", "4424", `date of auditing`),
+    `first day of closed books` = ifelse(`first day of closed books` == "23-03-11??", "23/03/1911", `first day of closed books`),
+    `first day of closed books` = ifelse(`first day of closed books` == "25-03-12??", "25/03/1912", `first day of closed books`),
     `first day of closed books` = ifelse(`first day of closed books` == "25/05/194", "25/05/1914", `first day of closed books`),
+    `first day of closed books` = ifelse(`first day of closed books` == "31/11/1913", "30/11/1913", `first day of closed books`),
     `first day of closed books` = ifelse(`first day of closed books` == "41249", "4749", `first day of closed books`),
     `first day of closed books` = ifelse(`first day of closed books` == "43659", "3659", `first day of closed books`),
     `first day of closed books` = stringr::str_replace(`first day of closed books`, "-(\\d{2})\\?\\?", "-19\\1") |> stringr::str_replace("-", "\\\\"),
@@ -15,6 +30,7 @@ correct_unformatted_date_typos <- function(book_data){
     `last day of closed books` = ifelse(`last day of closed books` == "41262", "4762", `last day of closed books`),
     `last day of closed books` = ifelse(`last day of closed books` == "41171", "4771", `last day of closed books`),
     `last day of closed books` = ifelse(`last day of closed books` == "28326", "4326", `last day of closed books`),
+    `date of AGM` = ifelse(`date of AGM` == "09/02/1911", "4058", `date of AGM`),
     `date of AGM` = ifelse(`date of AGM` == "43680", "3680", `date of AGM`),
     `date of AGM` = ifelse(`date of AGM` == "40933", "4433", `date of AGM`),
   )
@@ -58,22 +74,6 @@ correct_formatted_date_typos <- function(book_data){
     `date of AGM` = ifelse(id == "RL059" & `date of reporting period end` == "1912-12-31", "1913-02-20", as.character(`date of AGM`)),
     `date of AGM` = ifelse(id == "RL067" & `date of reporting period end` == "1913-12-31", "1914-03-05", as.character(`date of AGM`)),
   )
-}
-
-convert_to_standard_date_format_from_excel <- function(dates) {
-  
-  dates <- stringr::str_replace(dates, "^\\d{1}$", NA_character_)
-  
-  dates <- stringr::str_replace(dates, "^\\*+$", NA_character_)
-  
-  ifelse(
-    # If the column is numeric, 
-    !is.na(as.numeric(dates)),
-    # convert using Excel origin,
-    as.Date(as.numeric(dates), origin = "1899-12-30"),
-    # otherwise, attempt to parse string dates.
-    lubridate::dmy(dates) # Parse dates in "day/month/year" format
-  ) |> as.Date()
 }
 
 convert_to_standard_date_format_from_excel <- function(dates) {
