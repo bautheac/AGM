@@ -15,7 +15,7 @@ data_loader <- modules::use(path_data_loader)
 path_clean_price_data <- here::here("data", "prices_clean.rds")
 
 
-raw_prices <- data_extracter$extract_price_data()
+raw_prices <- data_extracter$extract_raw_price_data()
 clean_prices <- price_data_transformer$transform_prices(raw_prices)
 
 

@@ -15,7 +15,7 @@ data_loader <- modules::use(path_data_loader)
 path_clean_names_data <- here::here("data", "names_clean.rds")
 
 
-raw_names <- data_extracter$extract_book_data()
+raw_names <- data_extracter$extract_raw_book_data()
 clean_names <- names_data_transformer$transform_names(raw_names)
 
 

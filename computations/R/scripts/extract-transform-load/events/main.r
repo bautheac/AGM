@@ -15,7 +15,7 @@ data_loader <- modules::use(path_data_loader)
 path_clean_events_data <- here::here("data", "events_clean.rds")
 
 
-raw_events <- data_extracter$extract_price_data()
+raw_events <- data_extracter$extract_raw_price_data()
 clean_events <- events_data_transformer$transform_events(raw_events)
 
 

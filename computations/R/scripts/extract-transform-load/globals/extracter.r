@@ -18,8 +18,8 @@ extract_rds_data <- function(path_data){
   return(readr::read_rds(path_data))
 }
 
-modules::export("extract_book_data")
-extract_book_data <- function(){
+modules::export("extract_raw_book_data")
+extract_raw_book_data <- function(){
   
   path_raw_names_data <- here::here("data", "H and peck data_Final.xlsx")
   sheet_book_data <- "Dataset"
@@ -27,8 +27,8 @@ extract_book_data <- function(){
   extract_xlsx_data(path_raw_names_data, sheet_book_data)
 }
 
-modules::export("extract_price_data")
-extract_price_data <- function(){
+modules::export("extract_raw_price_data")
+extract_raw_price_data <- function(){
   
   path_raw_price_data <- here::here("computations", "stata", "AGMdata.dta")
   
@@ -69,7 +69,7 @@ extract_clean_events_data <- function(){
 modules::export("extract_clean_book_data")
 extract_clean_book_data <- function(){
   
-  path_clean_book_data <- here::here("data", "events_book.rds")
+  path_clean_book_data <- here::here("data", "book_clean.rds")
   
   extract_rds_data(path_clean_book_data)
 }

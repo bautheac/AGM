@@ -15,7 +15,7 @@ data_loader <- modules::use(path_data_loader)
 path_clean_dates_data <- here::here("data", "dates_trading_clean.rds")
 
 
-raw_dates <- data_extracter$extract_price_data()
+raw_dates <- data_extracter$extract_raw_price_data()
 clean_dates <- dates_data_transformer$transform_dates(raw_dates)
 
 
