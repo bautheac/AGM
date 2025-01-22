@@ -16,11 +16,12 @@ event_days_counter <- modules::use(path_event_days_counter)
 modules::export("compute_days_around_events")
 compute_days_around_events <- function(returns_dataset) {
   
-  dplyr::mutate(returns_dataset, year = lubridate::year(date)) |>
+  dplyr::mutate(returns_dataset) |>
     dplyr::filter(event %in% c(NA, globals$events_of_interest)) |>
-    dplyr::group_by(id, year) |> dplyr::arrange(date, .by_group = TRUE) |>
+    dplyr::group_by(id, year, `reporting period`) |> 
+    dplyr::arrange(date, .by_group = TRUE) |>
     dplyr::group_modify(
-      ~event_days_counter$compute_days_around_events_statistics_for_id_year_combination(.x)
+      ~event_days_counter$compute_days_around_events_statistics_for_id_year_reporting_period_combination(.x)
     ) |>
     dplyr::ungroup() |> dplyr::arrange(id, year, date)
 }

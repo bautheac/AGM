@@ -9,9 +9,9 @@ stats_computer_firm <- modules::use(path_stats_computer_firm)
 
 
 modules::export("compute_returns_statistics")
-compute_returns_statistics <- function(returns){
+compute_returns_statistics <- function(dataset){
   
-  firm <- stats_computer_firm$compute_days_around_events(returns) 
+  firm <- stats_computer_firm$compute_days_around_events(dataset) 
   aggregate <- list()
   
   return(list(firm = firm, aggregate = aggregate))

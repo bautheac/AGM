@@ -72,8 +72,8 @@ compute_days_around_event_statistics <- function(returns, event_index){
 }
 
 
-modules::export("compute_days_around_events_statistics_for_id_year_combination")
-compute_days_around_events_statistics_for_id_year_combination <- function(data){
+modules::export("compute_days_around_events_statistics_for_id_year_reporting_period_combination")
+compute_days_around_events_statistics_for_id_year_reporting_period_combination <- function(data){
   
   event_rows <-compute_event_indices(data$event)
   
