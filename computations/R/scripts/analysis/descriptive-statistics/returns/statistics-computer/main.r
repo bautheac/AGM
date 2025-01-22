@@ -7,6 +7,8 @@ path_stats_computer_firm <- here::here(
   )
 stats_computer_firm <- modules::use(path_stats_computer_firm)
 
+
+modules::export("compute_returns_statistics")
 compute_returns_statistics <- function(returns){
   
   firm <- stats_computer_firm$compute_days_around_events(returns) 

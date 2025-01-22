@@ -43,7 +43,7 @@ extract_raw_price_data <- function(){
 }
 
 modules::export("extract_clean_dates_data")
-extract_clean_dates_data <- function(type = c("trading")){
+extract_clean_dates_data <- function(type = c("reporting", "trading")){
   
   dates_file_name <- paste("dates", type, "clean.rds", sep = "_")
   path_clean_dates_data <- here::here(etl_global_paths$path_data_directory, dates_file_name)
@@ -51,10 +51,16 @@ extract_clean_dates_data <- function(type = c("trading")){
   extract_rds_data(path_clean_dates_data)
 }
 
-modules::export("extract_clean_dates_tradings_data")
-extract_clean_dates_tradings_data <- function(){
+modules::export("extract_clean_dates_trading_data")
+extract_clean_dates_trading_data <- function(){
   
   extract_clean_dates_data("trading")
+}
+
+modules::export("extract_clean_dates_reporting_data")
+extract_clean_dates_reporting_data <- function(){
+  
+  extract_clean_dates_data("reporting")
 }
 
 modules::export("extract_clean_names_data")

@@ -1,22 +1,10 @@
 pacman::p_load(here, modules)
 
 
-path_extracter <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "extracter", "main.r"
-  )
-extracter <- modules::use(path_extracter)
-path_statistics_computer <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "statistics-computer", "main.r"
-  )
-statistics_computer <- modules::use(path_statistics_computer)
+path_wrangler <- here::here(
+  "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", "wrangler.r"
+)
+wrangler <- modules::use(path_wrangler)
 
 
-returns <- extracter$make_dataset()
-
-
-statistics <- statistics_computer$compute_returns_statistics(returns)
-
-
-rm(list = ls())
+dataset <- wrangler$make_dataset()
