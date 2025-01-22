@@ -3,12 +3,12 @@ pacman::p_load(dplyr, modules, tibble)
 
 path_globals <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "statistics-computer", "firm-level", "globals.r"
+  "statistics-computer", "firm", "globals.r"
 )
 globals <- modules::use(path_globals)
 path_event_days_counter <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "statistics-computer", "event-days-counter.r"
+  "statistics-computer", "firm", "event-days-counter.r"
 )
 event_days_counter <- modules::use(path_event_days_counter)
 

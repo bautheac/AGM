@@ -16,7 +16,7 @@ statistics_computer <- modules::use(path_statistics_computer)
 returns <- extracter$make_dataset()
 
 
-days_around_events_by_firm_year <- statistics_computer$compute_days_around_events(returns)
+statistics <- statistics_computer$compute_returns_statistics(returns)
 
 
 rm(list = ls())
