@@ -6,6 +6,9 @@ path_variables_selecter <- here::here("computations", "R", "scripts", "extract-t
 variables_selecter <- modules::use(path_variables_selecter)
 path_dates_cleaner <- here::here("computations", "R", "scripts", "extract-transform-load", "book", "transformer", "dates_cleaner.r")
 dates_cleaner <- modules::use(path_dates_cleaner)
+path_filter <- here::here("computations", "R", "scripts", "extract-transform-load", "book", "transformer", "filter.r")
+filter <- modules::use(path_filter)
+
 
 transform_reporting_frequency_variable <- function(book_data){
 
@@ -34,5 +37,6 @@ transform_book_data <- function(book_data){
     variables_selecter$select_relevant_variables() |>
     dates_cleaner$clean_date_columns() |>
     transform_reporting_frequency_variable() |>
-    transform_check_variables()
+    transform_check_variables() |>
+    filter$filter_out_corrupt_records()
 }

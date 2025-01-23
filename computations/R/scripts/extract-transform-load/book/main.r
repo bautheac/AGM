@@ -6,8 +6,8 @@ path_book_transformer <- here::here("computations", "R", "scripts", "extract-tra
 book_data_transformer <- modules::use(path_book_transformer)
 path_data_loader <- here::here("computations", "R", "scripts", "extract-transform-load", "globals", "loader.r")
 data_loader <- modules::use(path_data_loader)
-path_globals <- here::here("computations", "R", "scripts", "extract-transform-load", "book", "globals.r")
-globals <- modules::use(path_globals)
+path_paths <- here::here("computations", "R", "scripts", "extract-transform-load", "book", "globals", "paths.r")
+paths <- modules::use(path_paths)
 
 
 raw_book_data <- data_extracter$extract_raw_book_data()
@@ -16,7 +16,7 @@ clean <- book_data_transformer$transform_book_data(raw_book_data)
 
 data_loader$load_objects(
   list(clean, clean),
-  list(globals$filepath_clean_book_data_main, globals$filepath_clean_book_data_dashboard)
+  list(paths$filepath_clean_book_data_main, paths$filepath_clean_book_data_dashboard)
 )
 
 
