@@ -59,6 +59,7 @@ correct_formatted_date_typos <- function(book_data){
     `date of signing the letter` = ifelse(id == "OT051" & `date of reporting period end` == "1914-03-31", "1914-06-03", as.character(`date of signing the letter`)),
     `date of signing the letter` = ifelse(id == "RL045" & `date of reporting period end` == "1910-12-31", "1911-01-23", as.character(`date of signing the letter`)),
     `date of signing the letter` = ifelse(id == "RL067" & `date of reporting period end` == "1913-12-31", "1914-02-19", as.character(`date of signing the letter`)),
+    `date of auditing` = ifelse(id == "BA021" & `date of reporting period end` == "1911-06-30", "1911-07-13", as.character(`date of auditing`)),
     `date of auditing` = ifelse(id == "BA025" & `date of reporting period end` == "1910-12-31", "1911-01-17", as.character(`date of auditing`)),
     `date of auditing` = ifelse(id == "BA044" & `date of reporting period end` == "1914-10-14", "1914-11-12", as.character(`date of auditing`)),
     `date of auditing` = ifelse(id == "GLC03" & `date of reporting period end` == "1909-12-31", "1910-01-28", as.character(`date of auditing`)),
