@@ -18,6 +18,5 @@ transform_events <- function(raw_events){
   
   global_price_transformer$transform_prices(raw_events) |>
     variables_selecter$select_relevant_variables() |>
-    wrangler$transform_relevant_variables() |>
-    dplyr::arrange(id, date, event)
+    wrangler$transform_relevant_variables() 
 }

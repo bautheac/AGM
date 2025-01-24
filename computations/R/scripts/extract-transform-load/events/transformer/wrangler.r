@@ -21,5 +21,6 @@ transform_relevant_variables <- function(events_data){
     corrupts_cleaner$add_missing_records() |>
     dplyr::filter(!(is.na(event) | event == "")) |>
     dplyr::distinct(id, date, event) |>
+    dplyr::mutate(date = lubridate::ymd(date)) |>
     dplyr::arrange(id, date)
 }
