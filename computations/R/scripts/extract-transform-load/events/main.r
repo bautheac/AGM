@@ -10,8 +10,8 @@ events_data_transformer <- modules::use(path_events_data_transformer)
 path_data_loader <- 
   here::here("computations", "R", "scripts", "extract-transform-load", "globals", "loader.r")
 data_loader <- modules::use(path_data_loader)
-path_globals <- here::here("computations", "R", "scripts", "extract-transform-load", "events", "globals.r")
-globals <- modules::use(path_globals)
+path_paths <- here::here("computations", "R", "scripts", "extract-transform-load", "events", "globals", "paths.r")
+paths <- modules::use(path_paths)
 
 
 raw_events <- data_extracter$extract_raw_price_data()
@@ -20,7 +20,7 @@ clean_events <- events_data_transformer$transform_events(raw_events)
 
 data_loader$load_objects(
   list(clean_events, clean_events),
-  list(globals$filepath_clean_events_data_main, globals$filepath_clean_events_data_dashboard)
+  list(paths$filepath_clean_events_data_main, paths$filepath_clean_events_data_dashboard)
 )
 
 

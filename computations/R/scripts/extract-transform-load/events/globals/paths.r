@@ -17,5 +17,4 @@ filepath_clean_events_data_main <- here::here(
 modules::export("filepath_clean_events_data_dashboard")
 filepath_clean_events_data_dashboard <- here::here(
   global_paths$path_dashboard_directory, "events_clean.rds"
-) 
-
+)
