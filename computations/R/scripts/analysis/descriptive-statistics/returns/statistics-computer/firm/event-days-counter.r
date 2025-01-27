@@ -85,8 +85,8 @@ compute_days_around_events_statistics_for_id_year_reporting_period_combination <
     
     make_tibble_results(
       c(
-        event = as.character(data$date[i]), 
-        date = data$event[i],
+        event = data$event[i], 
+        date = as.character(data$date[i]),
         compute_days_around_event_statistics(data$return, i)
       )
     )

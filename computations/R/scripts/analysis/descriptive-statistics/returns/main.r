@@ -18,4 +18,6 @@ dataset <- wrangler$make_dataset()
 
 statistics <- statistics_computer$compute_returns_statistics(dataset)
 
+
 firm <- statistics$firm
+aggregate <- statistics$aggregate

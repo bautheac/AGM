@@ -175,38 +175,59 @@ make_long_reporting_dates_dataset <- function(dates_reporting_clean) {
 
 
 
-make_reporting_period_start_bound_dates <- function(date_columns){
-  
-  purrr::pmap_chr(date_columns, ~ {
 
-    dates <- c(...)
-    date_of_reporting_period_end <- dates["date of reporting period end"]
-    other_dates <- dates[setdiff(names(dates), "date of reporting period end")]
-    
-    if (all(is.na(other_dates))) return(NA_character_)
-    
-    return(as.Date(date_of_reporting_period_end) |> as.character())
-  })
-}
+# make_reporting_period_start_bound_dates <- function(date_columns){
+#   
+#   purrr::pmap_chr(date_columns, ~ {
+# 
+#     dates <- c(...)
+#     date_of_reporting_period_end <- dates["date of reporting period end"]
+#     other_dates <- dates[setdiff(names(dates), "date of reporting period end")]
+#     
+#     if (all(is.na(other_dates))) return(NA_character_)
+#     
+#     return(as.Date(date_of_reporting_period_end) |> as.character())
+#   })
+# }
+# 
+# make_reporting_period_end_bound_dates <- function(date_columns){
+#   
+#   purrr::pmap_chr(date_columns, ~ {
+#     
+#     end_date <- max(lubridate::ymd(c(...)), na.rm = TRUE)
+#     if (is.na(end_date)) return(NA_character_)
+#     
+#     return(as.Date(end_date) |> as.character())
+#   })
+# }
 
-make_reporting_period_end_bound_dates <- function(date_columns){
+# make_reporting_period_bound_dates <- function(dates_reporting_subset) {
+#   
+#   dplyr::group_by(dates_reporting_subset, id) |>
+#     dplyr::mutate(
+#       `reporting period start` = `date of signing the letter`,
+#       `reporting period end` = make_reporting_period_end_bound_dates(
+#         dplyr::pick(dplyr::contains(c("date", "day")))
+#       )
+#     ) |> dplyr::ungroup()
+# }
+
+compute_reporting_period_dates <- function(date_columns, fun){
   
-  purrr::pmap_chr(date_columns, ~ {
-    
-    end_date <- max(lubridate::ymd(c(...)), na.rm = TRUE)
-    if (is.na(end_date)) return(NA_character_)
-    
-    return(as.Date(end_date) |> as.character())
-  })
+  dates <- purrr::pmap_chr(date_columns, ~ { do.call(fun, list(c(...), na.rm = TRUE)) })
+
+  return(dates)
 }
 
 make_reporting_period_bound_dates <- function(dates_reporting_subset) {
   
   dplyr::group_by(dates_reporting_subset, id) |>
     dplyr::mutate(
-      `reporting period start` = `date of signing the letter`,
-      `reporting period end` = make_reporting_period_end_bound_dates(
-        dplyr::pick(dplyr::contains(c("date", "day")))
+      `reporting period start` = compute_reporting_period_dates(
+        dplyr::pick(dplyr::contains(c("date", "day"))), min
+      ),
+      `reporting period end` = compute_reporting_period_dates(
+        dplyr::pick(dplyr::contains(c("date", "day"))), max
       )
     ) |> dplyr::ungroup()
 }
@@ -221,9 +242,19 @@ make_reporting_period_daily_dates <- function(dates_reporting_augmented){
   )
 }
 
+make_reporting_period_daily_dates <- function(dates_reporting_augmented){
+  
+  dplyr::mutate(
+    dates_reporting_augmented, 
+    dplyr::across(c(`reporting period start`, `reporting period end`), lubridate::ymd),
+    date = purrr::map2(
+      `reporting period start`, `reporting period end`, ~ seq(.x, .y, by = "1 day")
+    )
+  )
+}
+
 make_long_reporting_dates_dataset <- function(dates_reporting_clean) {
   
-  # browser()
   filter$filter_out_reporting_periods_with_no_event_dates(dates_reporting_clean) |>
     make_reporting_period_bound_dates() |>
     make_reporting_period_daily_dates() |>
