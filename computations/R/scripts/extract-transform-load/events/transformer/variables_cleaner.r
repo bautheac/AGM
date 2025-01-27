@@ -17,7 +17,8 @@ modules::export("clean_corrupts_event_records")
 clean_corrupts_event_records <- function(events_data){
   
   dplyr::mutate(events_data, date = as.character(date)) |>
-    corrupts_cleaner$correct_corrupt_records(corrupts$corrupt_records)
+    corrupts_cleaner$correct_corrupt_records(corrupts$corrupt_records) |>
+    dplyr::filter(date != "")
 }
 
 modules::export("add_missing_records")
