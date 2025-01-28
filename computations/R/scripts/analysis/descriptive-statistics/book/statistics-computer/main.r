@@ -6,11 +6,11 @@ path_statistics_computer_globals <- here::here(
   "statistics_computer.r"
   )
 statistics_computer_globals <- modules::use(path_statistics_computer_globals)
-path_statistics_formatter <- here::here(
+path_formatter <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
-  "statistics-computer", "statistics_formatter.r"
+  "statistics-computer", "formatter.r"
   )
-statistics_formatter <- modules::use(path_statistics_formatter)
+formatter <- modules::use(path_formatter)
 path_local_globals <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
   "statistics-computer", "globals.r"
@@ -42,5 +42,5 @@ compute_descriptive_statistics <- function(data){
       local_globals$variables_to_count, local_globals$variables_to_summarise, 
       local_globals$counting_statistics, statistics_computer_globals$summarising_statistics
     ) |> 
-    statistics_formatter$format_summary_statistics(c("reporting frequency", "year", "reporting period"))
+    formatter$format_summary_statistics(c("reporting frequency", "year", "reporting period"))
 }
