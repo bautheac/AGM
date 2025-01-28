@@ -1,11 +1,11 @@
 pacman::p_load(dplyr, here, modules)
 
 
-path_data_extracter <- here::here("computations", "R", "scripts", "extract-transform-load", "extracter.r")
+path_data_extracter <- here::here("computations", "R", "scripts", "extract-transform-load", "globals", "extracter.r")
 data_extracter <- modules::use(path_data_extracter)
-path_data_filter_main <- here::here("computations", "R", "scripts", "extract-transform-load", "filter.r")
+path_data_filter_main <- here::here("computations", "R", "scripts", "extract-transform-load", "globals", "transformer", "filter", "main.r")
 data_filter_main <- modules::use(path_data_filter_main)
-path_data_wrangler <- here::here("computations", "R", "scripts", "extract-transform-load", "wrangler.r")
+path_data_wrangler <- here::here("computations", "R", "scripts", "extract-transform-load", "globals", "transformer", "wrangler.r")
 data_wrangler <- modules::use(path_data_wrangler)
 
 

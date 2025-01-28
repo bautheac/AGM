@@ -57,7 +57,11 @@ debug(data_wrangler$extract_year_from_date_colum)
 unique(data$`Year end date`)
 
 
+temp <- dplyr::mutate(returns, year = lubridate::year(date)) |>
+  dplyr::filter(event %in% c("LD", "AU", "FC", "LC", "GM")) |>
+  dplyr::group_by(id, year, event) |> dplyr::summarise(n = n())
 
+temp <- dplyr::filter(returns, id == "BA031")
 
 
 

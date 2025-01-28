@@ -10,13 +10,18 @@ names_data_transformer <- modules::use(path_names_data_transformer)
 path_data_loader <- 
   here::here("computations", "R", "scripts", "extract-transform-load", "globals", "loader.r")
 data_loader <- modules::use(path_data_loader)
+path_globals <- here::here("computations", "R", "scripts", "extract-transform-load", "names", "globals.r")
+globals <- modules::use(path_globals)
 
 
-path_clean_names_data <- here::here("data", "names_clean.rds")
-
-
-raw_names <- data_extracter$extract_book_data()
+raw_names <- data_extracter$extract_raw_book_data()
 clean_names <- names_data_transformer$transform_names(raw_names)
 
 
-data_loader$load_rds(clean_names, path_clean_names_data)
+data_loader$load_objects(
+  list(clean_names, clean_names),
+  list(globals$filepath_clean_names_data_main, globals$filepath_clean_names_data_dashboard)
+)
+
+
+rm(list = ls())
