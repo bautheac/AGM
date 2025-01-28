@@ -1,19 +1,19 @@
 pacman::p_load(dplyr, modules, stats)
 
 
-path_statistics_computer_globals <- here::here(
+path_computer_globals <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "globals", 
-  "statistics_computer.r"
+  "computer.r"
   )
-statistics_computer_globals <- modules::use(path_statistics_computer_globals)
+computer_globals <- modules::use(path_computer_globals)
 path_formatter <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
-  "statistics-computer", "formatter.r"
+  "computer", "formatter.r"
   )
 formatter <- modules::use(path_formatter)
 path_local_globals <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
-  "statistics-computer", "globals.r"
+  "computer", "globals.r"
   )
 local_globals <- modules::use(path_local_globals)
 
@@ -25,10 +25,10 @@ compute_stats_by_reporting_period <-
   whole <- dplyr::bind_rows(all, data)
   
   count <- dplyr::group_by(whole, `reporting frequency`, year, `reporting period`) |>
-    statistics_computer_globals$compute_stats_for_variables(variables_to_count, counting_statistics) |> 
+    computer_globals$compute_stats_for_variables(variables_to_count, counting_statistics) |> 
     dplyr::ungroup()
   summary <- dplyr::group_by(whole, `reporting frequency`, year, `reporting period`) |>
-    statistics_computer_globals$compute_stats_for_variables(variables_to_summarise, summarising_statistics) |> 
+    computer_globals$compute_stats_for_variables(variables_to_summarise, summarising_statistics) |> 
     dplyr::ungroup()
   
   dplyr::left_join(count, summary, by = c("reporting frequency", "year", "reporting period"))
@@ -40,7 +40,7 @@ compute_descriptive_statistics <- function(data){
     compute_stats_by_reporting_period(
       data, 
       local_globals$variables_to_count, local_globals$variables_to_summarise, 
-      local_globals$counting_statistics, statistics_computer_globals$summarising_statistics
+      local_globals$counting_statistics, computer_globals$summarising_statistics
     ) |> 
     formatter$format_summary_statistics(c("reporting frequency", "year", "reporting period"))
 }

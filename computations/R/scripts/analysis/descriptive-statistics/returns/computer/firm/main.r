@@ -3,12 +3,12 @@ pacman::p_load(dplyr, modules, tibble)
 
 path_event_days_counter <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "statistics-computer", "firm", "event_days_counter.r"
+  "computer", "firm", "event_days_counter.r"
 )
 event_days_counter <- modules::use(path_event_days_counter)
 path_filter <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "statistics-computer", "firm", "filter.r"
+  "computer", "firm", "filter.r"
 )
 filter <- modules::use(path_filter)
 

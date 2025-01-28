@@ -3,7 +3,7 @@ pacman::p_load(dplyr, here, modules)
 
 path_global_formatter <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "globals", 
-  "statistics_formatter.r"
+  "formatter.r"
 )
 global_formatter <- modules::use(path_global_formatter)
 path_variables <- here::here(
@@ -13,12 +13,12 @@ path_variables <- here::here(
 variables <- modules::use(path_variables)
 path_local_globals <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "statistics-computer", "aggregate", "globals.r"
+  "computer", "aggregate", "globals.r"
 )
 local_globals <- modules::use(path_local_globals)
 path_firm_globals <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "statistics-computer", "firm", "globals.r"
+  "computer", "firm", "globals.r"
 )
 firm_globals <- modules::use(path_firm_globals)
 

@@ -1,7 +1,9 @@
 pacman::p_load(dplyr, lubridate, modules, purrr)
 
-path_globals <- 
-  here::here("computations", "R", "scripts", "analysis", "descriptive-statistics", "book", "data-wrangler", "globals.r")
+path_globals <- here::here(
+  "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
+  "wrangler", "globals.r"
+  )
 globals <- modules::use(path_globals)
 
 create_year_variable_from_date_variable <- function(data, date_column){

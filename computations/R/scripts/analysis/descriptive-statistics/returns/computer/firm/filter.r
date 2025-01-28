@@ -3,7 +3,7 @@ pacman::p_load(dplyr, here, modules)
 
 path_globals <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "statistics-computer", "firm", "globals.r"
+  "computer", "firm", "globals.r"
 )
 globals <- modules::use(path_globals)
 
