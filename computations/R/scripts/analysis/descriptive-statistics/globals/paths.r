@@ -1,7 +1,7 @@
 pacman::p_load(here, modules)
 
 path_analysis_global_paths <- here::here("computations", "R", "scripts", "analysis", "globals", "paths.r")
-analysis_global_paths <- modules::use(path_global_paths)
+analysis_global_paths <- modules::use(path_analysis_global_paths)
 path_global_paths <- here::here("computations", "R", "scripts", "globals", "paths.r")
 global_paths <- modules::use(path_global_paths)
 

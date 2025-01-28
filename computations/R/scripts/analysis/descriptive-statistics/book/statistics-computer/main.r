@@ -2,19 +2,20 @@ pacman::p_load(dplyr, modules, stats)
 
 
 path_statistics_computer_globals <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", "globals", "statistics-computer.r"
+  "computations", "R", "scripts", "analysis", "descriptive-statistics", "globals", 
+  "statistics_computer.r"
   )
 statistics_computer_globals <- modules::use(path_statistics_computer_globals)
 path_statistics_formatter <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", "statistics-computer", 
-  "statistics-formatter.r"
+  "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
+  "statistics-computer", "statistics_formatter.r"
   )
 statistics_formatter <- modules::use(path_statistics_formatter)
-path_globals <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", "statistics-computer", 
-  "globals.r"
+path_local_globals <- here::here(
+  "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
+  "statistics-computer", "globals.r"
   )
-globals <- modules::use(path_globals)
+local_globals <- modules::use(path_local_globals)
 
 
 compute_stats_by_reporting_period <- 
@@ -38,8 +39,8 @@ compute_descriptive_statistics <- function(data){
   
     compute_stats_by_reporting_period(
       data, 
-      globals$variables_to_count, globals$variables_to_summarise, 
-      globals$counting_statistics, globals$summarising_statistics
+      local_globals$variables_to_count, local_globals$variables_to_summarise, 
+      local_globals$counting_statistics, statistics_computer_globals$summarising_statistics
     ) |> 
     statistics_formatter$format_summary_statistics(c("reporting frequency", "year", "reporting period"))
 }

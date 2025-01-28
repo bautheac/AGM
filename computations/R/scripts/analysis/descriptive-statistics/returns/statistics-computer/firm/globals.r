@@ -11,5 +11,8 @@ firm_days_statistics_params <- list(
   `# days available & non-zero after` = list(break_fun = "equals_zero", break_n = 5L, direction = "after")
 )
 
-modules::export("firm_days_statistics_variables")
-firm_days_statistics_variables <- c("date", "event", names(firm_days_statistics_params))
+modules::export("firm_days_variables")
+firm_days_variables <- names(firm_days_statistics_params)
+
+modules::export("firm_days_columns")
+firm_days_columns <- c("date", "event", names(firm_days_statistics_params))

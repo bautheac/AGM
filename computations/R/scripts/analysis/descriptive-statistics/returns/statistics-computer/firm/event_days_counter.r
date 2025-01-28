@@ -78,7 +78,7 @@ compute_days_around_events_statistics_for_id_year_reporting_period_combination <
   event_rows <-compute_event_indices(data$event)
   
   if (no_event_exists(event_rows)) {
-    return(make_tibble_empty(globals$firm_days_statistics_variables))
+    return(make_tibble_empty(globals$firm_days_columns))
   }
   
   results <- lapply(event_rows, function(i) {

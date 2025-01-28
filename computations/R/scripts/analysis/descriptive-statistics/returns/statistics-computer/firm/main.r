@@ -3,7 +3,7 @@ pacman::p_load(dplyr, modules, tibble)
 
 path_event_days_counter <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "statistics-computer", "firm", "event-days-counter.r"
+  "statistics-computer", "firm", "event_days_counter.r"
 )
 event_days_counter <- modules::use(path_event_days_counter)
 path_filter <- here::here(
@@ -21,6 +21,6 @@ compute_days_around_events <- function(returns_dataset) {
     dplyr::arrange(date, .by_group = TRUE) |>
     dplyr::group_modify(
       ~event_days_counter$compute_days_around_events_statistics_for_id_year_reporting_period_combination(.x)
-    ) |>
-    dplyr::ungroup() |> dplyr::arrange(id, year, date)
+    ) |> dplyr::ungroup() |> 
+    dplyr::arrange(id, year, date)
 }
