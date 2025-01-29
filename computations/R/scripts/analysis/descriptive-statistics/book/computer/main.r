@@ -1,21 +1,34 @@
 pacman::p_load(dplyr, modules, stats)
 
-
-path_computer_globals <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", "globals", 
-  "computer.r"
-  )
-computer_globals <- modules::use(path_computer_globals)
+path_extracter <- here::here(
+  "computations", "R", "scripts", "extract-transform-load", "globals", "extracter.r"
+)
+extracter <- modules::use(path_extracter)
+path_wrangler <- here::here(
+  "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
+  "computer", "wrangler", "main.r"
+)
+wrangler <- modules::use(path_wrangler)
 path_formatter <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
   "computer", "formatter.r"
   )
 formatter <- modules::use(path_formatter)
+path_computer_globals <- here::here(
+  "computations", "R", "scripts", "analysis", "descriptive-statistics", "globals", 
+  "computer.r"
+  )
+computer_globals <- modules::use(path_computer_globals)
 path_local_globals <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
   "computer", "globals.r"
   )
 local_globals <- modules::use(path_local_globals)
+path_book_globals <- here::here(
+  "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
+  "globals.r"
+)
+book_globals <- modules::use(path_book_globals)
 
 
 
@@ -47,7 +60,7 @@ compute_stats_by_reporting_period <-
   dplyr::left_join(count, summary, by = c("reporting frequency", "year", "reporting period"))
 }
  
-modules::export("compute_descriptive_statistics")
+
 compute_descriptive_statistics <- function(data){
   
   pooled <- compute_stats_for_pooled_reporting_periods(
@@ -64,4 +77,15 @@ compute_descriptive_statistics <- function(data){
   
   dplyr::bind_rows(pooled, periods) |>
     formatter$format_summary_statistics(c("reporting frequency", "year", "reporting period"))
+}
+
+
+modules::export("compute_book_statistics")
+compute_book_statistics <- function(firm_ids = "all"){
+  
+  book_data <- extracter$extract_rds_data(book_globals$path_book_data_clean) |>
+    dplyr::filter(firm_ids == "all" | id %in% firm_ids) |>
+    wrangler$prepare_dataset_for_descriptive_stats_analysis()
+  
+  compute_descriptive_statistics(book_data)
 }

@@ -2,7 +2,7 @@ pacman::p_load(modules)
 
 path_variables_creator_globals <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
-  "wrangler", "globals.r"
+  "computer", "wrangler", "globals.r"
 )
 variables_creator_globals <- modules::use(path_variables_creator_globals)
 

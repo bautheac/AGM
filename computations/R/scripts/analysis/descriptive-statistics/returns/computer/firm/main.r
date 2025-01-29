@@ -22,5 +22,6 @@ compute_days_around_events <- function(returns_dataset) {
     dplyr::group_modify(
       ~event_days_counter$compute_days_around_events_statistics_for_id_year_reporting_period_combination(.x)
     ) |> dplyr::ungroup() |> 
+    dplyr::select(id, `reporting frequency`, year, `reporting period`, dplyr::everything()) |>
     dplyr::arrange(id, year, date)
 }
