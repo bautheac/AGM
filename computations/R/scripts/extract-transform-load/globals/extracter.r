@@ -102,5 +102,3 @@ extract_clean_returns_data <- function(){
   
   extract_rds_data(path_clean_returns_data)
 }
-
-

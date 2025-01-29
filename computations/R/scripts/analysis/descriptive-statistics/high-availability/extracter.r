@@ -21,7 +21,7 @@ modules::export("extract_book_descriptive_statistics")
 extract_book_descriptive_statistics <- function(){
   
   extracter_globals$extract_rds_data(
-    descriptive_statistics_book_globals$path_book_descriptive_stats_results
+    descriptive_statistics_book_globals$path_book_descriptive_stats_results_main
   )
 }
 
@@ -29,6 +29,6 @@ modules::export("extract_returns_firms_descriptive_statistics")
 extract_returns_firms_descriptive_statistics <- function(){
   
   extracter_globals$extract_rds_data(
-    descriptive_statistics_returns_globals$path_returns_firms_descriptive_stats_results
+    descriptive_statistics_returns_globals$path_returns_firms_descriptive_stats_results_main
   )
 }

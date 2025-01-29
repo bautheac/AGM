@@ -22,7 +22,10 @@ descriptive_stats <- computer$compute_book_statistics()
 
 loader$load_objects(
   list(descriptive_stats, descriptive_stats), 
-  list(globals$path_book_descriptive_stats_results, globals$path_book_descriptive_stats_dashboard)
+  list(
+    globals$path_book_descriptive_stats_results_main, 
+    globals$path_book_descriptive_stats_results_dashboard
+  )
 )
 
 

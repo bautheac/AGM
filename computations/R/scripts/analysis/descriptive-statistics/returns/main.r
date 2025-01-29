@@ -21,12 +21,12 @@ statistics <- computer$compute_returns_statistics()
 
 
 paths_firm <- list(
-  globals$path_returns_firms_descriptive_stats_results, 
-  globals$path_returns_firms_descriptive_stats_dashboard
+  globals$path_returns_firms_descriptive_stats_results_main, 
+  globals$path_returns_firms_descriptive_stats_results_dashboard
 )
 paths_aggregate <- list(
-  globals$path_returns_aggregate_descriptive_stats_results, 
-  globals$path_returns_aggregate_descriptive_stats_dashboard
+  globals$path_returns_aggregate_descriptive_stats_results_main, 
+  globals$path_returns_aggregate_descriptive_stats_results_dashboard
 )
 
 loader$load_objects(
