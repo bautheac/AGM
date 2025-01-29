@@ -10,6 +10,11 @@ path_descriptive_statistics_book_globals <- here::here(
   "globals.r"
 )
 descriptive_statistics_book_globals <- modules::use(path_descriptive_statistics_book_globals)
+path_descriptive_statistics_returns_globals <- here::here(
+  "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
+  "globals.r"
+)
+descriptive_statistics_returns_globals <- modules::use(path_descriptive_statistics_returns_globals)
 
 
 modules::export("extract_book_descriptive_statistics")
@@ -20,7 +25,10 @@ extract_book_descriptive_statistics <- function(){
   )
 }
 
-
-
-
-
+modules::export("extract_returns_firms_descriptive_statistics")
+extract_returns_firms_descriptive_statistics <- function(){
+  
+  extracter_globals$extract_rds_data(
+    descriptive_statistics_returns_globals$path_returns_firms_descriptive_stats_results
+  )
+}

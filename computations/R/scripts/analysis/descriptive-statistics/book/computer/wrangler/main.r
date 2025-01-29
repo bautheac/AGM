@@ -3,12 +3,12 @@ pacman::p_load(dplyr, lubridate, modules)
 
 path_variable_creator <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
-  "wrangler", "variable_creator.r"
+  "computer", "wrangler", "variable_creator.r"
   )
 variable_creator <- modules::use(path_variable_creator)
 path_data_filter <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
-  "filter.r"
+  "computer", "wrangler" , "filter.r"
   )
 data_filter <- modules::use(path_data_filter)
 

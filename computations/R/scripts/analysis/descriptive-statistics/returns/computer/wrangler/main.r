@@ -3,17 +3,17 @@ pacman::p_load(dplyr, here, lubridate, modules, purrr, rlang, tidyr)
 
 path_extracter <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "extracter.r"
+  "computer", "wrangler", "extracter.r"
 )
 extracter <- modules::use(path_extracter)
 path_filter <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "filter.r"
+  "computer", "wrangler", "filter.r"
 )
 filter <- modules::use(path_filter)
 path_selecter <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "selecter.r"
+  "computer", "wrangler", "selecter.r"
 )
 selecter <- modules::use(path_selecter)
 
@@ -31,7 +31,7 @@ make_date_id_combinations <- function(dates, ids){ dplyr::cross_join(dates, ids)
 compute_reporting_period_dates <- function(date_columns, fun){
   
   dates <- purrr::pmap_chr(date_columns, ~ { do.call(fun, list(c(...), na.rm = TRUE)) })
-
+  
   return(dates)
 }
 

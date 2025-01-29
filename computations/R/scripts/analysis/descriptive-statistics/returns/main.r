@@ -1,11 +1,6 @@
 pacman::p_load(here, modules)
 
 
-path_wrangler <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "wrangler.r"
-)
-wrangler <- modules::use(path_wrangler)
 path_computer <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
   "computer", "main.r"
@@ -22,10 +17,7 @@ path_globals <- here::here(
 globals <- modules::use(path_globals)
 
 
-dataset <- wrangler$make_dataset()
-
-
-statistics <- computer$compute_returns_statistics(dataset)
+statistics <- computer$compute_returns_statistics()
 
 
 paths_firm <- list(
