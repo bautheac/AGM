@@ -12,16 +12,16 @@ filter_out_empty_or_na_events <- function(event_data) {
   dplyr::filter(event_data, !(is.na(event) | event == ""))
 }
 
-filter_out_unsettled_book_corrupt_records <- function(event_data) {
+filter_out_pending_book_corrupt_records <- function(event_data) {
   
-  dplyr::filter(event_data, !(id %in% book_corrupts$unsettled$id))
+  dplyr::filter(event_data, !(id %in% book_corrupts$pending$id))
 }
 
 modules::export("filter_out_irrelevant_event_data")
 filter_out_irrelevant_event_data <- function(event_data) {
   
   filter_out_empty_or_na_events(event_data) |>
-    filter_out_unsettled_book_corrupt_records()
+    filter_out_pending_book_corrupt_records()
 }
 
   

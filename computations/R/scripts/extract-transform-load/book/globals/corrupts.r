@@ -95,8 +95,8 @@ formatted_date_typos <- tibble::tribble(
 )
 
 
-modules::export("unsettled")
-unsettled <- tibble::tribble(
+modules::export("pending")
+pending <- tibble::tribble(
   ~id,          ~`date of reporting period end`,       ~`comment`,
   "BA049",      "1914-08-31",                          "Check all dates.",
   "FO001",      "1912-06-30",                          "Check all dates.",

@@ -11,7 +11,7 @@ ui <- function(id, width, title = NULL, caption = NULL) {
   shiny::tagList(
     if (!is.null(title)) {
       shiny::tagList(
-        shiny::fluidRow(shiny::column(width = width, shiny::h2(title))),
+        shiny::fluidRow(shiny::column(width = width, shiny::h3(title))),
         shiny::br()
       )
     },

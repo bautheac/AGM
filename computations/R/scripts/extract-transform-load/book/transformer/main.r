@@ -50,5 +50,5 @@ transform_book_data <- function(book_data){
     variables_cleaner$clean_date_variables() |>
     transform_reporting_frequency_variable() |>
     transform_check_variables() |>
-    filter$filter_out_unsettled_corrupt_records()
+    filter$filter_out_pending_corrupt_records()
 }
