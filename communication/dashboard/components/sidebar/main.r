@@ -1,0 +1,16 @@
+suppressMessages(import("shinydashboard"))
+
+
+modules::export("ui")
+ui <- function(){
+  
+  shinydashboard::dashboardSidebar(
+    shinydashboard::sidebarMenu(
+      shinydashboard::menuItem(
+        "Data", tabName = "data",
+        shinydashboard::menuItem("Clean", tabName = "data-clean"),
+        shinydashboard::menuItem("Corrupts", tabName = "data-corrupts")
+      )
+    )
+  )
+}

@@ -49,8 +49,10 @@ intersection_firms_return_stats <- returns_stats_computer$compute_returns_statis
 
 loader$load_objects(
   list(
-    book_firms_names, book_firms_stats, return_firms_names, return_firms_stats,
-    intersection_firms_names, intersection_firms_book_stats, intersection_firms_return_stats
+    book_firms_names, book_firms_stats, 
+    return_firms_names, return_firms_stats$firm, return_firms_stats$aggregate,
+    intersection_firms_names, intersection_firms_book_stats, 
+    intersection_firms_return_stats$firm, intersection_firms_return_stats$aggregate
   ), 
   paths$paths
 )
