@@ -1,16 +1,15 @@
-pacman::p_load(here, modules)
+suppressMessages(import(here))
 
 
-path_global_price_transformer <- 
-  here::here("computations", "R", "scripts", "extract-transform-load", "globals", "transformer", "prices", "main.r")
-global_price_transformer <- modules::use(path_global_price_transformer)
-path_variables_selecter <- 
-  here::here("computations", "R", "scripts", "extract-transform-load", "events", "transformer", "variables_selecter.r")
-variables_selecter <- modules::use(path_variables_selecter)
-path_wrangler <- 
-  here::here("computations", "R", "scripts", "extract-transform-load", "events", "transformer", "wrangler.r")
-wrangler <- modules::use(path_wrangler)
+path_paths <- here::here(
+  "computations", "R", "scripts", "extract-transform-load", "events", "transformer", 
+  "globals", "paths.r"
+)
+paths <- modules::use(path_paths)
 
+global_price_transformer <- modules::use(paths$path_global_price_transformer)
+variables_selecter <- modules::use(paths$path_variables_selecter)
+wrangler <- modules::use(paths$path_wrangler)
 
 
 export("transform_events")

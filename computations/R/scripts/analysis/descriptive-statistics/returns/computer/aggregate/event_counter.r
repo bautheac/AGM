@@ -1,9 +1,8 @@
-pacman::p_load(dplyr, modules)
+suppressMessages(import(here))
 
 
 count_events_regardless_of_reporting_frequency <- function(firm_stats){
   
-  # browser()
   dplyr::group_by(firm_stats, year, event) |>
     dplyr::summarise(n = dplyr::n()) |> dplyr::ungroup() |>
     dplyr::mutate(`reporting period` = NA)

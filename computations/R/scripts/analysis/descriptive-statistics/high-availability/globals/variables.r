@@ -1,6 +1,3 @@
-pacman::p_load(modules)
-  
-  
 modules::export("high_availability_book_threshold")
 high_availability_book_threshold <- 150L
   

@@ -1,5 +1,21 @@
-pacman::p_load(here, modules)
+suppressMessages({ import(here) })
 
+
+modules::export("path_data_extracter")
+path_data_extracter <- here::here(
+  "computations", "R", "scripts", "extract-transform-load", "globals", "extracter.r"
+)
+
+modules::export("path_book_transformer")
+path_book_transformer <- here::here(
+  "computations", "R", "scripts", "extract-transform-load", "book", "transformer", 
+  "main.r"
+)
+
+modules::export("path_data_loader")
+path_data_loader <- here::here(
+  "computations", "R", "scripts", "extract-transform-load", "globals", "loader.r"
+)
 
 path_global_paths <- here::here("computations", "R", "scripts", "globals", "paths.r")
 global_paths <- modules::use(path_global_paths)

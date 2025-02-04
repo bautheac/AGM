@@ -1,4 +1,4 @@
-pacman::p_load(here, modules)
+suppressMessages(import(here))
 
 
 path_global_paths <- here::here("computations", "R", "scripts", "globals", "paths.r")

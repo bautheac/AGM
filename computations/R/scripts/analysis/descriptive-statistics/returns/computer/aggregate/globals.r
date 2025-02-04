@@ -1,4 +1,4 @@
-pacman::p_load(dplyr, here, modules)
+suppressMessages(import(here))
 
 
 path_computer_globals <- here::here(

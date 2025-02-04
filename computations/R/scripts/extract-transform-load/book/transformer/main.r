@@ -1,25 +1,16 @@
-pacman::p_load(dplyr, here, lubridate, modules)
+suppressMessages({ import(dplyr); import(here) })
 
-path_names_cleaner <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "globals", "transformer", 
-  "raw_book_data_names_cleaner.r"
-  )
-names_cleaner <- modules::use(path_names_cleaner)
-path_variables_selecter <- here::here(
+
+path_paths <- here::here(
   "computations", "R", "scripts", "extract-transform-load", "book", "transformer", 
-  "variables_selecter.r"
-  )
-variables_selecter <- modules::use(path_variables_selecter)
-path_variables_cleaner <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "book", "transformer", 
-  "variables-cleaner", "main.r"
-  )
-variables_cleaner <- modules::use(path_variables_cleaner)
-path_filter <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "book", "transformer", 
-  "filter.r"
-  )
-filter <- modules::use(path_filter)
+  "globals", "paths.r"
+)
+paths <- modules::use(path_paths)
+
+names_cleaner <- modules::use(paths$path_names_cleaner)
+variables_selecter <- modules::use(paths$path_variables_selecter)
+variables_cleaner <- modules::use(paths$path_variables_cleaner)
+filter <- modules::use(paths$path_filter)
 
 
 transform_reporting_frequency_variable <- function(book_data){

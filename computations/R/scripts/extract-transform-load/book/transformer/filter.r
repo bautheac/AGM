@@ -1,4 +1,4 @@
-pacman::p_load(here, modules)
+suppressMessages({ import(dplyr); import(here) })
 
 
 path_corrupts <- here::here(

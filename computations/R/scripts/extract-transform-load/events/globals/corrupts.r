@@ -1,5 +1,4 @@
-pacman::p_load(modules, tibble)
-
+suppressMessages(import(tibble))
 
 modules::export("corrupt_records")
 corrupt_records <- tibble::tribble(

@@ -1,15 +1,15 @@
-pacman::p_load(dplyr, here, lubridate, modules)
+suppressMessages({ import(dplyr); import(here); import(lubridate) })
 
 
-path_global_price_transformer <- 
-  here::here("computations", "R", "scripts", "extract-transform-load", "globals", "transformer", "prices", "main.r")
-global_price_transformer <- modules::use(path_global_price_transformer)
-path_variables_cleaner <- 
-  here::here("computations", "R", "scripts", "extract-transform-load", "dates", "trading", "transformer", "variables_cleaner.r")
-variables_cleaner <- modules::use(path_variables_cleaner)
-path_filter <- 
-  here::here("computations", "R", "scripts", "extract-transform-load", "dates", "trading", "transformer", "filter.r")
-filter <- modules::use(path_filter)
+path_paths <- here::here(
+  "computations", "R", "scripts", "extract-transform-load", "dates", "trading", 
+  "transformer", "globals", "paths.r"
+)
+paths <- modules::use(path_paths)
+
+global_price_transformer <- modules::use(paths$path_global_price_transformer)
+variables_cleaner <- modules::use(paths$path_variables_cleaner)
+filter <- modules::use(paths$path_filter)
 
 
 export("transform_dates")

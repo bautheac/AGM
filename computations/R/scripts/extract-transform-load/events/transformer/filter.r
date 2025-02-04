@@ -1,10 +1,13 @@
-pacman::p_load(here, modules)
+suppressMessages(import(here))
 
 
-path_book_corrupts <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "book", "globals", "corrupts.r"
+path_paths <- here::here(
+  "computations", "R", "scripts", "extract-transform-load", "events", "transformer", 
+  "globals", "paths.r"
 )
-book_corrupts <- modules::use(path_book_corrupts)
+paths <- modules::use(path_paths)
+
+book_corrupts <- modules::use(paths$path_book_corrupts)
 
 
 filter_out_empty_or_na_events <- function(event_data) {

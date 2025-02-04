@@ -1,12 +1,13 @@
-pacman::p_load(dplyr, here, modules)
+suppressMessages({ import(dplyr); import(here) })
 
-path_wrangler <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "dates", "reporting", "transformer", "wrangler.r"
+path_paths <- here::here(
+  "computations", "R", "scripts", "extract-transform-load", "dates", "reporting", 
+  "transformer", "globals", "paths.r"
 )
-wrangler <- modules::use(path_wrangler)
-path_variables_selecter <- 
-  here::here("computations", "R", "scripts", "extract-transform-load", "dates", "reporting", "transformer", "variables_selecter.r")
-variables_selecter <- modules::use(path_variables_selecter)
+paths <- modules::use(path_paths)
+
+wrangler <- modules::use(paths$path_wrangler)
+variables_selecter <- modules::use(paths$path_variables_selecter)
 
 
 export("transform_dates")

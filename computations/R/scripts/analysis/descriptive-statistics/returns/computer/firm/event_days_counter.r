@@ -1,11 +1,13 @@
-pacman::p_load(dplyr, modules, tibble, stats)
+suppressMessages({ import(dplyr); import(here); import(stats); import(tibble) })
 
 
-path_globals <- here::here(
+path_paths <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "computer", "firm", "globals.r"
+  "computer", "firm", "globals", "paths.r"
 )
-globals <- modules::use(path_globals)
+paths <- modules::use(path_paths)
+
+local_variables <- modules::use(paths$path_local_variables)
 
 
 equals_zero <- function(x) { 
@@ -65,7 +67,7 @@ make_tibble_results <- function(content){ tibble::tibble(!!!content) }
 
 compute_days_around_event_statistics <- function(returns, event_index){
   
-  lapply(globals$firm_days_statistics_params, function(params) {
+  lapply(local_variables$firm_days_statistics_params, function(params) {
     
     do.call(compute_uninterrupted_days, c(list(returns = returns, start_index = event_index), params))
   })
@@ -78,7 +80,7 @@ compute_days_around_events_statistics_for_id_year_reporting_period_combination <
   event_rows <-compute_event_indices(data$event)
   
   if (no_event_exists(event_rows)) {
-    return(make_tibble_empty(globals$firm_days_columns))
+    return(make_tibble_empty(local_variables$firm_days_columns))
   }
   
   results <- lapply(event_rows, function(i) {

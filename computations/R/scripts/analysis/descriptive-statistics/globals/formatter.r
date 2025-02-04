@@ -1,4 +1,4 @@
-pacman::p_load(dplyr, modules, tidyr)
+suppressMessages({ import(dplyr); import(tidyr) })
 
 
 modules::export("format_summary_statistics")

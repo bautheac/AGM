@@ -1,38 +1,24 @@
-pacman::p_load(here, modules)
+suppressMessages(import(here))
 
 
-path_price_data_globals <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "prices", "globals.r"
+path_paths <- here::here(
+  "computations", "R", "scripts", "extract-transform-load", "returns", "globals", 
+  "paths.r"
 )
-price_data_globals <- modules::use(path_price_data_globals)
-path_data_extracter <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "globals", "extracter.r"
-)
-data_extracter <- modules::use(path_data_extracter)
-path_transformer <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "returns", "transformer", 
-  "main.r"
-)
-transformer <- modules::use(path_transformer)
-path_data_loader <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "globals", "loader.r"
-)
-data_loader <- modules::use(path_data_loader)
-path_globals <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "returns", "globals.r"
-)
-globals <- modules::use(path_globals)
+paths <- modules::use(path_paths)
+
+extracter <- modules::use(paths$path_data_extracter)
+transformer <- modules::use(paths$path_transformer)
+data_loader <- modules::use(paths$path_data_loader)
 
 
-price_data <- data_extracter$extract_rds_data( price_data_globals$filepath_clean_prices_data_main)
-
-
+price_data <- extracter$extract_clean_prices_data()
 clean_returns <- transformer$make_returns_dataset(price_data)
 
 
 data_loader$load_objects(
   list(clean_returns, clean_returns),
-  list(globals$filepath_clean_returns_data_main, globals$filepath_clean_returns_data_dashboard)
+  list(paths$filepath_clean_returns_data_main, paths$filepath_clean_returns_data_dashboard)
 )
 
 

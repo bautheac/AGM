@@ -1,4 +1,4 @@
-pacman::p_load(dplyr, modules)
+suppressMessages(import(dplyr))
 
 
 date_variables <- c(

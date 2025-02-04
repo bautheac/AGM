@@ -1,16 +1,14 @@
-pacman::p_load(dplyr, lubridate, modules)
+suppressMessages(import(here))
 
 
-path_variable_creator <- here::here(
+path_paths <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
-  "computer", "wrangler", "variable_creator.r"
-  )
-variable_creator <- modules::use(path_variable_creator)
-path_data_filter <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
-  "computer", "wrangler" , "filter.r"
-  )
-data_filter <- modules::use(path_data_filter)
+  "computer", "wrangler", "globals", "paths.r"
+)
+paths <- modules::use(path_paths)
+  
+variable_creator <- modules::use(paths$path_variable_creator)
+data_filter <- modules::use(paths$path_local_filter)
 
 
 modules::export("prepare_dataset_for_descriptive_stats_analysis")

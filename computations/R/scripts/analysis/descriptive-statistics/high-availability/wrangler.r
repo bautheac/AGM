@@ -1,10 +1,12 @@
-pacman::p_load(dplyr, here, modules)
+suppressMessages({ import(dplyr); import(here)})
 
+path_paths <- here::here(
+  "computations", "R", "scripts", "analysis", "descriptive-statistics", 
+  "high-availability", "globals", "paths.r"
+)
+paths <- modules::use(path_paths)
 
-path_extracter <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "globals", "extracter.r"
-  )
-extracter <- modules::use(path_extracter)
+extracter <- modules::use(paths$path_global_extracter)
 
 
 modules::export("retrieve_names")

@@ -1,4 +1,4 @@
-pacman::p_load(modules, tibble)
+suppressMessages(import(tibble))
 
 
 modules::export("unformatted_date_typos")
@@ -108,7 +108,7 @@ pending <- tibble::tribble(
   "OT026",      "1912-10-31",                          "Check all dates.",
   "OT026",      "1913-10-31",                          "Check all dates.",
   "OT026",      "1914-10-31",                          "Check all dates.",
-  "OT029",      "1914-06-30",                          "Check both both first and last day of closed books.",
+  "OT029",      "1914-06-30",                          "Check both first and last day of closed books.",
   "OT041",      "1910-08-31",                          "Check all dates.",
   "OT048",      "1913-04-30",                          "Check all dates.",
   "RL008",      "1913-03-30",                          "Check end of period date.",

@@ -1,10 +1,14 @@
-pacman::p_load(modules)
+suppressMessages(import(here))
 
-path_variables_creator_globals <- here::here(
+
+path_paths <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
-  "computer", "wrangler", "globals.r"
+  "computer", "globals", "paths.r"
 )
-variables_creator_globals <- modules::use(path_variables_creator_globals)
+paths <- modules::use(path_paths)
+
+wrangler_local_variables <- modules::use(paths$path_wrangler_local_variables)
+
 
 modules::export("variables_to_count")
 variables_to_count <- c(
@@ -13,7 +17,7 @@ variables_to_count <- c(
 
 modules::export("variables_to_summarise")
 variables_to_summarise <- c(
-  variables_creator_globals$distance_to_AGM_computed_variables, 
+  wrangler_local_variables$distance_to_AGM_computed_variables, 
   "length of closed books period (# days)", "book value equity", "total assets", 
   "non-current assets", "current assets", "total liabilities", 
   "non-current liabilities", "current liabilities", "total debt", "bank debt", 
@@ -33,5 +37,5 @@ summarising_statistics <- append(
   lapply(
     c(min = "min", max = "max", mean = "mean"), 
     function(stat) function(x) { do.call(stat, list(x[x != 0], na.rm = TRUE)) }
-    )
+  )
 )

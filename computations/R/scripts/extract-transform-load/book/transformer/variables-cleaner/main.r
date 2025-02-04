@@ -1,4 +1,4 @@
-pacman::p_load(dplyr, lubridate, modules, stringr)
+suppressMessages({ import(dplyr); import(here); import(lubridate); import(stringr) })
 
 
 path_corrupts_cleaner <- here::here(

@@ -1,4 +1,4 @@
-pacman::p_load(dplyr, modules, rlang)
+suppressMessages({ import(dplyr); import(rlang) })
 
 
 modules::export("correct_corrupt_records")

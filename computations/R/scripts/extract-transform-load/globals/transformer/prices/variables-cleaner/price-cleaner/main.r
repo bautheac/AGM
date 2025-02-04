@@ -1,15 +1,14 @@
-pacman::p_load(dplyr, here, modules)
+suppressMessages({ import(dplyr); import(here) })
 
-path_character_cleaner <- here::here(
+
+path_paths <- here::here(
   "computations", "R", "scripts", "extract-transform-load", "globals", "transformer", 
-  "prices", "variables-cleaner", "price-cleaner", "character_cleaner.r"
+  "prices", "variables-cleaner", "price-cleaner", "globals", "paths.r"
 )
-character_cleaner <- modules::use(path_character_cleaner)
-path_price_converter <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "globals", "transformer", 
-  "prices", "variables-cleaner", "price-cleaner", "price_converter.r"
-)
-price_converter <- modules::use(path_price_converter)
+paths <- modules::use(path_paths)
+
+character_cleaner <- modules::use(paths$path_character_cleaner)
+price_converter <- modules::use(paths$path_price_converter)
 
 
 inverse_where_low_higher_than_high <- function(price_data){

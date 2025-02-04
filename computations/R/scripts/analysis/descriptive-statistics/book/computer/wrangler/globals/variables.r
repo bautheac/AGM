@@ -1,5 +1,3 @@
-pacman::p_load(modules)
-
 modules::export("variables_to_compute_distance_to_AGM_for")
 variables_to_compute_distance_to_AGM_for <- c(
   "date of reporting period end",

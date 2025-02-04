@@ -1,7 +1,13 @@
-pacman::p_load(dplyr, modules)
+suppressMessages({ import(dplyr); import(here) })
 
-path_filter_global <- here::here("computations", "R", "scripts", "extract-transform-load", "globals", "transformer", "filter", "main.r")
-filter_global <- modules::use(path_filter_global)
+
+path_paths <- here::here(
+  "computations", "R", "scripts", "extract-transform-load", "globals", "transformer", 
+  "filter", "globals", "paths.r"
+)
+paths <- modules::use(path_paths)
+
+filter_global <- modules::use(paths$path_filter_global)
 
 modules::export("filter_out_records_with_corrupt_date")
 filter_out_records_with_corrupt_date <- function(price_data) {

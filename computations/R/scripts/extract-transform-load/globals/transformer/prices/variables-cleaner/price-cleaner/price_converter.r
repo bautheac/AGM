@@ -1,4 +1,5 @@
-pacman::p_load(modules, stringr)
+suppressMessages(import(stringr))
+
 
 modules::export("transform_prices_to_decimal")
 transform_prices_to_decimal <- function(prices){

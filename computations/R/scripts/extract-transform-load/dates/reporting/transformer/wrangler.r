@@ -1,4 +1,4 @@
-pacman::p_load(dplyr, lubridate, modules)
+suppressMessages({ import(dplyr); import(lubridate) })
 
 
 create_year_variable <- function(data){

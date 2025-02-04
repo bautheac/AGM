@@ -1,34 +1,29 @@
-pacman::p_load(dplyr, modules)
+suppressMessages(import(here))
 
 
-path_extracter_globals <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "globals", "extracter.r"
+path_paths <- here::here(
+  "computations", "R", "scripts", "analysis", "descriptive-statistics", 
+  "high-availability", "globals", "paths.r"
 )
-extracter_globals <- modules::use(path_extracter_globals)
-path_descriptive_statistics_book_globals <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
-  "globals.r"
-)
-descriptive_statistics_book_globals <- modules::use(path_descriptive_statistics_book_globals)
-path_descriptive_statistics_returns_globals <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "globals.r"
-)
-descriptive_statistics_returns_globals <- modules::use(path_descriptive_statistics_returns_globals)
+paths <- modules::use(path_paths)
+
+global_extracter <- modules::use(paths$path_global_extracter)
+stats_book_paths <- modules::use(paths$path_stats_book_paths)
+stats_returns_paths <- modules::use(paths$path_stats_returns_paths)
 
 
 modules::export("extract_book_descriptive_statistics")
 extract_book_descriptive_statistics <- function(){
   
-  extracter_globals$extract_rds_data(
-    descriptive_statistics_book_globals$path_book_descriptive_stats_results_main
+  global_extracter$extract_rds_data(
+    stats_book_paths$path_book_descriptive_stats_results_main
   )
 }
 
 modules::export("extract_returns_firms_descriptive_statistics")
 extract_returns_firms_descriptive_statistics <- function(){
   
-  extracter_globals$extract_rds_data(
-    descriptive_statistics_returns_globals$path_returns_firms_descriptive_stats_results_main
+  global_extracter$extract_rds_data(
+    stats_returns_paths$path_returns_firms_descriptive_stats_results_main
   )
 }

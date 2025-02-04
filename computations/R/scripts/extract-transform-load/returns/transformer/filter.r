@@ -1,4 +1,5 @@
-pacman::p_load(dplyr, modules)
+suppressMessages({ import(dplyr); import(here); import(rlang) })
+
 
 path_global_filter <- 
   here::here("computations", "R", "scripts", "extract-transform-load", "globals", "transformer", "filter", "main.r")
