@@ -1,21 +1,15 @@
-pacman::p_load(dplyr, here, lubridate, modules, purrr, rlang, tidyr)
+suppressMessages({ import(dplyr); import(here); import(lubridate); import(purrr); import(rlang); import(tidyr) })
 
 
-path_extracter <- here::here(
+path_paths <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "computer", "wrangler", "extracter.r"
+  "computer", "wrangler", "globals", "paths.r"
 )
-extracter <- modules::use(path_extracter)
-path_filter <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "computer", "wrangler", "filter.r"
-)
-filter <- modules::use(path_filter)
-path_selecter <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "computer", "wrangler", "selecter.r"
-)
-selecter <- modules::use(path_selecter)
+paths <- modules::use(path_paths)
+
+extracter <- modules::use(paths$path_extracter)
+filter <- modules::use(paths$path_filter)
+selecter <- modules::use(paths$path_selecter)
 
 
 collect_disctinct_variable_in_datasets <- function(variable, datasets) {

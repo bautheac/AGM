@@ -1,4 +1,4 @@
-pacman::p_load(here)
+suppressMessages(import(here))
 
 
 modules::export("path_data_directory")

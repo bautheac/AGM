@@ -1,4 +1,6 @@
-pacman::p_load(modules, readr)
+suppressMessages({ import(purrr); import(readr)})
+
+
 
 export("load_rds")
 load_rds <- function(object, path){

@@ -1,9 +1,9 @@
-pacman::p_load(modules, tibble)
+suppressMessages(import(tibble))
 
 
 modules::export("unformatted_date_typos")
 unformatted_date_typos <- tibble::tribble(
-  ~column,                             ~condition,                                             ~new_value,
+  ~column,                             ~condition,                                             ~`new value`,
   "date of reporting period end",      "`date of reporting period end` == '29/02/1911'",       "28/02/1911",
   "date of reporting period end",      "`date of reporting period end` == '29/02/1913'",       "28/02/1913",
   "date of reporting period end",      "`date of reporting period end` == '31/06/1910'",       "30/06/1910",
@@ -35,7 +35,7 @@ unformatted_date_typos <- tibble::tribble(
 
 modules::export("formatted_date_typos")
 formatted_date_typos <- tibble::tribble(
-  ~column,                             ~condition,                                                           ~new_value,
+  ~column,                             ~condition,                                                           ~`new value`,
   "date of reporting period end",      "id == 'RL016' & `date of reporting period end` == '1912-12-31'",     "1913-01-01",
   "date of reporting period end",      "id == 'RL016' & `date of reporting period end` == '1913-12-31'",     "1914-01-01",
   "date of reporting period end",      "id == 'RL030' & `date of reporting period end` == '1912-12-31'",     "1913-01-01",
@@ -95,8 +95,8 @@ formatted_date_typos <- tibble::tribble(
 )
 
 
-modules::export("unsettled")
-unsettled <- tibble::tribble(
+modules::export("pending")
+pending <- tibble::tribble(
   ~id,          ~`date of reporting period end`,       ~`comment`,
   "BA049",      "1914-08-31",                          "Check all dates.",
   "FO001",      "1912-06-30",                          "Check all dates.",
@@ -108,7 +108,7 @@ unsettled <- tibble::tribble(
   "OT026",      "1912-10-31",                          "Check all dates.",
   "OT026",      "1913-10-31",                          "Check all dates.",
   "OT026",      "1914-10-31",                          "Check all dates.",
-  "OT029",      "1914-06-30",                          "Check both both first and last day of closed books.",
+  "OT029",      "1914-06-30",                          "Check both first and last day of closed books.",
   "OT041",      "1910-08-31",                          "Check all dates.",
   "OT048",      "1913-04-30",                          "Check all dates.",
   "RL008",      "1913-03-30",                          "Check end of period date.",

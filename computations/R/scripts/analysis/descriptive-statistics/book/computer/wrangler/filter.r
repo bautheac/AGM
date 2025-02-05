@@ -1,20 +1,15 @@
-pacman::p_load(dplyr, here, modules)
+suppressMessages({ import(dplyr); import(here) })
 
 
-path_extracter <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "globals", "extracter.r"
-  )
-extracter <- modules::use(path_extracter)
-path_filter <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "globals", "transformer", 
-  "filter", "main.r"
-  )
-filter <- modules::use(path_filter)
-path_wrangler <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "globals", "transformer", 
-  "wrangler.r"
-  )
-wrangler <- modules::use(path_wrangler)
+path_paths <- here::here(
+  "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
+  "computer", "wrangler", "globals", "paths.r"
+)
+paths <- modules::use(path_paths)
+
+extracter <- modules::use(paths$path_extracter)
+filter <- modules::use(paths$path_global_filter)
+wrangler <- modules::use(paths$path_wrangler)
 
 
 filter_out_ids_not_in_price_dataset <- function(book_data) {

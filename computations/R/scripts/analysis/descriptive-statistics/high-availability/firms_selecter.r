@@ -1,30 +1,18 @@
-pacman::p_load(dplyr, modules)
+suppressMessages({ import(dplyr); import(lubridate); import(purrr) })
 
 
-path_local_extracter <- here::here(
+path_paths <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", 
-  "high-availability", "extracter.r"
+  "high-availability", "globals", "paths.r"
 )
-local_extracter <- modules::use(path_local_extracter)
-path_global_extracter <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "globals", "extracter.r"
-)
-global_extracter <- modules::use(path_global_extracter)
-path_book_global_variables <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "book", "globals", 
-  "variables.r"
-)
-book_global_variables <- modules::use(path_book_global_variables)
-path_local_global_variables <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", 
-  "high-availability", "globals", "variables.r"
-)
-local_global_variables <- modules::use(path_local_global_variables)
-path_returns_firm_globals <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", 
-  "returns", "computer", "firm", "globals.r"
-)
-returns_firm_globals <- modules::use(path_returns_firm_globals)
+paths <- modules::use(path_paths)
+
+local_extracter <- modules::use(paths$path_local_extracter)
+global_extracter <- modules::use(paths$path_global_extracter)
+book_local_variables <- modules::use(paths$path_etl_book_local_variables)
+local_variables <- modules::use(paths$path_local_variables)
+
+returns_firm_local_variables <- modules::use(paths$path_returns_firm_local_variables)
 
 
 select_high_availability_variables <- function(book_descriptive_statistics){
@@ -32,11 +20,11 @@ select_high_availability_variables <- function(book_descriptive_statistics){
   dplyr::filter(
     book_descriptive_statistics, 
     `reporting frequency` == "all",
-    variable %in% book_global_variables$book_variables,
+    variable %in% book_local_variables$book_variables,
     statistic == "n",
     dplyr::if_all(
-      as.character(local_global_variables$years_of_interest), 
-      ~ . >= local_global_variables$high_availability_book_threshold
+      as.character(local_variables$years_of_interest), 
+      ~ . >= local_variables$high_availability_book_threshold
     )
   ) |>
     dplyr::mutate(variable = as.character(variable)) |>
@@ -56,7 +44,7 @@ select_high_availability_book_firms <- function(){
   dplyr::mutate(book_data_clean, year = lubridate::year(`date of reporting period end`)) |>
     dplyr::select(id, year, high_availablity_variables) |>
     dplyr::filter(
-      year %in% local_global_variables$years_of_interest,
+      year %in% local_variables$years_of_interest,
       dplyr::if_all(high_availablity_variables, ~ !is.na(.))
     ) |> 
     dplyr::select(id) |> purrr::flatten_chr() |> unique()
@@ -70,10 +58,10 @@ select_high_availability_returns_firms <- function(){
 
   dplyr::filter(
     returns_firms_descriptive_statistics,
-    year %in% local_global_variables$years_of_interest,
+    year %in% local_variables$years_of_interest,
     dplyr::if_all(
-      returns_firm_globals$firm_days_available_variables, 
-      ~ . >= local_global_variables$high_availability_returns_threshold
+      returns_firm_local_variables$firm_days_available_variables, 
+      ~ . >= local_variables$high_availability_returns_threshold
     )
   ) |> 
     dplyr::select(id) |> purrr::flatten_chr() |> unique()

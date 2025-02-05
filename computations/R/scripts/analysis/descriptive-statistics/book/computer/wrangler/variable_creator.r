@@ -1,10 +1,11 @@
-pacman::p_load(dplyr, lubridate, modules, purrr)
+suppressMessages({ import(dplyr); import(lubridate); import(purrr); import(rlang) })
 
-path_globals <- here::here(
+
+path_local_variables <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
-  "computer", "wrangler", "globals.r"
-  )
-globals <- modules::use(path_globals)
+  "computer", "wrangler", "globals", "variables.r"
+)
+local_variables <- modules::use(path_local_variables)
 
 
 create_year_variable_from_date_variable <- function(data, date_column){
@@ -37,7 +38,7 @@ create_length_of_closed_books_period_variable <- function(data){
 }
 
 create_distance_from_AGM_variable_for_variable <- function(data, variable){
-  new_variable_name <- paste(globals$distance_to_AGM_variable_prefix, variable)
+  new_variable_name <- paste(local_variables$distance_to_AGM_variable_prefix, variable)
   
   dplyr::mutate(
     data,
@@ -74,7 +75,7 @@ create_relevant_variables <- function(data){
   
   create_year_variable_from_date_variable(data, "date of reporting period end") |>
     create_reporting_period_variable() |>
-    create_distance_from_AGM_variables(globals$variables_to_compute_distance_to_AGM_for) |>
+    create_distance_from_AGM_variables(local_variables$variables_to_compute_distance_to_AGM_for) |>
     create_length_of_closed_books_period_variable() |>
     create_AGM_date_within_closed_books_period_variable()
 }

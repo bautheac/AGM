@@ -1,4 +1,4 @@
-pacman::p_load(dplyr, modules)
+suppressMessages({ import(dplyr) })
 
 
 modules::export("select_reporting_periods_relevant_variables")

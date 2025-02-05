@@ -1,4 +1,5 @@
-pacman::p_load(dplyr, modules)
+suppressMessages(import(dplyr))
+
 
 raw_to_clean_names_map <- c(
   "date"                                      = "A",

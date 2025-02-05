@@ -1,4 +1,4 @@
-pacman::p_load(here, modules)
+suppressMessages({ import(dplyr); import(here) })
 
 
 path_corrupts <- here::here(
@@ -7,10 +7,10 @@ path_corrupts <- here::here(
 corrupts <- modules::use(path_corrupts)
 
 
-modules::export("filter_out_unsettled_corrupt_records")
-filter_out_unsettled_corrupt_records <- function(book_data) {
+modules::export("filter_out_pending_corrupt_records")
+filter_out_pending_corrupt_records <- function(book_data) {
   
-  dplyr::anti_join(book_data, corrupts$unsettled, by = c("id", "date of reporting period end"))
+  dplyr::anti_join(book_data, corrupts$pending, by = c("id", "date of reporting period end"))
 }
 
 

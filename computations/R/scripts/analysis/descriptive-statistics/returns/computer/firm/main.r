@@ -1,16 +1,14 @@
-pacman::p_load(dplyr, modules, tibble)
+suppressMessages({ import(dplyr); import(here); import(tibble) })
 
 
-path_event_days_counter <- here::here(
+path_paths <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "computer", "firm", "event_days_counter.r"
+  "computer", "firm", "globals", "paths.r"
 )
-event_days_counter <- modules::use(path_event_days_counter)
-path_filter <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "computer", "firm", "filter.r"
-)
-filter <- modules::use(path_filter)
+paths <- modules::use(path_paths)
+
+event_days_counter <- modules::use(paths$path_event_days_counter)
+filter <- modules::use(paths$path_filter)
 
 
 modules::export("compute_days_around_events")

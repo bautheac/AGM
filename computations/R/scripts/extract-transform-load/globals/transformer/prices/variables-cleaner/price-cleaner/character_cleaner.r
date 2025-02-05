@@ -1,4 +1,5 @@
-pacman::p_load(modules, stringr)
+suppressMessages(import(stringr))
+
 
 export("correct_invalid_characters")
 correct_invalid_characters <- function(prices){

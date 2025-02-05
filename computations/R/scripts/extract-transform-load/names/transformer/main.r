@@ -1,15 +1,15 @@
-pacman::p_load(here, modules)
+suppressMessages({ import(dplyr); import(here) })
 
 
-path_names_cleaner <- 
-  here::here("computations", "R", "scripts", "extract-transform-load", "globals", "transformer", "raw_book_data_names_cleaner.r")
-names_cleaner <- modules::use(path_names_cleaner)
-path_variables_selecter <- 
-  here::here("computations", "R", "scripts", "extract-transform-load", "names", "transformer", "variables_selecter.r")
-variables_selecter <- modules::use(path_variables_selecter)
-path_filter <- 
-  here::here("computations", "R", "scripts", "extract-transform-load", "globals", "transformer", "filter", "main.r")
-filter <- modules::use(path_filter)
+path_paths <- here::here(
+  "computations", "R", "scripts", "extract-transform-load", "names", "transformer", 
+  "globals", "paths.r"
+)
+paths <- modules::use(path_paths)
+
+names_cleaner <- modules::use(paths$path_names_cleaner)
+variables_selecter <- modules::use(paths$path_variables_selecter)
+filter <- modules::use(paths$path_filter)
 
 
 export("transform_names")

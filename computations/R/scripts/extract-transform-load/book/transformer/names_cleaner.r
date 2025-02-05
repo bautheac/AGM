@@ -1,4 +1,4 @@
-pacman::p_load(dplyr, modules)
+suppressMessages({ import(dplyr); import(here) })
 
 
 path_global_variables <- here::here(

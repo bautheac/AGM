@@ -1,4 +1,4 @@
-pacman::p_load(dplyr, modules)
+suppressMessages(import(dplyr))
 
 
 modules::export("compute_stats_for_variables")

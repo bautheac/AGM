@@ -1,14 +1,14 @@
-pacman::p_load(here, modules)
+suppressMessages(import(here))
 
-path_names_cleaner <- 
-  here::here("computations", "R", "scripts", "extract-transform-load", "globals", "transformer", "prices", "names_cleaner.r")
-names_cleaner <- modules::use(path_names_cleaner)
-path_filter <- 
-  here::here("computations", "R", "scripts", "extract-transform-load", "globals", "transformer", "filter", "raw_price_data_filter.r")
-filter <- modules::use(path_filter)
-path_variables_cleaner <- 
-  here::here("computations", "R", "scripts", "extract-transform-load", "globals", "transformer", "prices", "variables-cleaner", "main.r")
-variables_cleaner <- modules::use(path_variables_cleaner)
+path_paths <- here::here(
+  "computations", "R", "scripts", "extract-transform-load", "globals", "transformer", 
+  "prices", "globals", "paths.r"
+)
+paths <- modules::use(path_paths)
+
+names_cleaner <- modules::use(paths$path_names_cleaner)
+filter <- modules::use(paths$path_filter)
+variables_cleaner <- modules::use(paths$path_variables_cleaner)
 
 export("transform_prices")
 transform_prices <- function(raw_prices){

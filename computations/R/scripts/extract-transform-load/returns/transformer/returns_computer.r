@@ -1,4 +1,4 @@
-pacman::p_load(dplyr, modules, rlang)
+suppressMessages({ import(dplyr); import(rlang) })
 
 
 compute_mid_from_high_low_quotes <- function(high, low){

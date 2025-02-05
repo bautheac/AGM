@@ -1,16 +1,14 @@
-pacman::p_load(dplyr, modules, tidyr)
+suppressMessages({ import(dplyr); import(here); import(lubridate); import(tidyr) })
 
 
-path_variables_cleaner <- here::here(
+path_paths <- here::here(
   "computations", "R", "scripts", "extract-transform-load", "events", "transformer", 
-  "variables_cleaner.r"
+  "globals", "paths.r"
 )
-variables_cleaner <- modules::use(path_variables_cleaner)
-path_filter <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "events", "transformer", 
-  "filter.r"
-)
-filter <- modules::use(path_filter)
+paths <- modules::use(path_paths)
+
+variables_cleaner <- modules::use(paths$path_variables_cleaner)
+filter <- modules::use(paths$path_filter)
 
 
 separate_multiple_event_dates_into_separate_rows <- function(events_data){

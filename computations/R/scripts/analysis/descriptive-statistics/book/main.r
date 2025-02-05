@@ -1,20 +1,14 @@
-pacman::p_load(dplyr, here, modules, tidyr)
+pacman::p_load(here)
 
 
-path_loader <- here::here( 
-  "computations", "R", "scripts", "extract-transform-load", "globals", "loader.r"
-  )
-loader <- modules::use(path_loader)
-path_computer <- here::here(
+path_paths <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
-  "computer", "main.r"
-  )
-computer <- modules::use(path_computer)
-path_globals <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 
-  "globals.r"
+  "globals", "paths.r"
 )
-globals <- modules::use(path_globals)
+paths <- modules::use(path_paths)
+  
+loader <- modules::use(paths$path_loader)
+computer <- modules::use(paths$path_computer)
 
 
 descriptive_stats <- computer$compute_book_statistics()
@@ -23,8 +17,8 @@ descriptive_stats <- computer$compute_book_statistics()
 loader$load_objects(
   list(descriptive_stats, descriptive_stats), 
   list(
-    globals$path_book_descriptive_stats_results_main, 
-    globals$path_book_descriptive_stats_results_dashboard
+    paths$path_book_descriptive_stats_results_main, 
+    paths$path_book_descriptive_stats_results_dashboard
   )
 )
 

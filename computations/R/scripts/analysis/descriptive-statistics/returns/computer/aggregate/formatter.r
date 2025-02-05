@@ -1,26 +1,16 @@
-pacman::p_load(dplyr, here, modules)
+suppressMessages({ import(dplyr); import(here) })
 
 
-path_global_formatter <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", "globals", 
-  "formatter.r"
-)
-global_formatter <- modules::use(path_global_formatter)
-path_variables <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", "globals", 
-  "variables.r"
-)
-variables <- modules::use(path_variables)
-path_local_globals <- here::here(
+path_paths <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "computer", "aggregate", "globals.r"
+  "computer", "aggregate", "globals", "paths.r"
 )
-local_globals <- modules::use(path_local_globals)
-path_firm_globals <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "computer", "firm", "globals.r"
-)
-firm_globals <- modules::use(path_firm_globals)
+paths <- modules::use(path_paths)
+
+global_formatter <- modules::use(paths$path_global_formatter)
+global_variables <- modules::use(paths$path_global_variables)
+local_variables <- modules::use(paths$path_local_variables)
+firm_local_variables <- modules::use(paths$path_firm_local_variables)
 
 
 modules::export("format_intermediate_summary_statistics")
@@ -37,9 +27,9 @@ format_final_summary_statistics <- function(summary_statistics) {
     summary_statistics, `reporting frequency`, `reporting period`, event, variable, dplyr::everything()
     ) |>
     dplyr::mutate(
-      `reporting frequency` = factor(`reporting frequency`, levels = variables$reporting_frequency),
-      event = factor(event, levels = firm_globals$events_of_interest),
-      variable = factor(variable, levels = c(local_globals$count_variable, firm_globals$firm_days_variables))
+      `reporting frequency` = factor(`reporting frequency`, levels = global_variables$reporting_frequency),
+      event = factor(event, levels = firm_local_variables$events_of_interest),
+      variable = factor(variable, levels = c(local_variables$count_variable, firm_local_variables$firm_days_variables))
     ) |>
     dplyr::arrange(`reporting frequency`, `reporting period`, event, variable)
 }

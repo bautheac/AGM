@@ -1,6 +1,3 @@
-pacman::p_load(dplyr, modules)
-
-
 modules::export("raw_to_clean_book_variable_names_map")
 raw_to_clean_book_variable_names_map <- c(
   "book value equity"                         = "BVE",

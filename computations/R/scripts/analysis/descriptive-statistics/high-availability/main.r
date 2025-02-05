@@ -1,35 +1,17 @@
-pacman::p_load(here, modules)
+pacman::p_load(here)
 
 
-path_firms_selecter <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", 
-  "high-availability", "firms_selecter.r"
-)
-firms_selecter <- modules::use(path_firms_selecter)
-path_book_stats_computer <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", 
-  "book", "computer", "main.r"
-)
-book_stats_computer <- modules::use(path_book_stats_computer)
-path_returns_stats_computer <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", 
-  "returns", "computer", "main.r"
-)
-returns_stats_computer <- modules::use(path_returns_stats_computer)
-path_wrangler <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", 
-  "high-availability", "wrangler.r"
-)
-wrangler <- modules::use(path_wrangler)
-path_loader <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "globals", "loader.r"
-)
-loader <- modules::use(path_loader)
 path_paths <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", 
   "high-availability", "globals", "paths.r"
 )
 paths <- modules::use(path_paths)
+
+firms_selecter <- modules::use(paths$path_firms_selecter)
+book_stats_computer <- modules::use(paths$path_book_stats_computer)
+returns_stats_computer <- modules::use(paths$path_returns_stats_computer)
+wrangler <- modules::use(paths$path_wrangler)
+loader <- modules::use(paths$path_loader)
 
 
 book_firms_ids <- firms_selecter$select_high_availability_book_firms()
@@ -49,8 +31,10 @@ intersection_firms_return_stats <- returns_stats_computer$compute_returns_statis
 
 loader$load_objects(
   list(
-    book_firms_names, book_firms_stats, return_firms_names, return_firms_stats,
-    intersection_firms_names, intersection_firms_book_stats, intersection_firms_return_stats
+    book_firms_names, book_firms_stats, 
+    return_firms_names, return_firms_stats$firm, return_firms_stats$aggregate,
+    intersection_firms_names, intersection_firms_book_stats, 
+    intersection_firms_return_stats$firm, intersection_firms_return_stats$aggregate
   ), 
   paths$paths
 )

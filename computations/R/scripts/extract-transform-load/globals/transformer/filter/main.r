@@ -1,4 +1,5 @@
-pacman::p_load(dplyr, modules)
+suppressMessages({ import(dplyr); import(rlang) })
+
 
 export("filter_out_values_not_matching")
 filter_out_values_not_matching <- function(data, column, matches){

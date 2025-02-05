@@ -1,21 +1,15 @@
-pacman::p_load(here, modules)
+suppressMessages({ import(dplyr); import(here) })
 
 
-path_wrangler <- here::here(
+path_paths <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "computer", "wrangler", "main.r"
+  "computer", "globals", "paths.r"
 )
-wrangler <- modules::use(path_wrangler)
-path_stats_computer_firm <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "computer", "firm", "main.r"
-  )
-stats_computer_firm <- modules::use(path_stats_computer_firm)
-path_stats_computer_aggregate <- here::here(
-  "computations", "R", "scripts", "analysis", "descriptive-statistics", "returns", 
-  "computer", "aggregate", "main.r"
-  )
-stats_computer_aggregate <- modules::use(path_stats_computer_aggregate)
+paths <- modules::use(path_paths)
+
+wrangler <- modules::use(paths$path_wrangler)
+stats_computer_firm <- modules::use(paths$path_stats_computer_firm)
+stats_computer_aggregate <- modules::use(paths$path_stats_computer_aggregate)
 
 
 modules::export("compute_returns_statistics")
