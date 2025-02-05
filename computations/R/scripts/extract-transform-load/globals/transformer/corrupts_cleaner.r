@@ -10,10 +10,10 @@ correct_corrupt_records <- function(data, corrupts) {
     
     column       <- row_i$column
     condition <- rlang::parse_expr(row_i$condition)
-    new_value    <- row_i$new_value
+    `new value`    <- row_i$`new value`
     
     corrected <- dplyr::mutate(
-      corrected, !!rlang::sym(column) := dplyr::if_else(eval(condition), new_value, .data[[column]])
+      corrected, !!rlang::sym(column) := dplyr::if_else(eval(condition), `new value`, .data[[column]])
     )
   }
   corrected

@@ -2,7 +2,7 @@ suppressMessages(import(tibble))
 
 modules::export("corrupt_records")
 corrupt_records <- tibble::tribble(
-  ~column,    ~condition,                                              ~new_value,
+  ~column,    ~condition,                                              ~`new value`,
   "event",    "id == 'OT005' & date == '1913-02-24'",                  "",
   "event",    "id == 'OT005' & date == '1913-05-24'",                  "FC",
   "event",    "id == 'OT010' & date == '1913-02-11'",                  "",

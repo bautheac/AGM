@@ -3,7 +3,7 @@ suppressMessages(import(tibble))
 
 modules::export("unformatted_date_typos")
 unformatted_date_typos <- tibble::tribble(
-  ~column,                             ~condition,                                             ~new_value,
+  ~column,                             ~condition,                                             ~`new value`,
   "date of reporting period end",      "`date of reporting period end` == '29/02/1911'",       "28/02/1911",
   "date of reporting period end",      "`date of reporting period end` == '29/02/1913'",       "28/02/1913",
   "date of reporting period end",      "`date of reporting period end` == '31/06/1910'",       "30/06/1910",
@@ -35,7 +35,7 @@ unformatted_date_typos <- tibble::tribble(
 
 modules::export("formatted_date_typos")
 formatted_date_typos <- tibble::tribble(
-  ~column,                             ~condition,                                                           ~new_value,
+  ~column,                             ~condition,                                                           ~`new value`,
   "date of reporting period end",      "id == 'RL016' & `date of reporting period end` == '1912-12-31'",     "1913-01-01",
   "date of reporting period end",      "id == 'RL016' & `date of reporting period end` == '1913-12-31'",     "1914-01-01",
   "date of reporting period end",      "id == 'RL030' & `date of reporting period end` == '1912-12-31'",     "1913-01-01",
