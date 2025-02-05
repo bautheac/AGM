@@ -45,6 +45,14 @@ path_results_descriptive_statistics_high_availability_directory <-
 modules::export("filename_book_dataset")
 filename_book_dataset <- "book_clean.rds"
 
+modules::export("filename_events_dataset")
+filename_events_dataset <- "events_clean.rds"
+
+modules::export("filename_names_dataset")
+filename_names_dataset <- "names_clean.rds"
+
+modules::export("filename_returns_dataset")
+filename_returns_dataset <- "returns_clean.rds"
 modules::export("filename_corrupts_book_pending_dataset")
 filename_corrupts_book_pending_dataset <- "corrupts_book_pending.rds"
 
@@ -60,12 +68,9 @@ filename_corrupts_events_sorted_missings_dataset <- "corrupts_events_missings.rd
 modules::export("filename_corrupts_events_sorted_corrupts_dataset")
 filename_corrupts_events_sorted_corrupts_dataset <- "corrupts_events_records.rds"
 
-modules::export("filename_events_dataset")
-filename_events_dataset <- "events_clean.rds"
+modules::export("filename_stats_book_by_reporting_period")
+filename_stats_book_by_reporting_period <- "statistics-by-reporting-frequency.rds"
 
-modules::export("filename_names_dataset")
-filename_names_dataset <- "names_clean.rds"
 
-modules::export("filename_returns_dataset")
-filename_returns_dataset <- "returns_clean.rds"
+
 

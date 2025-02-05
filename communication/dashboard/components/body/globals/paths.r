@@ -13,3 +13,8 @@ modules::export("path_data_corrupts")
 path_data_corrupts <- here::here(
   path_main_directory, "components", "body", "data", "corrupts", "main.r"
 )
+
+modules::export("path_stats_book")
+path_stats_book <- here::here(
+  path_main_directory, "components", "body", "stats", "book", "main.r"
+)
