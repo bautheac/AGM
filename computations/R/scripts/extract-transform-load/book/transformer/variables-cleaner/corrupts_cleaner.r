@@ -1,16 +1,14 @@
 suppressMessages({ import(dplyr); import(here) })
 
 
-path_corrupts <- here::here(
-  'computations', 'R', 'scripts', 'extract-transform-load', 'book', 'globals', 
-  'corrupts.r'
-  )
-corrupts <- modules::use(path_corrupts)
-path_corrupts_cleaner <- here::here(
-  'computations', 'R', 'scripts', 'extract-transform-load', 'globals', "transformer", 
-  'corrupts_cleaner.r'
-  )
-corrupts_cleaner <- modules::use(path_corrupts_cleaner)
+path_paths <- here::here(
+  "computations", "R", "scripts", "extract-transform-load", "book", "transformer", 
+  "variables-cleaner", "globals", "paths.r"
+)
+paths <- modules::use(path_paths)
+
+corrupts <- modules::use(paths$path_corrupts)
+corrupts_cleaner <- modules::use(paths$path_global_corrupts_cleaner)
 
 
 convert_dates_to_excel_numeric <- function(dates) {
