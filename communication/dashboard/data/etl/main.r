@@ -1,16 +1,12 @@
-pacman::p_load(here, modules, purrr, slituR)
+pacman::p_load(here, purrr, slituR)
 
-
-path_globals <- here::here("communication", "dashboard", "data", "etl", "globals.r")
-globals <- modules::use(path_globals)
-path_extracter <- here::here("communication", "dashboard", "data", "etl", "extracter.r")
-extracter <- modules::use(path_extracter)
-path_paths <- here::here("communication", "dashboard", "globals", "paths.r")
-paths <- modules::use(path_paths)
-path_transformer <- here::here(
-  "communication", "dashboard", "data", "etl", "transformer.r"
+path_paths <- here::here(
+  "communication", "dashboard", "data", "etl", "globals", "paths.r"
 )
-transformer <- modules::use(path_transformer)
+paths <- modules::use(path_paths)
+
+extracter <- modules::use(paths$path_extracter)
+transformer <- modules::use(paths$path_transformer)
 
 
 company_names <- extracter$extract_company_names_dataset()
@@ -23,3 +19,6 @@ purrr::walk(directory_paths, function(directory){
     directory, "rds", transformer$add_company_names, company_names = company_names
   )
 })
+
+
+rm(list = ls())

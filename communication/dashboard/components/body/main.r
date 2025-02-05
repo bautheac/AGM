@@ -1,23 +1,21 @@
-suppressMessages(import("here"))
-suppressMessages(import("shiny"))
-suppressMessages(import("shinydashboard"))
-suppressMessages(import("slituR"))
+suppressMessages({
+  import("here")
+  import("shiny")
+  import("shinydashboard")
+  import("slituR")
+})
 
+path_paths <- here::here(
+  "communication", "dashboard", "components", "body", "globals", "paths.r"
+)
+paths <- modules::use(path_paths)
 
-path_main_directory <- 
-  slituR::make_shiny_main_directory_path(local = "communication/dashboard")
-
-path_data_clean <- 
-  here::here(path_main_directory, "components", "body", "data", "clean", "main.r")
-data_clean <- modules::use(path_data_clean)
-path_data_corrupts <- 
-  here::here(path_main_directory, "components", "body", "data", "corrupts", "main.r")
-data_corrupts <- modules::use(path_data_clean)
+data_clean <- modules::use(paths$path_data_clean)
+data_corrupts <- modules::use(paths$path_data_corrupts)
 
 
 modules::export("ui")
-ui <- function(id){
-  
+ui <- function(id) {
   ns <- shiny::NS(id)
 
   shinydashboard::dashboardBody(
@@ -33,8 +31,6 @@ ui <- function(id){
 modules::export("server")
 server <- function(id) {
   shiny::moduleServer(id, function(input, output, session) {
-    
-    # data$server("data")
     data_clean$server("data-clean")
     data_corrupts$server("data-corrupts")
   })

@@ -20,6 +20,36 @@ extract_book_dataset <- function(){
   extract_dataset(paths$filename_book_dataset)
 }
 
+modules::export("extract_corrupts_book_pending_dataset")
+extract_corrupts_book_pending_dataset <- function(){
+  
+  extract_dataset(paths$filename_corrupts_book_pending_dataset)
+}
+
+modules::export("extract_corrupts_book_sorted_unformatted_dataset")
+extract_corrupts_book_sorted_unformatted_dataset <- function(){
+  
+  extract_dataset(paths$filename_corrupts_book_sorted_unformatted_dataset)
+}
+
+modules::export("extract_corrupts_book_sorted_formatted_dataset")
+extract_corrupts_book_sorted_formatted_dataset <- function(){
+  
+  extract_dataset(paths$filename_corrupts_book_sorted_formatted_dataset)
+}
+
+modules::export("extract_corrupts_events_sorted_missings_dataset")
+extract_corrupts_events_sorted_missings_dataset <- function(){
+  
+  extract_dataset(paths$filename_corrupts_events_sorted_missings_dataset)
+}
+
+modules::export("extract_corrupts_events_sorted_corrupts_dataset")
+extract_corrupts_events_sorted_corrupts_dataset <- function(){
+  
+  extract_dataset(paths$filename_corrupts_events_sorted_corrupts_dataset)
+}
+
 modules::export("extract_returns_dataset")
 extract_returns_dataset <- function(){
   

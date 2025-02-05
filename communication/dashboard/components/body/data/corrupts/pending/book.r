@@ -1,8 +1,8 @@
 suppressMessages({ import("here"); import("shiny"); import("slituR") })
 
 path_paths <- here::here(
-  "communication", "dashboard", "components", "body", "data", "clean", "globals", 
-  "paths.r"
+  "communication", "dashboard", "components", "body", "data", "corrupts", "pending", 
+  "globals", "paths.r"
 )
 paths <- modules::use(path_paths)
 
@@ -15,7 +15,7 @@ ui <- function(id) {
   
   ns <- shiny::NS(id)
   
-  table$ui(ns("book"), 12L, "Book")
+  table$ui(ns("pending_book_table"), 12L, "Book")
 }
 
 
@@ -23,6 +23,6 @@ modules::export("server")
 server <- function(id) {
   shiny::moduleServer(id, function(input, output, session) {
     
-    table$server("book", extracter$extract_book_dataset())
+    table$server("pending_book_table", extracter$extract_corrupts_book_pending_dataset())
   })
 }

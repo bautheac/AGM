@@ -1,23 +1,14 @@
-suppressMessages(import("here"))
-suppressMessages(import("shiny"))
-suppressMessages(import("shinydashboard"))
-suppressMessages(import("slituR"))
+suppressMessages({ import(here); import(shiny); import(shinydashboard); import(slituR) })
 
-path_main_directory <- 
-  slituR::make_shiny_main_directory_path(local = "communication/dashboard")
+path_paths <- here::here(
+  "communication", "dashboard", "components", "body", "data", "clean", "globals", 
+  "paths.r"
+)
+paths <- modules::use(path_paths)
 
-path_book <- here::here(
-  path_main_directory, "components", "body", "data", "clean", "book.r"
-)
-book <- modules::use(path_book)
-path_returns <- here::here(
-  path_main_directory, "components", "body", "data", "clean", "returns.r"
-)
-returns <- modules::use(path_returns)
-path_events <- here::here(
-  path_main_directory, "components", "body", "data", "clean", "events.r"
-)
-events <- modules::use(path_events)
+book <- modules::use(paths$path_book)
+returns <- modules::use(paths$path_returns)
+events <- modules::use(paths$path_events)
 
 
 modules::export("ui")
@@ -30,6 +21,11 @@ ui <- function(id) {
     shiny::fluidRow(shiny::column(width = 12L, shiny::tags$hr(style = "border-top: 3px solid #000;"))),
     shiny::fluidRow(shiny::column(width = 12L, book$ui(ns("book")))),
     shiny::br(),  
+    shiny::fluidRow(
+      shiny::column(width = 2L, ""), 
+      shiny::column(width = 8L, shiny::tags$hr(style = "border-top: 2px solid #000;")),
+      shiny::column(width = 2L, "")
+    ),
     shiny::br(),  
     shiny::fluidRow(
       shiny::column(width = 6L, returns$ui(ns("returns"))),
