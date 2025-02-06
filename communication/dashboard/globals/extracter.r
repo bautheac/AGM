@@ -44,6 +44,14 @@ extract_results_stats_returns <- function(filename) {
   )
 }
 
+modules::export("extract_results_stats_availables")
+extract_results_stats_availables <- function(filename) {
+  
+  extract_results_stats(
+    paste(paths$directory_name_results_stats_availables, filename, sep = "/")
+  )
+}
+
 
 
 

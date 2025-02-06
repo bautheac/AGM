@@ -23,7 +23,7 @@ modules::export("ui")
 ui <- function(id) {
   ns <- shiny::NS(id)
 
-  table$ui(ns("dataset-book"), 12L, "Book")
+  table$ui(ns("dataset-book"), 12L, "")
 }
 
 

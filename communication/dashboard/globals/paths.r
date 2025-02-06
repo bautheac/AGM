@@ -54,6 +54,9 @@ directory_name_results_stats_book <- "book"
 modules::export("directory_name_results_stats_returns")
 directory_name_results_stats_returns <- "returns"
 
+modules::export("directory_name_results_stats_availables")
+directory_name_results_stats_availables <- "high-availability"
+
 
 
 modules::export("filename_names_dataset")

@@ -19,7 +19,7 @@ ui <- function(id) {
   
   ns <- shiny::NS(id)
   
-  table$ui(ns("returns"), 12L, "Returns")
+  table$ui(ns("returns"), 12L, "")
 }
 
 

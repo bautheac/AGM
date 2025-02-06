@@ -29,6 +29,11 @@ path_stats_returns_component <- here::here(
   path_main_directory, "components", "body", "stats", "returns", "main.r"
 )
 
+modules::export("path_stats_availables_component")
+path_stats_availables_component <- here::here(
+  path_main_directory, "components", "body", "stats", "high-availability", "main.r"
+)
+
 modules::export("path_global_table_component")
 path_global_table_component <- here::here(
   path_main_directory, "components", "body", "globals", "table", "main.r"

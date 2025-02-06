@@ -14,7 +14,8 @@ ui <- function(){
       shinydashboard::menuItem(
         "Stats", tabName = "stats",
         shinydashboard::menuItem("Book", tabName = "stats-book"),
-        shinydashboard::menuItem("Returns", tabName = "stats-returns")
+        shinydashboard::menuItem("Returns", tabName = "stats-returns"),
+        shinydashboard::menuItem("High availability", tabName = "stats-availables")
       )
     )
   )
