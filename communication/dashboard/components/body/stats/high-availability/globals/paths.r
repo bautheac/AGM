@@ -39,6 +39,12 @@ path_book_component <- here::here(
   path_main_directory, "components", "body", "stats", "high-availability", "book.r"
 )
 
+modules::export("path_returns_component")
+path_returns_component <- here::here(
+  path_main_directory, "components", "body", "stats", "high-availability", "returns", 
+  "main.r"
+)
+
 modules::export("path_table_component")
 path_table_component <- body_global_paths$path_global_table_component
 
@@ -49,13 +55,6 @@ filename_intersection_names <- "intersection_firms_names.rds"
 modules::export("filename_intersection_stats_book")
 filename_intersection_stats_book <- "intersection_firms_book_stats.rds"
 
-modules::export("filename_intersection_stats_returns_firms")
-filename_intersection_stats_returns_firms <- "intersection_firms_return_stats_firms.rds"
-
-modules::export("filename_intersection_stats_returns_aggregate")
-filename_intersection_stats_returns_aggregate <- "intersection_firms_return_stats_aggregate.rds"
-
-
 
 modules::export("download_filename_intersection_names")
 download_filename_intersection_names <- paste0(
@@ -65,14 +64,4 @@ download_filename_intersection_names <- paste0(
 modules::export("download_filename_intersection_stats_book")
 download_filename_intersection_stats_book <- paste0(
   "stats - high-availability - book", body_global_variables$download_filename_extension
-)
-
-modules::export("download_filename_intersection_stats_returns_firms")
-download_filename_intersection_stats_returns_firms <- paste0(
-  "stats - high-availability - returns - firms", body_global_variables$download_filename_extension
-)
-
-modules::export("download_filename_intersection_stats_returns_aggregate")
-download_filename_intersection_stats_returns_aggregate <- paste0(
-  "stats - high-availability - returns - aggregate", body_global_variables$download_filename_extension
 )

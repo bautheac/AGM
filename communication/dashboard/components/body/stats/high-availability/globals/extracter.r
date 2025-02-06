@@ -31,17 +31,3 @@ extract_stats_availables_book <- function() {
     paths$filename_intersection_stats_book
   )
 }
-
-modules::export("extract_stats_availables_returns_firms")
-extract_stats_availables_returns_firms <- function() {
-  global_extracter$extract_results_stats_availables(
-    paths$filename_intersection_stats_returns_firms
-  )
-}
-
-modules::export("extract_stats_availables_returns_aggregate")
-extract_stats_availables_returns_aggregate <- function() {
-  global_extracter$extract_results_stats_availables(
-    paths$filename_intersection_stats_returns_aggregate
-  )
-}

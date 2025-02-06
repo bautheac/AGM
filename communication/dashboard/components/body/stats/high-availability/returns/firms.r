@@ -10,8 +10,8 @@ path_main_directory <- slituR::make_shiny_main_directory_path(
 )
 
 path_paths <- here::here(
-  path_main_directory, "components", "body", "stats", "book", "globals",
-  "paths.r"
+  path_main_directory, "components", "body", "stats", "high-availability", 
+  "returns", "globals", "paths.r"
 )
 paths <- modules::use(path_paths)
 
@@ -22,11 +22,9 @@ table <- modules::use(paths$path_table_component)
 modules::export("ui")
 ui <- function(id) {
   ns <- shiny::NS(id)
-
-  shiny::tagList(
-    shiny::fluidRow(shiny::column(width = 12L, shiny::h1("Book descriptive statistics"))),
-    shiny::fluidRow(shiny::column(width = 12L, shiny::tags$hr(style = "border-top: 3px solid #000;"))),
-    table$ui(ns("book-stats"), 12L, "")
+  
+  shiny::fluidPage(
+    table$ui(ns("stats_availables_returns_firms"), 12L, "Firms")
   )
 }
 
@@ -34,9 +32,10 @@ ui <- function(id) {
 modules::export("server")
 server <- function(id) {
   shiny::moduleServer(id, function(input, output, session) {
+    
     table$server(
-      id = "book-stats", data = extracter$extract_stats_book_by_reporting_period(), 
-      display_rows = NULL, filename = paths$download_filename_stats_book_by_reporting_period
+      id = "stats_availables_returns_firms", data = extracter$extract_stats_availables_returns_firms(), 
+      display_rows = NULL, filename = paths$download_filename_intersection_stats_returns_firms
     )
   })
 }

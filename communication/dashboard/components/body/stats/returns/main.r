@@ -23,7 +23,7 @@ modules::export("ui")
 ui <- function(id) {
   ns <- shiny::NS(id)
 
-  shiny::fluidPage(
+  shiny::tagList(
     shiny::fluidRow(shiny::column(width = 12L, shiny::h1("Returns descriptive statistics"))),
     shiny::fluidRow(shiny::column(width = 12L, shiny::tags$hr(style = "border-top: 3px solid #000;"))),
     shiny::fluidRow(shiny::column(width = 12L, shiny::h2("Firms"))),
