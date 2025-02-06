@@ -27,6 +27,6 @@ modules::export("server")
 server <- function(id) {
   shiny::moduleServer(id, function(input, output, session) {
     
-    table$server("returns", extracter$extract_returns_dataset())
+    table$server("returns", extracter$extract_returns_dataset(), paths$download_filename_returns_dataset)
   })
 }

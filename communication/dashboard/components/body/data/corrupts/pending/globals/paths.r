@@ -10,6 +10,11 @@ path_body_global_paths <- here::here(
 )
 body_global_paths <- modules::use(path_body_global_paths)
 
+path_body_global_variables <- here::here(
+  path_main_directory, "components", "body", "globals", "variables.r"
+)
+body_global_variables <- modules::use(path_body_global_variables)
+
 
 modules::export("path_global_extracter")
 path_global_extracter <- here::here(
@@ -35,3 +40,8 @@ path_book_component <- here::here(
 
 modules::export("filename_corrupts_book_pending_dataset")
 filename_corrupts_book_pending_dataset <- "corrupts_book_pending.rds"
+
+modules::export("download_filename_corrupts_book_pending_dataset")
+download_filename_corrupts_book_pending_dataset <- paste0(
+  "corrupts - pending - book", body_global_variables$download_file_extension
+)

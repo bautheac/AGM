@@ -29,6 +29,6 @@ ui <- function(id) {
 modules::export("server")
 server <- function(id) {
   shiny::moduleServer(id, function(input, output, session) {
-    table$server("events", extracter$extract_events_dataset())
+    table$server("events", extracter$extract_events_dataset(), paths$download_filename_events_dataset)
   })
 }

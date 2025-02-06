@@ -1,4 +1,7 @@
-suppressMessages({ import(here); import(slituR) })
+suppressMessages({
+  import(here)
+  import(slituR)
+})
 
 
 path_main_directory <- slituR::make_shiny_main_directory_path(
@@ -9,6 +12,15 @@ path_body_global_paths <- here::here(
   path_main_directory, "components", "body", "globals", "paths.r"
 )
 body_global_paths <- modules::use(path_body_global_paths)
+
+path_body_global_variables <- here::here(
+  path_main_directory, "components", "body", "globals", "variables.r"
+)
+body_global_variables <- modules::use(path_body_global_variables)
+
+
+
+
 
 modules::export("path_global_extracter")
 path_global_extracter <- here::here(
@@ -60,3 +72,19 @@ filename_returns_dataset <- "returns_clean.rds"
 modules::export("filename_events_dataset")
 filename_events_dataset <- "events_clean.rds"
 
+extension <- ".csv"
+
+modules::export("download_filename_book_dataset")
+download_filename_book_dataset <- paste0(
+  "clean - book", body_global_variables$download_file_extension
+)
+
+modules::export("download_filename_returns_dataset")
+download_filename_returns_dataset <- paste0(
+  "clean - returns", body_global_variables$download_file_extension
+)
+
+modules::export("download_filename_events_dataset")
+download_filename_events_dataset <- paste0(
+  "clean - events", body_global_variables$download_file_extension
+)

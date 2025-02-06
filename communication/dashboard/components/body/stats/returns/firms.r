@@ -28,6 +28,9 @@ ui <- function(id) {
 modules::export("server")
 server <- function(id) {
   shiny::moduleServer(id, function(input, output, session) {
-    table$server("stats_returns_firms", extracter$extract_stats_returns_firms())
+    table$server(
+      id = "stats_returns_firms", data = extracter$extract_stats_returns_firms(), 
+      display_rows = NULL, filename = paths$download_filename_stats_returns_firms
+    )
   })
 }

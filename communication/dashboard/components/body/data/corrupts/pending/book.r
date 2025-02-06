@@ -29,6 +29,9 @@ ui <- function(id) {
 modules::export("server")
 server <- function(id) {
   shiny::moduleServer(id, function(input, output, session) {
-    table$server("pending_book_table", extracter$extract_corrupts_book_pending_dataset())
+    table$server(
+      id = "pending_book_table", data = extracter$extract_corrupts_book_pending_dataset(), 
+      display_rows = NULL, filename = paths$download_filename_corrupts_book_pending_dataset
+    )
   })
 }

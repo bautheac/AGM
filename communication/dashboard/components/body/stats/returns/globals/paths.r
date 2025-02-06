@@ -13,6 +13,11 @@ path_body_global_paths <- here::here(
 )
 body_global_paths <- modules::use(path_body_global_paths)
 
+path_body_global_variables <- here::here(
+  path_main_directory, "components", "body", "globals", "variables.r"
+)
+body_global_variables <- modules::use(path_body_global_variables)
+
 
 modules::export("path_global_extracter")
 path_global_extracter <- here::here(path_main_directory, "globals", "extracter.r")
@@ -41,3 +46,15 @@ filename_stats_returns_firms <- "firms.rds"
 
 modules::export("filename_stats_returns_aggregate")
 filename_stats_returns_aggregate <- "aggregate.rds"
+
+
+modules::export("download_filename_stats_returns_firms")
+download_filename_stats_returns_firms <- paste0(
+  "stats - returns - firms", body_global_variables$download_filename_extension
+)
+
+modules::export("download_filename_stats_returns_aggregate")
+download_filename_stats_returns_aggregate <- paste0(
+  "stats - returns - aggregate", body_global_variables$download_filename_extension
+)
+

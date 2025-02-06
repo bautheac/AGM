@@ -29,6 +29,9 @@ ui <- function(id) {
 modules::export("server")
 server <- function(id) {
   shiny::moduleServer(id, function(input, output, session) {
-    table$server("sorted_book_formatted_table", extracter$extract_corrupts_book_sorted_formatted_dataset())
+    table$server(
+      id = "sorted_book_formatted_table", data = extracter$extract_corrupts_book_sorted_formatted_dataset(), 
+      display_rows = NULL, filename = paths$download_filename_corrupts_book_sorted_formatted_dataset
+    )
   })
 }

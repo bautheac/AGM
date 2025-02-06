@@ -42,7 +42,7 @@ ui <- function(id, width, title = NULL, caption = NULL) {
 
 
 modules::export("server")
-server <- function(id, data, display_rows = NULL) {
+server <- function(id, data, display_rows = NULL, filename = paste0("AGM - ", Sys.time(), ".csv")) {
   shiny::moduleServer(id, function(input, output, session) {
     
     ns <- shiny::NS(id)
@@ -72,7 +72,7 @@ server <- function(id, data, display_rows = NULL) {
     downloaded_data <- reactive({ if (shiny::is.reactive(data)) { data() } else { data } })
     
     output$download <- downloadHandler(
-      filename = function() paste0("AGM - ", Sys.time(), ".csv"),
+      filename = filename,
       content = function(file) { write.csv(downloaded_data(), file, row.names = FALSE)}
     )
   })

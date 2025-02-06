@@ -10,6 +10,11 @@ path_body_global_paths <- here::here(
 )
 body_global_paths <- modules::use(path_body_global_paths)
 
+path_body_global_variables <- here::here(
+  path_main_directory, "components", "body", "globals", "variables.r"
+)
+body_global_variables <- modules::use(path_body_global_variables)
+
 
 modules::export("path_global_extracter")
 path_global_extracter <- here::here(
@@ -44,3 +49,14 @@ filename_corrupts_events_sorted_missings_dataset <- "corrupts_events_missings.rd
 
 modules::export("filename_corrupts_events_sorted_corrupts_dataset")
 filename_corrupts_events_sorted_corrupts_dataset <- "corrupts_events_records.rds"
+
+
+modules::export("download_filename_corrupts_events_sorted_missings_dataset")
+download_filename_corrupts_events_sorted_missings_dataset <- paste0(
+  "corrupts - sorted - events - missings", body_global_variables$download_filename_extension
+)
+
+modules::export("download_filename_corrupts_events_sorted_corrupts_dataset")
+download_filename_corrupts_events_sorted_corrupts_dataset <- paste0(
+  "corrupts - sorted - events - corrupts", body_global_variables$download_filename_extension
+)

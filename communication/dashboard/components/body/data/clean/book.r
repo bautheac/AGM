@@ -30,6 +30,6 @@ ui <- function(id) {
 modules::export("server")
 server <- function(id) {
   shiny::moduleServer(id, function(input, output, session) {
-    table$server("dataset-book", extracter$extract_book_dataset())
+    table$server("dataset-book", extracter$extract_book_dataset(), paths$download_filename_book_dataset)
   })
 }

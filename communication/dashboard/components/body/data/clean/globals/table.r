@@ -24,10 +24,11 @@ ui <- function(id, width = 12L, title = NULL, caption = NULL) {
 }
 
 modules::export("server")
-server <- function(id, dataset) {
+server <- function(id, dataset, filename) {
   moduleServer(id, function(input, output, session) {
     global_table_component$server(
-      id = "table", data = dataset, display_rows = variables$number_rows_to_display
+      id = "table", data = dataset, display_rows = variables$number_rows_to_display,
+      filename
     )
   })
 }
