@@ -4,14 +4,18 @@ suppressMessages({
   import("shinydashboard")
 })
 
+path_main_directory <- slituR::make_shiny_main_directory_path(
+  local = "communication/dashboard"
+)
+
 path_paths <- here::here(
-  "communication", "dashboard", "components", "body", "data", "corrupts", "sorted",
+  path_main_directory, "components", "body", "data", "corrupts", "sorted",
   "events", "globals", "paths.r"
 )
 paths <- modules::use(path_paths)
 
-corrupts <- modules::use(paths$path_corrupts)
-missings <- modules::use(paths$path_missings)
+corrupts <- modules::use(paths$path_corrupts_component)
+missings <- modules::use(paths$path_missings_component)
 
 
 modules::export("ui")
@@ -32,7 +36,6 @@ ui <- function(id) {
 modules::export("server")
 server <- function(id) {
   shiny::moduleServer(id, function(input, output, session) {
-    
     corrupts$server("sorted_events_corrupts_component")
     missings$server("sorted_events_missings_component")
   })

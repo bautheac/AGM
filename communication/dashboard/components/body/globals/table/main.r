@@ -1,6 +1,16 @@
 suppressMessages({ import("DT"); import("utils"); import("shiny") })
 
 
+path_main_directory <- slituR::make_shiny_main_directory_path(
+  local = "communication/dashboard"
+)
+
+path_globals <- here::here(
+  path_main_directory, "components", "body", "globals", "table", "globals.r"
+)
+globals <- modules::use(path_globals)
+
+
 modules::export("ui")
 ui <- function(id, width, title = NULL, caption = NULL) {
   
@@ -30,14 +40,6 @@ ui <- function(id, width, title = NULL, caption = NULL) {
   )
 }
 
-
-path_main_directory <- 
-  slituR::make_shiny_main_directory_path(local = "communication/dashboard")
-
-path_globals <- here::here(
-  path_main_directory, "components", "body", "globals", "table", "globals.r"
-)
-globals <- modules::use(path_globals)
 
 modules::export("server")
 server <- function(id, data, display_rows = NULL) {

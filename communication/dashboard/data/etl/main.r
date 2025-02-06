@@ -1,7 +1,11 @@
 pacman::p_load(here, purrr, slituR)
 
+path_main_directory <- slituR::make_shiny_main_directory_path(
+  local = "communication/dashboard"
+)
+
 path_paths <- here::here(
-  "communication", "dashboard", "data", "etl", "globals", "paths.r"
+  path_main_directory, "data", "etl", "globals", "paths.r"
 )
 paths <- modules::use(path_paths)
 

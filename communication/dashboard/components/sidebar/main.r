@@ -13,7 +13,8 @@ ui <- function(){
       ),
       shinydashboard::menuItem(
         "Stats", tabName = "stats",
-        shinydashboard::menuItem("Book", tabName = "stats-book")
+        shinydashboard::menuItem("Book", tabName = "stats-book"),
+        shinydashboard::menuItem("Returns", tabName = "stats-returns")
       )
     )
   )
