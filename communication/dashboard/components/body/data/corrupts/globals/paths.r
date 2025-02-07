@@ -1,4 +1,4 @@
-suppressMessages(import(here))
+suppressMessages({ import(here); import(slituR) })
 
 
 path_main_directory <- slituR::make_shiny_main_directory_path(
