@@ -18,7 +18,5 @@ modules::export("ui")
 ui <- function(id, text) {
   ns <- shiny::NS(id)
   
-  shiny::tagList( shiny::tags$p( text, style = globals$style
-    )
-  )
+  shiny::tagList( shiny::tags$p(shiny::HTML(text), style = globals$style))
 }
