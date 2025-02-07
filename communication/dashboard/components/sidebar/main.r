@@ -6,6 +6,7 @@ ui <- function(){
   
   shinydashboard::dashboardSidebar(
     shinydashboard::sidebarMenu(
+      id = "tabs",
       shinydashboard::menuItem(
         "Data", tabName = "data",
         shinydashboard::menuItem("Clean", tabName = "data-clean"),
