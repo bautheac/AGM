@@ -17,6 +17,7 @@ paths <- modules::use(path_paths)
 
 extracter <- modules::use(paths$path_local_extracter)
 table <- modules::use(paths$path_table_component)
+variables <- modules::use(paths$path_local_variables)
 
 
 modules::export("ui")
@@ -24,7 +25,7 @@ ui <- function(id) {
   ns <- shiny::NS(id)
   
   shiny::fluidPage(
-    table$ui(ns("stats_availables_returns_aggregate"), 12L, "Aggregate")
+    table$ui(ns("stats_availables_returns_aggregate"), 12L, "Aggregate", variables$caption_returns_aggregate)
   )
 }
 
