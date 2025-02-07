@@ -1,4 +1,10 @@
-path_paths <- here::here("communication", "dashboard", "globals", "paths.r")
+pacman::p_load(here, shiny, shinydashboard, slituR)
+
+path_main_directory <- slituR::make_shiny_main_directory_path(
+  local = "communication/dashboard"
+)
+
+path_paths <- here::here(path_main_directory, "globals", "paths.r")
 paths <- modules::use(path_paths)
 
 header <- modules::use(paths$path_header)
@@ -15,7 +21,9 @@ ui <- shinydashboard::dashboardPage(
 )
 
 
-server <- function(input, output, session) { body$server("body") }
+server <- function(input, output, session) {
+  body$server("body")
+}
 
 
 shiny::shinyApp(ui, server)

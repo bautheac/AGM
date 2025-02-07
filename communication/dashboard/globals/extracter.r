@@ -1,63 +1,57 @@
-import("here")
-import("readr")
-import("slituR")
+suppressMessages({ import("here"); import("readr"); import("slituR") })
 
 
-path_main_directory <- 
-  slituR::make_shiny_main_directory_path(local = "communication/dashboard")
+path_main_directory <- slituR::make_shiny_main_directory_path(
+  local = "communication/dashboard"
+)
 
 path_paths <- here::here(path_main_directory, "globals", "paths.r")
 paths <- modules::use(path_paths)
 
+
+
+modules::export("extract_dataset")
 extract_dataset <- function(filename) {
   
   readr::read_rds(here::here(paths$path_dataset_directory, filename))
 }
 
-modules::export("extract_book_dataset")
-extract_book_dataset <- function(){
+modules::export("extract_results")
+extract_results <- function(path) {
   
-  extract_dataset(paths$filename_book_dataset)
+  readr::read_rds(here::here(paths$path_results_directory, path))
 }
 
-modules::export("extract_corrupts_book_pending_dataset")
-extract_corrupts_book_pending_dataset <- function(){
+modules::export("extract_results_stats")
+extract_results_stats <- function(path) {
   
-  extract_dataset(paths$filename_corrupts_book_pending_dataset)
+  extract_results(paste(paths$directory_name_results_stats, path, sep = "/"))
 }
 
-modules::export("extract_corrupts_book_sorted_unformatted_dataset")
-extract_corrupts_book_sorted_unformatted_dataset <- function(){
+modules::export("extract_results_stats_book")
+extract_results_stats_book <- function(filename) {
   
-  extract_dataset(paths$filename_corrupts_book_sorted_unformatted_dataset)
+  extract_results_stats(
+    paste(paths$directory_name_results_stats_book, filename, sep = "/")
+  )
 }
 
-modules::export("extract_corrupts_book_sorted_formatted_dataset")
-extract_corrupts_book_sorted_formatted_dataset <- function(){
+modules::export("extract_results_stats_returns")
+extract_results_stats_returns <- function(filename) {
   
-  extract_dataset(paths$filename_corrupts_book_sorted_formatted_dataset)
+  extract_results_stats(
+    paste(paths$directory_name_results_stats_returns, filename, sep = "/")
+  )
 }
 
-modules::export("extract_corrupts_events_sorted_missings_dataset")
-extract_corrupts_events_sorted_missings_dataset <- function(){
+modules::export("extract_results_stats_availables")
+extract_results_stats_availables <- function(filename) {
   
-  extract_dataset(paths$filename_corrupts_events_sorted_missings_dataset)
+  extract_results_stats(
+    paste(paths$directory_name_results_stats_availables, filename, sep = "/")
+  )
 }
 
-modules::export("extract_corrupts_events_sorted_corrupts_dataset")
-extract_corrupts_events_sorted_corrupts_dataset <- function(){
-  
-  extract_dataset(paths$filename_corrupts_events_sorted_corrupts_dataset)
-}
 
-modules::export("extract_returns_dataset")
-extract_returns_dataset <- function(){
-  
-  extract_dataset(paths$filename_returns_dataset)
-}
 
-modules::export("extract_events_dataset")
-extract_events_dataset <- function(){
-  
-  extract_dataset(paths$filename_events_dataset)
-}
+

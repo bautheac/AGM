@@ -9,8 +9,7 @@ path_main_directory <- slituR::make_shiny_main_directory_path(
 )
 
 path_paths <- here::here(
-  path_main_directory, "components", "body", "data", "clean", "globals",
-  "paths.r"
+  path_main_directory, "components", "body", "stats", "returns", "globals", "paths.r"
 )
 paths <- modules::use(path_paths)
 
@@ -21,14 +20,17 @@ table <- modules::use(paths$path_table_component)
 modules::export("ui")
 ui <- function(id) {
   ns <- shiny::NS(id)
-
-  table$ui(ns("events"), 12L, "")
+  
+  table$ui(ns("stats_returns_aggregate"), 12L, "")
 }
 
 
 modules::export("server")
 server <- function(id) {
   shiny::moduleServer(id, function(input, output, session) {
-    table$server("events", extracter$extract_events_dataset(), paths$download_filename_events_dataset)
+    table$server(
+      id = "stats_returns_aggregate", data = extracter$extract_stats_returns_aggregate(), 
+      display_rows = NULL, filename = paths$download_filename_stats_returns_aggregate
+    )
   })
 }

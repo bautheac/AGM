@@ -1,6 +1,16 @@
 suppressMessages({ import("DT"); import("utils"); import("shiny") })
 
 
+path_main_directory <- slituR::make_shiny_main_directory_path(
+  local = "communication/dashboard"
+)
+
+path_globals <- here::here(
+  path_main_directory, "components", "body", "globals", "table", "globals.r"
+)
+globals <- modules::use(path_globals)
+
+
 modules::export("ui")
 ui <- function(id, width, title = NULL, caption = NULL) {
   
@@ -31,16 +41,8 @@ ui <- function(id, width, title = NULL, caption = NULL) {
 }
 
 
-path_main_directory <- 
-  slituR::make_shiny_main_directory_path(local = "communication/dashboard")
-
-path_globals <- here::here(
-  path_main_directory, "components", "body", "globals", "table", "globals.r"
-)
-globals <- modules::use(path_globals)
-
 modules::export("server")
-server <- function(id, data, display_rows = NULL) {
+server <- function(id, data, display_rows = NULL, filename = paste0("AGM - ", Sys.time(), ".csv")) {
   shiny::moduleServer(id, function(input, output, session) {
     
     ns <- shiny::NS(id)
@@ -70,7 +72,7 @@ server <- function(id, data, display_rows = NULL) {
     downloaded_data <- reactive({ if (shiny::is.reactive(data)) { data() } else { data } })
     
     output$download <- downloadHandler(
-      filename = function() paste0("AGM - ", Sys.time(), ".csv"),
+      filename = filename,
       content = function(file) { write.csv(downloaded_data(), file, row.names = FALSE)}
     )
   })
