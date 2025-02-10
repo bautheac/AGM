@@ -37,13 +37,19 @@ path_table_component <- here::here(
   path_main_directory, "components", "body", "data", "clean", "globals", "table.r"
 )
 
-modules::export("path_variables")
-path_variables <- here::here(
+modules::export("path_local_variables")
+path_local_variables <- here::here(
   path_main_directory, "components", "body", "data", "clean", "globals", "variables.r"
 )
 
+
 modules::export("path_global_table_component")
 path_global_table_component <- body_global_paths$path_global_table_component
+
+modules::export("path_global_caption_component")
+path_global_caption_component <- body_global_paths$path_global_caption_component
+
+
 
 modules::export("path_book_component")
 path_book_component <- here::here(
@@ -59,6 +65,7 @@ modules::export("path_events_component")
 path_events_component <- here::here(
   path_main_directory, "components", "body", "data", "clean", "events.r"
 )
+
 
 
 

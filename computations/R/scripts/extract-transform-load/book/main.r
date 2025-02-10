@@ -13,11 +13,11 @@ data_loader <- modules::use(paths$path_data_loader)
 
 
 raw_book_data <- data_extracter$extract_raw_book_data()
-clean <- book_data_transformer$transform_book_data(raw_book_data)
+clean_book <- book_data_transformer$transform_book_data(raw_book_data)
 
 
 data_loader$load_objects(
-  list(clean, clean),
+  list(clean_book, clean_book),
   list(paths$filepath_clean_book_data_main, paths$filepath_clean_book_data_dashboard)
 )
 

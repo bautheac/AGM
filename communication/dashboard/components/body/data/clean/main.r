@@ -10,14 +10,15 @@ path_main_directory <- slituR::make_shiny_main_directory_path(
 )
 
 path_paths <- here::here(
-  path_main_directory, "components", "body", "data", "clean", "globals",
-  "paths.r"
+  path_main_directory, "components", "body", "data", "clean", "globals", "paths.r"
 )
 paths <- modules::use(path_paths)
 
 book <- modules::use(paths$path_book_component)
 returns <- modules::use(paths$path_returns_component)
 events <- modules::use(paths$path_events_component)
+caption <- modules::use(paths$path_global_caption_component)
+variables <- modules::use(paths$path_local_variables)
 
 
 modules::export("ui")
@@ -27,6 +28,13 @@ ui <- function(id) {
   shiny::tagList(
     shiny::fluidRow(shiny::column(width = 12L, shiny::h1("Clean datasets"))),
     shiny::fluidRow(shiny::column(width = 12L, shiny::tags$hr(style = "border-top: 3px solid #000;"))),
+    shiny::fluidRow(column(12L, caption$ui(ns("data_clean_caption"), variables$caption_clean))),
+    shiny::br(),
+    shiny::fluidRow(
+      shiny::column(width = 2L, ""),
+      shiny::column(width = 8L, shiny::tags$hr(style = "border-top: 2px solid #000;")),
+      shiny::column(width = 2L, "")
+    ),
     shiny::fluidRow(shiny::column(width = 12L, shiny::h2("Book"))),
     book$ui(ns("book")),
     shiny::br(),
@@ -54,5 +62,6 @@ server <- function(id) {
     book$server("book")
     returns$server("returns")
     events$server("events")
+
   })
 }

@@ -15,6 +15,11 @@ path_body_global_variables <- here::here(
 )
 body_global_variables <- modules::use(path_body_global_variables)
 
+modules::export("path_local_variables")
+path_local_variables <- here::here(
+  path_main_directory, "components", "body", "stats", "book", "globals", "variables.r"
+)
+
 
 modules::export("path_global_extracter")
 path_global_extracter <- here::here(
@@ -28,6 +33,9 @@ path_local_extracter <- here::here(
 
 modules::export("path_table_component")
 path_table_component <- body_global_paths$path_global_table_component
+
+modules::export("path_global_caption_component")
+path_global_caption_component <- body_global_paths$path_global_caption_component
 
 
 modules::export("filename_stats_book_by_reporting_period")

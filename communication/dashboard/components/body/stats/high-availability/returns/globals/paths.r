@@ -18,6 +18,12 @@ path_body_global_variables <- here::here(
 )
 body_global_variables <- modules::use(path_body_global_variables)
 
+modules::export("path_local_variables")
+path_local_variables <- here::here(
+  path_main_directory, "components", "body", "stats", "high-availability", "returns", 
+  "globals", "variables.r"
+)
+
 
 modules::export("path_global_extracter")
 path_global_extracter <- here::here(path_main_directory, "globals", "extracter.r")

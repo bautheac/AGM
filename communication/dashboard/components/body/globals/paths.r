@@ -38,3 +38,8 @@ modules::export("path_global_table_component")
 path_global_table_component <- here::here(
   path_main_directory, "components", "body", "globals", "table", "main.r"
 )
+
+modules::export("path_global_caption_component")
+path_global_caption_component <- here::here(
+  path_main_directory, "components", "body", "globals", "caption", "main.r"
+)

@@ -10,7 +10,7 @@ path_paths <- here::here(
 )
 paths <- modules::use(path_paths)
 
-variables <- modules::use(paths$path_variables)
+variables <- modules::use(paths$path_local_variables)
 global_table_component <- modules::use(paths$path_global_table_component)
 
 
