@@ -9,9 +9,9 @@ selecting high data availability book firms: first the variables with are least
 150 observation for the two years of interest are selected; second firms with data 
 available for these variables for both years are selected. The third involves 
 selecting high data availability returns firms where firms are selected if for 
-both years of interest they show at least 15 returns days available around at least 
-one of their recorded corporate event. The fourth step involves taking the 
-intersection of the high data availability book and high data availability 
+both years of interest they show at least 15 returns days available before as well 
+as after at least one of their recorded corporate event. The fourth step involves 
+taking the intersection of the high data availability book and high data availability 
 returns firms.  
 ")
 

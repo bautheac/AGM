@@ -33,7 +33,7 @@ ui <- function(id) {
       shiny::column(width = 8L, shiny::tags$hr(style = "border-top: 2px solid #000;")),
       shiny::column(width = 2L, "")
     ),
-    shiny::fluidRow(shiny::column(width = 6L, pending$ui(ns("pending")))),
+    shiny::fluidRow(shiny::column(width = 12L, pending$ui(ns("pending")))),
     shiny::br(), shiny::br(), shiny::br(),
     sorted$ui(ns("sorted"))
   )

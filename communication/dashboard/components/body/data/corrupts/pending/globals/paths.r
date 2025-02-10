@@ -15,6 +15,13 @@ path_body_global_variables <- here::here(
 )
 body_global_variables <- modules::use(path_body_global_variables)
 
+modules::export("path_local_variables")
+path_local_variables <- here::here(
+  path_main_directory, "components", "body", "data", "corrupts", "pending", 
+  "globals", "variables.r"
+)
+
+
 
 modules::export("path_global_extracter")
 path_global_extracter <- here::here(
@@ -35,6 +42,12 @@ modules::export("path_book_component")
 path_book_component <- here::here(
   path_main_directory, "components", "body", "data", "corrupts", "pending", 
   "book.r"
+)
+
+modules::export("path_miscellaneous_component")
+path_miscellaneous_component <- here::here(
+  path_main_directory, "components", "body", "data", "corrupts", "pending", 
+  "miscellaneous.r"
 )
 
 
