@@ -1,4 +1,7 @@
-suppressMessages({ import(here); import(slituR) })
+suppressMessages({
+  import(here)
+  import(slituR)
+})
 
 
 path_main_directory <- slituR::make_shiny_main_directory_path(
@@ -18,6 +21,11 @@ global_extracter <- modules::use(paths$path_global_extracter)
 modules::export("extract_book_dataset")
 extract_book_dataset <- function() {
   global_extracter$extract_dataset(paths$filename_book_dataset)
+}
+
+modules::export("extract_prices_dataset")
+extract_prices_dataset <- function() {
+  global_extracter$extract_dataset(paths$filename_prices_dataset)
 }
 
 modules::export("extract_returns_dataset")

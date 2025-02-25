@@ -56,6 +56,11 @@ path_book_component <- here::here(
   path_main_directory, "components", "body", "data", "clean", "book.r"
 )
 
+modules::export("path_prices_component")
+path_prices_component <- here::here(
+  path_main_directory, "components", "body", "data", "clean", "prices.r"
+)
+
 modules::export("path_returns_component")
 path_returns_component <- here::here(
   path_main_directory, "components", "body", "data", "clean", "returns.r"
@@ -72,6 +77,9 @@ path_events_component <- here::here(
 
 modules::export("filename_book_dataset")
 filename_book_dataset <- "book_clean.rds"
+
+modules::export("filename_prices_dataset")
+filename_prices_dataset <- "prices_clean.rds"
 
 modules::export("filename_returns_dataset")
 filename_returns_dataset <- "returns_clean.rds"

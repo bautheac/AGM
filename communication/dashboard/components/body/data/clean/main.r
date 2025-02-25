@@ -15,6 +15,7 @@ path_paths <- here::here(
 paths <- modules::use(path_paths)
 
 book <- modules::use(paths$path_book_component)
+prices <- modules::use(paths$path_prices_component)
 returns <- modules::use(paths$path_returns_component)
 events <- modules::use(paths$path_events_component)
 caption <- modules::use(paths$path_global_caption_component)
@@ -44,6 +45,9 @@ ui <- function(id) {
       shiny::column(width = 2L, "")
     ),
     shiny::br(),
+    shiny::fluidRow(shiny::column(width = 6L, shiny::h2("Prices"))),
+    shiny::fluidRow(shiny::column(width = 6L, prices$ui(ns("prices")))),
+    shiny::br(),
     shiny::fluidRow(
       shiny::column(width = 6L, shiny::h2("Returns")),
       shiny::column(width = 6L, shiny::h2("Events"))
@@ -60,6 +64,7 @@ modules::export("server")
 server <- function(id) {
   shiny::moduleServer(id, function(input, output, session) {
     book$server("book")
+    prices$server("prices")
     returns$server("returns")
     events$server("events")
 
