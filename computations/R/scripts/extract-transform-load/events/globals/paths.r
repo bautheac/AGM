@@ -8,7 +8,7 @@ path_data_extracter <- here::here(
 
 modules::export("path_events_data_transformer")
 path_events_data_transformer <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "events", "transformer", 
+  "computations", "R", "scripts", "extract-transform-load", "events", "transformer",
   "main.r"
 )
 
@@ -26,7 +26,7 @@ global_paths <- modules::use(path_global_paths)
 modules::export("filepath_clean_events_data_main")
 filepath_clean_events_data_main <- here::here(
   global_paths$path_data_directory, "events_clean.rds"
-) 
+)
 
 modules::export("filepath_clean_events_data_dashboard")
 filepath_clean_events_data_dashboard <- here::here(

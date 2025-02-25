@@ -8,7 +8,7 @@ path_data_extracter <- here::here(
 
 modules::export("path_price_data_transformer")
 path_price_data_transformer <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "prices", "transformer", 
+  "computations", "R", "scripts", "extract-transform-load", "prices", "transformer",
   "main.r"
 )
 
@@ -24,11 +24,9 @@ global_paths <- modules::use(path_global_paths)
 modules::export("filepath_clean_prices_data_main")
 filepath_clean_prices_data_main <- here::here(
   global_paths$path_data_directory, "prices_clean.rds"
-) 
+)
 
 modules::export("filepath_clean_prices_data_dashboard")
 filepath_clean_prices_data_dashboard <- here::here(
   global_paths$path_dashboard_directory_datasets, "prices_clean.rds"
 )
-
-

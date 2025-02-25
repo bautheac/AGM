@@ -2,8 +2,7 @@ suppressMessages(modules::import(stringr))
 
 
 export("correct_invalid_characters")
-correct_invalid_characters <- function(prices){
-  
+correct_invalid_characters <- function(prices) {
   pattern_map <- c(
     "¼" = "1/4",
     "½" = "1/2",
@@ -15,6 +14,6 @@ correct_invalid_characters <- function(prices){
     "\\.\\." = "",
     "TB" = ""
   )
-  
+
   return(stringr::str_replace_all(prices, pattern_map))
 }

@@ -1,8 +1,11 @@
-suppressMessages({ modules::import(dplyr); modules::import(here) })
+suppressMessages({
+  modules::import(dplyr)
+  modules::import(here)
+})
 
 
 path_global_variables <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "book", "globals", 
+  "computations", "R", "scripts", "extract-transform-load", "book", "globals",
   "variables.r"
 )
 global_variables <- modules::use(path_global_variables)

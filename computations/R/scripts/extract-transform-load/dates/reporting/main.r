@@ -2,7 +2,7 @@ suppressMessages(modules::import(here))
 
 
 path_paths <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "dates", "reporting", 
+  "computations", "R", "scripts", "extract-transform-load", "dates", "reporting",
   "globals", "paths.r"
 )
 paths <- modules::use(path_paths)

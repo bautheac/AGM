@@ -17,7 +17,7 @@ loader$load_objects(
     book_corrupts$unformatted_date_typos, book_corrupts$formatted_date_typos,
     book_corrupts$pending,
     event_corrupts$corrupt_records, event_corrupts$missing_records
-  ), 
+  ),
   paths$file_paths
 )
 

@@ -1,8 +1,7 @@
-import(dplyr, .quiet = TRUE)
+suppressMessages(modules::import(dplyr))
 
 
 modules::export(round_returns)
-round_returns <- function(returns_datatset){
-  
+round_returns <- function(returns_datatset) {
   dplyr::mutate(returns_datatset, return = round(return, 4L))
 }

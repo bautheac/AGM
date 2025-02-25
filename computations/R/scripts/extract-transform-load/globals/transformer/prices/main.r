@@ -1,15 +1,18 @@
 suppressMessages(modules::import(here))
 
+
 path_paths <- here::here(
   "computations", "R", "scripts", "extract-transform-load", "globals", "transformer",
   "prices", "globals", "paths.r"
 )
 paths <- modules::use(path_paths)
 
+
 names_cleaner <- modules::use(paths$path_names_cleaner)
 filter <- modules::use(paths$path_filter)
 variables_cleaner <- modules::use(paths$path_variables_cleaner)
 wrangler <- modules::use(paths$path_local_wrangler)
+
 
 export("transform_prices")
 transform_prices <- function(raw_prices) {

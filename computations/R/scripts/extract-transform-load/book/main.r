@@ -2,7 +2,7 @@ pacman::p_load(here)
 
 
 path_paths <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "book", "globals", 
+  "computations", "R", "scripts", "extract-transform-load", "book", "globals",
   "paths.r"
 )
 paths <- modules::use(path_paths)

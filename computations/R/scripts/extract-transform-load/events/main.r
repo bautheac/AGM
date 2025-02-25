@@ -1,8 +1,8 @@
-pacman::p_load(here)
+suppressMessages(modules::import(here))
 
 
 path_paths <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "events", "globals", 
+  "computations", "R", "scripts", "extract-transform-load", "events", "globals",
   "paths.r"
 )
 paths <- modules::use(path_paths)

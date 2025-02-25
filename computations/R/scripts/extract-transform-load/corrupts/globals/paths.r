@@ -8,6 +8,8 @@ path_book_corrupts <- here::here(
 )
 
 modules::export("path_event_corrupts")
+
+
 path_event_corrupts <- here::here(
   "computations", "R", "scripts", "extract-transform-load", "events", "globals",
   "corrupts.r"
@@ -32,10 +34,9 @@ filenames <- c(
 )
 
 modules::export("file_paths")
-file_paths <- lapply( filenames, function(filename) {
+file_paths <- lapply(filenames, function(filename) {
   list(
     main = here::here(global_paths$path_data_directory, filename),
     dashboard = here::here(global_paths$path_dashboard_directory_datasets, filename)
   )
-}
-) |> rlang::set_names(names(filenames))
+}) |> rlang::set_names(names(filenames))

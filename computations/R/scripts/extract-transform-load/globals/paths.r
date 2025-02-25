@@ -19,7 +19,7 @@ filename_clean_book_data <- "book_clean.rds"
 filename_clean_price_data <- "prices_clean.rds"
 
 filename_clean_returns_data <- "returns_clean.rds"
-  
+
 
 modules::export("path_data_directory")
 path_data_directory <- here::here("data")
@@ -50,4 +50,3 @@ path_clean_prices_data <- here::here(path_data_directory, filename_clean_price_d
 
 modules::export("path_clean_returns_data")
 path_clean_returns_data <- here::here(path_data_directory, filename_clean_returns_data)
-

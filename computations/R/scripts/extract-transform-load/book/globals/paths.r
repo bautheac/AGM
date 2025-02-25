@@ -1,4 +1,6 @@
-suppressMessages({ modules::import(here) })
+suppressMessages({
+  modules::import(here)
+})
 
 
 modules::export("path_data_extracter")
@@ -8,7 +10,7 @@ path_data_extracter <- here::here(
 
 modules::export("path_book_transformer")
 path_book_transformer <- here::here(
-  "computations", "R", "scripts", "extract-transform-load", "book", "transformer", 
+  "computations", "R", "scripts", "extract-transform-load", "book", "transformer",
   "main.r"
 )
 
@@ -24,10 +26,9 @@ global_paths <- modules::use(path_global_paths)
 modules::export("filepath_clean_book_data_main")
 filepath_clean_book_data_main <- here::here(
   global_paths$path_data_directory, "book_clean.rds"
-) 
+)
 
 modules::export("filepath_clean_book_data_dashboard")
 filepath_clean_book_data_dashboard <- here::here(
   global_paths$path_dashboard_directory_datasets, "book_clean.rds"
-) 
-
+)

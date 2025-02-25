@@ -1,4 +1,6 @@
 modules::export("raw_to_clean_book_variable_names_map")
+
+
 raw_to_clean_book_variable_names_map <- c(
   "book value equity"                         = "BVE",
   "total assets"                              = "Total Assets",
@@ -49,6 +51,3 @@ raw_to_clean_book_other_names_map <- c(
   "reporting currency gbp"                    = "Reporting Currency GBP",
   "other currency"                            = "Other Currency"
 )
-
-
-
