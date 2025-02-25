@@ -1,4 +1,4 @@
-suppressPackageStartupMessages({ import(haven); import(readxl) })
+suppressPackageStartupMessages({ modules::import(haven); modules::import(readxl) })
 
 
 path_paths <- here::here(

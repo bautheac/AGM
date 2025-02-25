@@ -1,4 +1,4 @@
-suppressMessages(import(here))
+suppressMessages(modules::import(here))
 
 
 results_file_name <- "statistics-by-reporting-frequency.rds"

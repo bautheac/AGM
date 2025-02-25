@@ -1,4 +1,4 @@
-suppressMessages({ import(dplyr); import(here); import(lubridate); import(stringr) })
+suppressMessages({ modules::import(dplyr); modules::import(here); modules::import(lubridate); modules::import(stringr) })
 
 path_paths <- here::here(
   "computations", "R", "scripts", "extract-transform-load", "book", "transformer", 

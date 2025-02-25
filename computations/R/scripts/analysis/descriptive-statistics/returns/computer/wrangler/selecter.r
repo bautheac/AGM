@@ -1,4 +1,4 @@
-suppressMessages({ import(dplyr) })
+suppressMessages({ modules::import(dplyr) })
 
 
 modules::export("select_reporting_periods_relevant_variables")

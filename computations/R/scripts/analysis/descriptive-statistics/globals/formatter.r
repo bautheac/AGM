@@ -1,4 +1,4 @@
-suppressMessages({ import(dplyr); import(tidyr) })
+suppressMessages({ modules::import(dplyr); modules::import(tidyr) })
 
 
 modules::export("format_summary_statistics")

@@ -1,4 +1,4 @@
-suppressMessages(import(dplyr))
+suppressMessages(modules::import(dplyr))
 
 
 date_variables <- c(

@@ -1,4 +1,4 @@
-suppressMessages({ import(dplyr); import(stats) })
+suppressMessages({ modules::import(dplyr); modules::import(stats) })
 
 
 path_paths <- here::here(

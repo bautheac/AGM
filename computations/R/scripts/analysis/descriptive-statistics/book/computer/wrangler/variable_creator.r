@@ -1,4 +1,4 @@
-suppressMessages({ import(dplyr); import(lubridate); import(purrr); import(rlang) })
+suppressMessages({ modules::import(dplyr); modules::import(lubridate); modules::import(purrr); modules::import(rlang) })
 
 
 path_local_variables <- here::here(

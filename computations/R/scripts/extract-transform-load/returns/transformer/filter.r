@@ -1,4 +1,4 @@
-suppressMessages({ import(dplyr); import(here); import(rlang) })
+suppressMessages({ modules::import(dplyr); modules::import(here); modules::import(rlang) })
 
 
 path_global_filter <- 

@@ -1,4 +1,4 @@
-suppressMessages(import(here))
+suppressMessages(modules::import(here))
 
 
 path_global_paths <- here::here("computations", "R", "scripts", "globals", "paths.r")

@@ -1,4 +1,4 @@
-suppressMessages(import(here))
+suppressMessages(modules::import(here))
 
 
 modules::export("path_character_cleaner")

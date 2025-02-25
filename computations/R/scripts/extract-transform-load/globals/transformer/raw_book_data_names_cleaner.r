@@ -1,4 +1,4 @@
-suppressMessages(import(dplyr))
+suppressMessages(modules::import(dplyr))
 
 
 raw_to_clean_names_map <- c(

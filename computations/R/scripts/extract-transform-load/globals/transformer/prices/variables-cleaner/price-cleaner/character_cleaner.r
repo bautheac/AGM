@@ -1,4 +1,4 @@
-suppressMessages(import(stringr))
+suppressMessages(modules::import(stringr))
 
 
 export("correct_invalid_characters")

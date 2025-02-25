@@ -1,4 +1,4 @@
-suppressMessages(import(tibble))
+suppressMessages(modules::import(tibble))
 
 modules::export("corrupt_records")
 corrupt_records <- tibble::tribble(

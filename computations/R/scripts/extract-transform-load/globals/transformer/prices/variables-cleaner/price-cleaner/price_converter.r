@@ -1,4 +1,4 @@
-suppressMessages(import(stringr))
+suppressMessages(modules::import(stringr))
 
 
 modules::export("transform_prices_to_decimal")

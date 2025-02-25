@@ -1,4 +1,4 @@
-suppressMessages(import(here))
+suppressMessages(modules::import(here))
 
 
 modules::export("path_global_price_transformer")

@@ -1,4 +1,4 @@
-suppressMessages({ import(dplyr); import(here); import(tidyr) })
+suppressMessages({ modules::import(dplyr); modules::import(here); modules::import(tidyr) })
 
 path_paths <- here::here(
   "computations", "R", "scripts", "analysis", "descriptive-statistics", "book", 

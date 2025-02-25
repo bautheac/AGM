@@ -1,4 +1,4 @@
-suppressMessages({ import(dplyr) })
+suppressMessages({ modules::import(dplyr) })
 
 
 modules::export("clean_relevant_variables")

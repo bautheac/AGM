@@ -1,4 +1,4 @@
-suppressMessages({ import(dplyr); import(rlang) })
+suppressMessages({ modules::import(dplyr); modules::import(rlang) })
 
 
 compute_mid_from_high_low_quotes <- function(high, low){

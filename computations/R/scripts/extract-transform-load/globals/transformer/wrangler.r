@@ -1,4 +1,4 @@
-suppressMessages({ import(dplyr); import(purrr) })
+suppressMessages({ modules::import(dplyr); modules::import(purrr) })
 
 
 modules::export("extract_uniques")

@@ -1,4 +1,4 @@
-suppressMessages({ import(dplyr); import(rlang) })
+suppressMessages({ modules::import(dplyr); modules::import(rlang) })
 
 
 modules::export("correct_corrupt_records")

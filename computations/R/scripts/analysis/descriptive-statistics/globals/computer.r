@@ -1,4 +1,4 @@
-suppressMessages(import(dplyr))
+suppressMessages(modules::import(dplyr))
 
 
 modules::export("compute_stats_for_variables")

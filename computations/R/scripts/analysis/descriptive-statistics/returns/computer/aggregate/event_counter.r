@@ -1,4 +1,4 @@
-suppressMessages(import(here))
+suppressMessages(modules::import(here))
 
 
 count_events_regardless_of_reporting_frequency <- function(firm_stats){

@@ -1,4 +1,4 @@
-suppressMessages(import(tibble))
+suppressMessages(modules::import(tibble))
 
 
 modules::export("unformatted_date_typos")
