@@ -94,6 +94,11 @@ download_filename_book_dataset <- paste0(
   "clean - book", body_global_variables$download_file_extension
 )
 
+modules::export("download_filename_prices_dataset")
+download_filename_prices_dataset <- paste0(
+  "clean - prices", body_global_variables$download_file_extension
+)
+
 modules::export("download_filename_returns_dataset")
 download_filename_returns_dataset <- paste0(
   "clean - returns", body_global_variables$download_file_extension

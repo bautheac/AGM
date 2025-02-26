@@ -23,13 +23,13 @@ modules::export("ui")
 ui <- function(id) {
   ns <- shiny::NS(id)
 
-  table$ui(ns("returns"), 12L, "", variables$caption_prices)
+  table$ui(ns("prices"), 12L, "", variables$caption_prices)
 }
 
 
 modules::export("server")
 server <- function(id) {
   shiny::moduleServer(id, function(input, output, session) {
-    table$server("returns", extracter$extract_prices_dataset(), paths$download_filename_prices_dataset)
+    table$server("prices", extracter$extract_prices_dataset(), paths$download_filename_prices_dataset)
   })
 }
