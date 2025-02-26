@@ -1,5 +1,6 @@
 pacman::p_load(here, shiny, shinydashboard, slituR)
 
+
 path_main_directory <- slituR::make_shiny_main_directory_path(
   local = "communication/dashboard"
 )

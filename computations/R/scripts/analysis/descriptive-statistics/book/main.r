@@ -7,8 +7,8 @@ path_paths <- here::here(
 )
 paths <- modules::use(path_paths)
   
-loader <- modules::use(paths$path_loader)
 computer <- modules::use(paths$path_computer)
+loader <- modules::use(paths$path_loader)
 
 
 descriptive_stats <- computer$compute_book_statistics()
