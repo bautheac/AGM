@@ -45,17 +45,17 @@ ui <- function(id) {
       shiny::column(width = 2L, "")
     ),
     shiny::br(),
-    shiny::fluidRow(shiny::column(width = 6L, shiny::h2("Prices"))),
-    shiny::fluidRow(shiny::column(width = 6L, prices$ui(ns("prices")))),
+    shiny::fluidRow(
+      shiny::column(width = 6L, shiny::h2("Prices")),
+      shiny::column(width = 6L, shiny::h2("Returns"))
+    ),
+    shiny::fluidRow(
+      shiny::column(width = 6L, prices$ui(ns("prices"))),
+      shiny::column(width = 6L, returns$ui(ns("returns")))
+    ),
     shiny::br(),
-    shiny::fluidRow(
-      shiny::column(width = 6L, shiny::h2("Returns")),
-      shiny::column(width = 6L, shiny::h2("Events"))
-    ),
-    shiny::fluidRow(
-      shiny::column(width = 6L, returns$ui(ns("returns"))),
-      shiny::column(width = 6L, events$ui(ns("events")))
-    ),
+    shiny::fluidRow(shiny::column(width = 6L, shiny::h2("Events"))),
+    shiny::fluidRow(shiny::column(width = 6L, events$ui(ns("events")))),
   )
 }
 
